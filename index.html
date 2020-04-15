@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>a boppin new website</title>
+</head>
+
+<body>
+    <!-- separate tabs for each category; might change to scroll later -->
+  <div class="category" id="tabs">
+    <a href="index.html" class="active">Home</a>
+    <a href="mobility.html">Mobility</a>
+    <a href="lifestyle.html">Lifestyle</a>
+    <a href="schooling.html">Schooling</a>
+  </div>
+
+  <div class="mainpage">
+    <h1>6.894 Final Project</h1>
+
+    Each category has its own html and js files, all edits should happen there. <br><br>
+
+    Add sections like this:
+
+    <div class="section" id="section-name-here">
+        <h3>Section title</h3>
+        <p> some words about the section, if necessary </p>
+        <a id="section-name-viz-1">viz using js</a>
+        <p>etc</p>
+    </div>
+    
+
+  </div>
+
+<!-- Import scripts here -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+document.write('<scr' + 'ipt src="main.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
+</script>
+
+</body>

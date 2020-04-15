@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Lucida Console", Monaco, monospace;
+  background: #f2f2f2;
+}
+
+
+/* tabs */
+.category {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.category a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.category a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+
+/* content */
+.mainpage {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  min-height: calc(100vh - 45px);
+}
