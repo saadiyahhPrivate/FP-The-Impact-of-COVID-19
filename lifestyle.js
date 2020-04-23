@@ -7,6 +7,10 @@ var margin = {
 	bottom: 50,
 	left: 50
 }
+var bisect = d3.bisector(function(d) {
+      return d.date;
+    }).left;
+
 var parseTime = d3.timeParse('%Y-%m-%d');
 var categories = ['grocery_pharmacy', 'parks', 'transit_stations', 'retail_recreation', 'residential', 'workplaces'];
 
@@ -141,16 +145,6 @@ var newpathMap = function(cat) {
 		.x(d => newxScale(d.date))
 		.y(d => newyScale(d[cat]));
 }
-//TODO
-var mouseover = function() {
-
-}
-var mousemove = function() {
-
-}
-var mouseout = function() {
-
-}
 
 d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 
@@ -199,6 +193,41 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 				.append('g')
 					.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
+	var circle = svg.append('circle')
+		.attr('r', 2.2)
+		.attr('opacity', 0)
+		.style('pointer-events', 'none');
+	var caption = svg.append('text')
+		.attr('class', 'caption')
+		.attr('text-anchor', 'middle')
+		.style('pointer-events', 'none')
+		.attr('dy', -8)
+		.attr('font-size', '10px');
+
+	//TODO
+	var mouseover = function() {
+		circle.attr('opacity', 1)
+		return mousemove.call(this)
+	}
+	var mousemove = function() {
+		var date = newxScale.invert(d3.mouse(this)[0]);
+		var idx = 0;
+		circle
+			.attr('cx', newxScale(date))
+			.attr('cy', d => {
+				idx = bisect(d.values, date, 0, d.values.length-1)
+				return newyScale(d.values[idx]['residential_percent_change_from_baseline'])
+			})
+		caption
+			.attr('x', newxScale(date))
+			.attr('y', d => newyScale(d.values[idx]['residential_percent_change_from_baseline']))
+			.text(d => d.values[idx]['residential_percent_change_from_baseline'])
+	}
+	var mouseout = function() {
+		circle.attr('opacity', 0)
+		caption.text('')
+	}
+
 	// add interaction
 	svg.append('rect')
 		.attr('class', 'hoverbox')
@@ -216,6 +245,16 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		.call(d3.axisBottom(newxScale).ticks(2));
 	svg.append('g')
 		.call(d3.axisLeft(newyScale).ticks(5).tickFormat(x => x>0 ? '+'+x+'%' : x+'%'));
+
+	// additional info lines
+	svg.append('g')
+		.attr('class', 'info-pandemic')
+		.append('line')
+			.style('stroke', 'black')
+			.attr('x1', newxScale(new Date(2020, 2, 11)))
+			.attr('x2', newxScale(new Date(2020, 2, 11)))
+			.attr('y1', 0)
+			.attr('y2', height)
 	
 	// draw line graphs
 	newCategories.forEach(cat => {
@@ -261,14 +300,13 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 			.attr('text-anchor', 'left')
 			.style('fill', d => colorScale(d))
 			.style('font-size', '12px')
-			.style("alignment-baseline", "middle")
+			.style('alignment-baseline', 'middle')
 			.text(d => d)
 
 })
 
 
 // todo possible additions
-// legend
 // choose top 10 by number of confirmed cases / total population / etc
 // "why don't I see china on this map?" button to explain where the data is coming from
 // hover to see exact numbers
