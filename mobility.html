@@ -3,6 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <title>6.894 Final Project</title>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> -->
+    <script type="text/javascript" src="js/moment.min.js"></script>
+
 </head>
 
 <body>
@@ -18,10 +21,48 @@
     <h1>Mobility</h1>
     <p> add sections below </p>
 
+    <div id="flightVolumeContainer">
+      <h2> Flight Volume data </h3>
+      <div id="flightVolume"/>
+    </div>
+
+
+    <div id="stringencyContainer">
+      <h2> Stringency data </h3>
+      <div id="stringency"/>
+    </div>
+
+    <div id="worldSchoolRestrictionsContainer" style="width:50%;">
+      <h2> School Restrictions data </h3>
+      <div class="slidecontainer">
+        <input type="range" step="1" value="0" min="0" max="10" class="slider" id="schoolRestrictionRange">
+        <button type="button" id="SchoolRestrictionDateStepBack"><</button>
+        <button type="button" id="SchoolRestrictionDateStepForward">></button>
+        <button type="button" id="SchoolRestrictionDateStepPlay">Play</button>
+        <label for="schoolRestrictionRange" id="SchoolRestrictionDateLabel"></label>
+      </div>
+      <div id="worldSchoolRestrictions"/>
+    </div>
+
   </div>
 
 <!-- If using js, use mobility.js -->
 <script src="https://d3js.org/d3.v5.min.js"></script>
+
+<!-- <script src="http://www.d3plus.org/js/d3.js"></script> -->
+<!-- <script src="js/d3plus.js" charset="UTF-8"></script> -->
+
+<!-- <script src="http://www.d3plus.org/js/d3.js"></script>
+<script src="http://www.d3plus.org/js/d3plus.js"></script> -->
+
+
+<!-- Load d3.js -->
+<!-- d3 version version: "3.5.15" -->
+<!-- <script src="http://www.d3plus.org/js/d3.js"></script> -->
+
+<!-- Load d3plus.js -->
+<script src="https://d3plus.org/js/d3plus.v2.0.0-alpha.17.full.min.js"></script>
+
 <script>
 document.write('<scr' + 'ipt src="mobility.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
 </script>
