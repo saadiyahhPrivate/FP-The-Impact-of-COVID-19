@@ -1,32 +1,32 @@
 // TODO dimensions
-var width = 100,
-	height = 100;
-var margin = {
-	top: 15,
-	right: 5,
-	bottom: 50,
-	left: 50
-}
-var bisect = d3.bisector(function(d) {
-      return d.date;
-    }).left;
+// var width = 100,
+// 	height = 100;
+// var margin = {
+// 	top: 15,
+// 	right: 5,
+// 	bottom: 50,
+// 	left: 50
+// }
+// var bisect = d3.bisector(function(d) {
+//       return d.date;
+//     }).left;
 
-var parseTime = d3.timeParse('%Y-%m-%d');
-var categories = ['grocery_pharmacy', 'parks', 'transit_stations', 'retail_recreation', 'residential', 'workplaces'];
+// var parseTime = d3.timeParse('%Y-%m-%d');
+// var categories = ['grocery_pharmacy', 'parks', 'transit_stations', 'retail_recreation', 'residential', 'workplaces'];
 
-// define axis range
-// var xScale = d3.scaleTime()
-// 	.domain([new Date(2020, 2, 29), new Date(2020, 3, 11)])
-// 	.range([0, width]);
-var xScale = d3.scaleOrdinal()
-	.domain(['zeroIndex', '2020-03-29', '2020-04-05', '2020-04-11'])
-	.range([0, width/3, 2*width/3, width]);
-var yScale = d3.scaleLinear()
-	.domain([-100, 100])
-	.range([height, 0]);
-var colorScale = d3.scaleOrdinal()
-	.domain(categories)
-	.range(['brown', 'green', 'orange', 'red', 'blue', 'gray'])
+// // define axis range
+// // var xScale = d3.scaleTime()
+// // 	.domain([new Date(2020, 2, 29), new Date(2020, 3, 11)])
+// // 	.range([0, width]);
+// var xScale = d3.scaleOrdinal()
+// 	.domain(['zeroIndex', '2020-03-29', '2020-04-05', '2020-04-11'])
+// 	.range([0, width/3, 2*width/3, width]);
+// var yScale = d3.scaleLinear()
+// 	.domain([-100, 100])
+// 	.range([height, 0]);
+// var colorScale = d3.scaleOrdinal()
+// 	.domain(categories)
+// 	.range(['brown', 'green', 'orange', 'red', 'blue', 'gray'])
 
 
 var pathMap = function(cat) {
@@ -47,106 +47,122 @@ var zeroIndex = function(country) {
 
 
 
-d3.csv('data/google_mobility/regional-mobility.csv').then(function(data) {
+// d3.csv('data/google_mobility/regional-mobility.csv').then(function(data) {
 
-	// TEMP limit to top 10 countries
-	const countryToShow = ['United States of America', 'Spain', 'Italy', 'France', 'Germany', 
-							'United Kingdom', 'Turkey', 'Brazil', 'Belgium', 'Canada']
-	data = data.filter(d => countryToShow.includes(d.country));
-	////////
+// 	// TEMP limit to top 10 countries
+// 	const countryToShow = ['United States of America', 'Spain', 'Italy', 'France', 'Germany', 
+// 							'United Kingdom', 'Turkey', 'Brazil', 'Belgium', 'Canada']
+// 	data = data.filter(d => countryToShow.includes(d.country));
+// 	////////
 
-	// aggregate entries only
-	data = data.filter(d => d.region === 'Total');
+// 	// aggregate entries only
+// 	data = data.filter(d => d.region === 'Total');
 
-	// parse string to int values
-	data = data.map(d => {
-		// console.log(d.date)
-		// d.date = parseTime(d.date);
-		// console.log(d.date)
-		// console.log(xScale(d.date))
+// 	// parse string to int values
+// 	data = data.map(d => {
+// 		// console.log(d.date)
+// 		// d.date = parseTime(d.date);
+// 		// console.log(d.date)
+// 		// console.log(xScale(d.date))
 
-		categories.forEach(cat => {d[cat] = parseInt(d[cat])})
-		console.log(d);
-		return d;
-	})
+// 		categories.forEach(cat => {d[cat] = parseInt(d[cat])})
+// 		console.log(d);
+// 		return d;
+// 	})
 
-	countryToShow.forEach(country => {
-		data.push(zeroIndex(country))
-	})
+// 	countryToShow.forEach(country => {
+// 		data.push(zeroIndex(country))
+// 	})
 
-	// nest data by country
-	var nested = d3.nest()
-		.key(d => d.country)
-		// .key(d => d.date)
-		// .sortValues()
-		.entries(data);
+// 	// nest data by country
+// 	var nested = d3.nest()
+// 		.key(d => d.country)
+// 		// .key(d => d.date)
+// 		// .sortValues()
+// 		.entries(data);
 
-	// console.log(data);
-	console.log(nested);
+// 	// console.log(data);
+// 	console.log(nested);
 
 
-	var svg = d3.select('#mobility-viz-1')
-				.selectAll('svg')
-				.data(nested)
-				.enter()
-				.append('svg')
-					.attr('width', width + margin.left + margin.right)
-					.attr('height', height + margin.top + margin.bottom)
-				.append('g')
-					.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+// 	var svg = d3.select('#mobility-viz-1')
+// 				.selectAll('svg')
+// 				.data(nested)
+// 				.enter()
+// 				.append('svg')
+// 					.attr('width', width + margin.left + margin.right)
+// 					.attr('height', height + margin.top + margin.bottom)
+// 				.append('g')
+// 					.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-	// add axes
-	svg.append('g')
-		.attr('transform', 'translate(0,' + height + ')')
-		.call(d3.axisBottom(xScale).ticks(3));
-	svg.append('g')
-		.call(d3.axisLeft(yScale));
+// 	// add axes
+// 	svg.append('g')
+// 		.attr('transform', 'translate(0,' + height + ')')
+// 		.call(d3.axisBottom(xScale).ticks(3));
+// 	svg.append('g')
+// 		.call(d3.axisLeft(yScale));
 
 
 
 	
-	categories.forEach(cat => {
-		svg.append('g')
-			.attr('class', cat)
-			.append('path')
-			.attr('fill', 'none')
-			.attr('stroke', colorScale(cat))
-			.attr('stroke-width', 2)
-			.attr('d', d => pathMap(cat)(d.values))
+// 	categories.forEach(cat => {
+// 		svg.append('g')
+// 			.attr('class', cat)
+// 			.append('path')
+// 			.attr('fill', 'none')
+// 			.attr('stroke', colorScale(cat))
+// 			.attr('stroke-width', 2)
+// 			.attr('d', d => pathMap(cat)(d.values))
 
-	})
+// 	})
 
-})
+// })
 
 
 
 // TEST new data
 
-const newCategories = [
-		'grocery_and_pharmacy_percent_change_from_baseline',
-		'parks_percent_change_from_baseline',
-		'transit_stations_percent_change_from_baseline',
-		'retail_and_recreation_percent_change_from_baseline',
-		'workplaces_percent_change_from_baseline',
-		'residential_percent_change_from_baseline']
-
-// define axis range
-var newxScale = d3.scaleTime()
-	.domain([new Date(2020, 1, 15), new Date(2020, 3, 11)])
-	.range([0, width]);
-var newyScale = d3.scaleLinear()
-	.domain([-100, 100])
-	.range([height, 0]);
-var newcolorScale = d3.scaleOrdinal()
-	.domain(newCategories)
-	.range(['brown', 'green', 'orange', 'red', 'blue', 'gray'])
-var newpathMap = function(cat) {
-	return d3.line()
-		.x(d => newxScale(d.date))
-		.y(d => newyScale(d[cat]));
-}
 
 d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
+
+	var width = 100,
+		height = 100;
+	var margin = {
+		top: 15,
+		right: 5,
+		bottom: 50,
+		left: 50
+	}
+	var bisect = d3.bisector(function(d) {
+	      return d.date;
+	    }).left;
+
+	var parseTime = d3.timeParse('%Y-%m-%d');
+	var categories = ['grocery_pharmacy', 'parks', 'transit_stations', 'retail_recreation', 'residential', 'workplaces'];
+
+	const newCategories = [
+			'grocery_and_pharmacy_percent_change_from_baseline',
+			'parks_percent_change_from_baseline',
+			'transit_stations_percent_change_from_baseline',
+			'retail_and_recreation_percent_change_from_baseline',
+			'workplaces_percent_change_from_baseline',
+			'residential_percent_change_from_baseline']
+
+	// define axis range
+	var newxScale = d3.scaleTime()
+		.domain([new Date(2020, 1, 15), new Date(2020, 3, 11)])
+		.range([0, width]);
+	var newyScale = d3.scaleLinear()
+		.domain([-100, 100])
+		.range([height, 0]);
+	var newcolorScale = d3.scaleOrdinal()
+		.domain(newCategories)
+		.range(['brown', 'green', 'orange', 'red', 'blue', 'gray'])
+	var newpathMap = function(cat) {
+		return d3.line()
+			.x(d => newxScale(d.date))
+			.y(d => newyScale(d[cat]));
+	}
 
 	// TEMP limit to top 10 countries
 	const countryToShow = ['United States', 'Spain', 'Italy', 'France', 'Germany', 
@@ -288,7 +304,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 			.attr('cx', 20)
 			.attr('cy', (d,i) => 20+i*20)
 			.attr('r', 5)
-			.style('fill', d => colorScale(d))
+			.style('fill', d => newcolorScale(d))
 	
 	d3.select('.legend')
 		.selectAll('text')
@@ -298,7 +314,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 			.attr('x', 40)
 			.attr('y', (d,i) => 20+i*20)
 			.attr('text-anchor', 'left')
-			.style('fill', d => colorScale(d))
+			.style('fill', d => newcolorScale(d))
 			.style('font-size', '12px')
 			.style('alignment-baseline', 'middle')
 			.text(d => d)
@@ -318,22 +334,54 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 
 
 
-// define axis range
-var xxScale = d3.scaleTime()
-	.domain([new Date(2020, 1, 18), new Date(2020, 3, 5)])
-	.range([0, width]);
-var yyScale = d3.scaleLinear()
-	.domain([-100, 100])
-	.range([height, 0]);
-// var ccolorScale = d3.scaleOrdinal()
-// 	.domain(newCategories)
-// 	.range(['brown', 'green', 'orange', 'red', 'blue', 'gray'])
-var ppathMap = d3.line()
-		.x(d => xxScale(d.date))
-		.y(d => yyScale(d.percent_yoy_change));
-
 
 d3.csv('data/restaurants/restaurant-performance.csv').then(function(data) {
+
+	var width = 100,
+		height = 100;
+	var margin = {
+		top: 15,
+		right: 5,
+		bottom: 50,
+		left: 50
+	}
+	var bisect = d3.bisector(function(d) {
+	      return d.date;
+	    }).left;
+
+	var parseTime = d3.timeParse('%Y-%m-%d');
+	var categories = ['grocery_pharmacy', 'parks', 'transit_stations', 'retail_recreation', 'residential', 'workplaces'];
+
+	// define axis range
+	// var xScale = d3.scaleTime()
+	// 	.domain([new Date(2020, 2, 29), new Date(2020, 3, 11)])
+	// 	.range([0, width]);
+	var xScale = d3.scaleOrdinal()
+		.domain(['zeroIndex', '2020-03-29', '2020-04-05', '2020-04-11'])
+		.range([0, width/3, 2*width/3, width]);
+	var yScale = d3.scaleLinear()
+		.domain([-100, 100])
+		.range([height, 0]);
+	var colorScale = d3.scaleOrdinal()
+		.domain(categories)
+		.range(['brown', 'green', 'orange', 'red', 'blue', 'gray'])
+
+
+
+	// define axis range
+	var xxScale = d3.scaleTime()
+		.domain([new Date(2020, 1, 18), new Date(2020, 3, 5)])
+		.range([0, width]);
+	var yyScale = d3.scaleLinear()
+		.domain([-100, 100])
+		.range([height, 0]);
+	// var ccolorScale = d3.scaleOrdinal()
+	// 	.domain(newCategories)
+	// 	.range(['brown', 'green', 'orange', 'red', 'blue', 'gray'])
+	var ppathMap = d3.line()
+			.x(d => xxScale(d.date))
+			.y(d => yyScale(d.percent_yoy_change));
+
 
 	// country-level data only
 	data = data.filter(d => d.region_type === 'countries');
