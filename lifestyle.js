@@ -310,5 +310,86 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 // choose top 10 by number of confirmed cases / total population / etc
 // "why don't I see china on this map?" button to explain where the data is coming from
 // hover to see exact numbers
+// info lines for local 
+
+
+
+
+
+
+
+// define axis range
+var xxScale = d3.scaleTime()
+	.domain([new Date(2020, 1, 18), new Date(2020, 3, 5)])
+	.range([0, width]);
+var yyScale = d3.scaleLinear()
+	.domain([-100, 100])
+	.range([height, 0]);
+// var ccolorScale = d3.scaleOrdinal()
+// 	.domain(newCategories)
+// 	.range(['brown', 'green', 'orange', 'red', 'blue', 'gray'])
+var ppathMap = d3.line()
+		.x(d => xxScale(d.date))
+		.y(d => yyScale(d.percent_yoy_change));
+
+
+d3.csv('data/restaurants/restaurant-performance.csv').then(function(data) {
+
+	// country-level data only
+	data = data.filter(d => d.region_type === 'countries');
+
+	// parse string to int values
+	data = data.map(d => {
+		d.date = parseTime(d.date);
+		d.percent_yoy_change = parseInt(d.percent_yoy_change)
+		return d;
+	})
+
+	// nest data by country
+	var nested = d3.nest()
+		.key(d => d.region)
+		.entries(data);
+
+	console.log('here',nested);
+
+
+	var svg = d3.select('#restaurants-viz')
+				.selectAll('svg')
+				.data(nested)
+				.enter()
+				.append('svg')
+					.attr('width', width + margin.left + margin.right)
+					.attr('height', height + margin.top + margin.bottom)
+				.append('g')
+					.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+	// add axes
+	svg.append('g')
+		.attr('transform', 'translate(0,' + height + ')')
+		.call(d3.axisBottom(xxScale).ticks(3));
+	svg.append('g')
+		.call(d3.axisLeft(yyScale));
+
+	svg.append('g')
+		.append('path')
+		.attr('fill', 'none')
+		.attr('stroke', 'gray')
+		.attr('stroke-width', 2)
+		.attr('d', d => ppathMap(d.values))
+
+	svg.append('text')
+		.attr('class', 'country')
+		.attr('text-anchor', 'middle')
+		.attr('x', width/2)
+		.attr('y', height)
+		.attr('dy', margin.bottom/2 + 10)
+		.style('font-size', '12px')
+		.text(d => d.key)
+
+})
+
+
+
+
 
 
