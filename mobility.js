@@ -42,7 +42,7 @@ var drawFlightsGraph = function(jsondata) {
   .xConfig({labels: ['2020-01-19', '2020-01-26', '2020-02-02', '2020-02-09',
                      '2020-02-16','2020-02-23','2020-03-01','2020-03-08',
                      '2020-03-15',,'2020-03-22','2020-03-29','2020-04-05',
-                     '2020-04-12','2020-04-19']}) // which ticks to show labels for
+                     '2020-04-12','2020-04-19', '2020-04-26']}) // which ticks to show labels for
   .y("Number of flights")
   .yConfig({domain: [0, 200000]})
   .groupBy("type")
