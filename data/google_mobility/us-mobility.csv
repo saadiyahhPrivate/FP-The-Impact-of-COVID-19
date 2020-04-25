@@ -1,0 +1,2861 @@
+date,state,region,retail_recreation,grocery_pharmacy,parks,transit_stations,workplaces,residential
+2020-03-29,Alabama,Total,-41,-13,19,-30,-32,9
+2020-03-29,Alabama,Autauga County,-42,-8,-14,,-35,16
+2020-03-29,Alabama,Baldwin County,-47,-19,-27,-24,-32,9
+2020-03-29,Alabama,Barbour County,-27,-20,,,-23,
+2020-03-29,Alabama,Bibb County,-25,-10,,,-32,
+2020-03-29,Alabama,Blount County,-36,-2,,,-29,15
+2020-03-29,Alabama,Bullock County,-37,-13,,,-24,
+2020-03-29,Alabama,Butler County,-37,-5,,-45,-30,
+2020-03-29,Alabama,Calhoun County,-40,-17,-22,,-33,8
+2020-03-29,Alabama,Chambers County,-34,1,,-12,-28,13
+2020-03-29,Alabama,Cherokee County,-24,6,,,-29,
+2020-03-29,Alabama,Chilton County,-41,-11,,-27,-26,14
+2020-03-29,Alabama,Choctaw County,-13,-16,,,-28,
+2020-03-29,Alabama,Clarke County,-27,-24,,,-27,
+2020-03-29,Alabama,Clay County,-33,-14,,,-20,
+2020-03-29,Alabama,Cleburne County,-22,-3,,-36,-9,
+2020-03-29,Alabama,Coffee County,-28,-15,,,-26,11
+2020-03-29,Alabama,Colbert County,-30,-6,-14,-20,-22,12
+2020-03-29,Alabama,Conecuh County,-49,-10,,-33,-21,
+2020-03-29,Alabama,Coosa County,,,,,-28,
+2020-03-29,Alabama,Covington County,-37,-15,,,-23,7
+2020-03-29,Alabama,Crenshaw County,-57,-17,,,-35,
+2020-03-29,Alabama,Cullman County,-33,-2,86,-33,-29,8
+2020-03-29,Alabama,Dale County,-34,-9,,-17,-25,11
+2020-03-29,Alabama,Dallas County,-27,-2,,,-22,5
+2020-03-29,Alabama,DeKalb County,-38,-7,9,-33,-23,11
+2020-03-29,Alabama,Elmore County,-40,-13,50,,-37,8
+2020-03-29,Alabama,Escambia County,-35,-20,,,-27,7
+2020-03-29,Alabama,Etowah County,-47,-13,19,-27,-33,9
+2020-03-29,Alabama,Fayette County,-23,,,,-28,
+2020-03-29,Alabama,Franklin County,-27,-4,,,-14,5
+2020-03-29,Alabama,Geneva County,-34,-4,,,-28,-2
+2020-03-29,Alabama,Greene County,11,-22,,-32,-33,
+2020-03-29,Alabama,Hale County,-46,-29,,,-14,
+2020-03-29,Alabama,Henry County,-46,-8,,,-29,
+2020-03-29,Alabama,Houston County,-46,-18,23,-27,-30,9
+2020-03-29,Alabama,Jackson County,-31,-4,,,-25,12
+2020-03-29,Alabama,Jefferson County,-48,-16,7,-43,-36,11
+2020-03-29,Alabama,Lamar County,0,2,,,-28,
+2020-03-29,Alabama,Lauderdale County,-43,-14,-15,,-33,9
+2020-03-29,Alabama,Lawrence County,-27,-6,,,-25,7
+2020-03-29,Alabama,Lee County,-52,-23,-14,,-36,11
+2020-03-29,Alabama,Limestone County,-35,-12,38,,-32,9
+2020-03-29,Alabama,Lowndes County,,,,-29,-34,
+2020-03-29,Alabama,Macon County,-29,-12,,-42,-37,
+2020-03-29,Alabama,Madison County,-46,-17,35,-39,-38,10
+2020-03-29,Alabama,Marengo County,-18,-4,,,-17,
+2020-03-29,Alabama,Marion County,-31,-4,,,-24,
+2020-03-29,Alabama,Marshall County,-34,-4,107,,-30,8
+2020-03-29,Alabama,Mobile County,-39,-11,-21,-30,-29,9
+2020-03-29,Alabama,Monroe County,-28,-7,,,-27,
+2020-03-29,Alabama,Montgomery County,-44,-14,-9,-14,-34,11
+2020-03-29,Alabama,Morgan County,-37,-4,18,-27,-27,8
+2020-03-29,Alabama,Perry County,-53,4,,,-29,
+2020-03-29,Alabama,Pickens County,-36,-4,,,-36,
+2020-03-29,Alabama,Pike County,-39,-36,,,-25,0
+2020-03-29,Alabama,Randolph County,-29,-14,,,-22,
+2020-03-29,Alabama,Russell County,-28,-5,,,-27,13
+2020-03-29,Alabama,Shelby County,-43,-20,44,,-36,12
+2020-03-29,Alabama,St. Clair County,-30,-15,,-24,-34,9
+2020-03-29,Alabama,Sumter County,-52,-6,,,-31,
+2020-03-29,Alabama,Talladega County,-31,-10,17,-12,-33,7
+2020-03-29,Alabama,Tallapoosa County,-31,-9,,,-25,13
+2020-03-29,Alabama,Tuscaloosa County,-46,-14,-1,-29,-40,12
+2020-03-29,Alabama,Walker County,-37,-10,,-32,-24,12
+2020-03-29,Alabama,Washington County,,-13,,,-25,
+2020-03-29,Alabama,Wilcox County,-49,-17,,,-31,
+2020-03-29,Alabama,Winston County,-28,1,,,-21,
+2020-03-29,Alaska,Total,-48,-27,18,-55,-33,10
+2020-03-29,Alaska,Anchorage,-49,-25,51,-53,-39,11
+2020-03-29,Alaska,Bethel,,-26,,,-19,
+2020-03-29,Alaska,Fairbanks North Star,-48,-34,,-76,-32,12
+2020-03-29,Alaska,Juneau,-61,-34,-34,-66,-31,-1
+2020-03-29,Alaska,Kenai Peninsula Borough,-49,-28,,,-24,14
+2020-03-29,Alaska,Ketchikan Gateway,-48,-38,,,-32,
+2020-03-29,Alaska,Kodiak Island,-50,,,,-23,
+2020-03-29,Alaska,Matanuska-Susitna,-48,-33,,,-33,10
+2020-03-29,Alaska,North Slope,,,,,-7,
+2020-03-29,Alaska,Sitka,-59,,,,-31,
+2020-03-29,Alaska,Southeast Fairbanks,,,,,-35,
+2020-03-29,Alaska,Valdez-Cordova,,,,,-22,
+2020-03-29,Arizona,Total,-40,-17,-7,-41,-33,10
+2020-03-29,Arizona,Apache County,-38,-13,-35,-8,-27,20
+2020-03-29,Arizona,Cochise County,-37,-21,-14,-23,-29,8
+2020-03-29,Arizona,Coconino County,-55,-24,-25,-34,-38,12
+2020-03-29,Arizona,Gila County,-14,16,95,,-28,11
+2020-03-29,Arizona,Graham County,-21,14,-63,,-19,11
+2020-03-29,Arizona,Greenlee County,-37,-10,,,-28,
+2020-03-29,Arizona,La Paz County,-61,-35,-54,-50,-21,
+2020-03-29,Arizona,Maricopa County,-40,-18,-6,-44,-33,10
+2020-03-29,Arizona,Mohave County,-36,-13,-13,-23,-37,9
+2020-03-29,Arizona,Navajo County,-29,-9,11,-12,-28,10
+2020-03-29,Arizona,Pima County,-43,-16,-16,-43,-36,10
+2020-03-29,Arizona,Pinal County,-27,-23,1,-28,-31,8
+2020-03-29,Arizona,Santa Cruz County,-56,-47,-29,-25,-33,18
+2020-03-29,Arizona,Yavapai County,-40,-15,6,-27,-38,9
+2020-03-29,Arizona,Yuma County,-45,-21,-17,-53,-27,10
+2020-03-29,Arkansas,Total,-29,-7,81,-22,-27,7
+2020-03-29,Arkansas,Arkansas County,-22,-7,,,-11,
+2020-03-29,Arkansas,Ashley County,-24,-4,,,-27,
+2020-03-29,Arkansas,Baxter County,-30,-2,,,-26,11
+2020-03-29,Arkansas,Benton County,-36,-16,56,-65,-34,9
+2020-03-29,Arkansas,Boone County,-25,-17,,,-32,14
+2020-03-29,Arkansas,Bradley County,-28,-17,,,-37,
+2020-03-29,Arkansas,Carroll County,-27,14,,,-27,-1
+2020-03-29,Arkansas,Chicot County,-19,6,,,-25,
+2020-03-29,Arkansas,Clark County,-33,2,,-23,-22,
+2020-03-29,Arkansas,Clay County,-7,-2,,,-21,
+2020-03-29,Arkansas,Cleburne County,-16,0,,,-37,
+2020-03-29,Arkansas,Cleveland County,,,,,-33,
+2020-03-29,Arkansas,Columbia County,-18,-20,,,-20,
+2020-03-29,Arkansas,Conway County,2,4,,-2,-25,
+2020-03-29,Arkansas,Craighead County,-32,-3,-59,-5,-24,4
+2020-03-29,Arkansas,Crawford County,-16,-1,,-11,-21,14
+2020-03-29,Arkansas,Crittenden County,-15,-11,,-17,-26,15
+2020-03-29,Arkansas,Cross County,-49,90,,,-7,
+2020-03-29,Arkansas,Dallas County,-17,,,,-32,
+2020-03-29,Arkansas,Desha County,-8,0,,,-33,
+2020-03-29,Arkansas,Drew County,-27,-10,,,-16,
+2020-03-29,Arkansas,Faulkner County,-32,-15,-21,,-31,8
+2020-03-29,Arkansas,Franklin County,-8,12,,8,-16,
+2020-03-29,Arkansas,Fulton County,,,,,-28,
+2020-03-29,Arkansas,Garland County,-32,-12,17,,-32,7
+2020-03-29,Arkansas,Grant County,-10,-17,,,-26,
+2020-03-29,Arkansas,Greene County,-18,-4,,,-20,12
+2020-03-29,Arkansas,Hempstead County,-19,-13,,,-24,
+2020-03-29,Arkansas,Hot Spring County,5,9,,-28,-24,10
+2020-03-29,Arkansas,Howard County,-8,-7,,,-29,
+2020-03-29,Arkansas,Independence County,-27,9,,,-24,13
+2020-03-29,Arkansas,Izard County,-24,-15,,,-29,
+2020-03-29,Arkansas,Jackson County,-10,-12,,,-14,
+2020-03-29,Arkansas,Jefferson County,-30,4,,-14,-26,11
+2020-03-29,Arkansas,Johnson County,-24,12,-28,,-14,-2
+2020-03-29,Arkansas,Lawrence County,-19,-6,,,-30,
+2020-03-29,Arkansas,Lincoln County,-60,-16,,,-23,
+2020-03-29,Arkansas,Little River County,-7,5,,,-34,
+2020-03-29,Arkansas,Logan County,-5,13,,,-18,
+2020-03-29,Arkansas,Lonoke County,-23,-5,,,-27,15
+2020-03-29,Arkansas,Madison County,-10,17,,,-11,
+2020-03-29,Arkansas,Marion County,4,5,,,-26,
+2020-03-29,Arkansas,Miller County,-33,-10,-35,-24,-32,12
+2020-03-29,Arkansas,Mississippi County,-11,-1,,-18,-15,10
+2020-03-29,Arkansas,Monroe County,-26,-8,,,-34,
+2020-03-29,Arkansas,Montgomery County,,,,,-33,
+2020-03-29,Arkansas,Nevada County,-61,,,-23,-21,
+2020-03-29,Arkansas,Newton County,,,,,-38,
+2020-03-29,Arkansas,Ouachita County,-9,-21,,,-16,
+2020-03-29,Arkansas,Perry County,,,,,-35,
+2020-03-29,Arkansas,Phillips County,-1,-6,,,-32,
+2020-03-29,Arkansas,Pike County,-30,13,,,-33,
+2020-03-29,Arkansas,Poinsett County,2,-5,,,-15,
+2020-03-29,Arkansas,Polk County,-17,3,,,-25,
+2020-03-29,Arkansas,Pope County,-32,-9,,-11,-22,12
+2020-03-29,Arkansas,Prairie County,,,,,-26,
+2020-03-29,Arkansas,Pulaski County,-35,-9,73,-38,-30,9
+2020-03-29,Arkansas,Randolph County,-22,12,,,-23,
+2020-03-29,Arkansas,Saline County,-26,-13,-52,-10,-33,7
+2020-03-29,Arkansas,Scott County,-39,,,,-27,
+2020-03-29,Arkansas,Searcy County,,,,,-39,
+2020-03-29,Arkansas,Sebastian County,-36,-11,45,-41,-27,7
+2020-03-29,Arkansas,Sevier County,-24,-11,,,-19,
+2020-03-29,Arkansas,Sharp County,-17,-7,,,-26,
+2020-03-29,Arkansas,St. Francis County,-16,10,,-22,-25,
+2020-03-29,Arkansas,Stone County,-11,-29,,,-26,
+2020-03-29,Arkansas,Union County,-33,-8,,,-24,8
+2020-03-29,Arkansas,Van Buren County,-20,,,,-39,
+2020-03-29,Arkansas,Washington County,-37,-16,37,-10,-34,8
+2020-03-29,Arkansas,White County,-27,-12,-19,4,-21,9
+2020-03-29,Arkansas,Yell County,-11,13,16,,-19,
+2020-03-29,California,Total,-50,-24,-38,-54,-39,15
+2020-03-29,California,Alameda County,-58,-27,-14,-64,-44,17
+2020-03-29,California,Amador County,-41,-20,-50,,-44,0
+2020-03-29,California,Butte County,-45,-16,-23,-45,-34,11
+2020-03-29,California,Calaveras County,-42,-12,-28,,-39,10
+2020-03-29,California,Colusa County,-37,-1,,-32,-37,
+2020-03-29,California,Contra Costa County,-48,-21,-15,-49,-41,15
+2020-03-29,California,Del Norte County,-31,-11,-26,,-29,
+2020-03-29,California,El Dorado County,-58,-37,-35,-50,-48,13
+2020-03-29,California,Fresno County,-40,-14,-27,-43,-31,11
+2020-03-29,California,Glenn County,-23,-14,-11,-20,-36,2
+2020-03-29,California,Humboldt County,-48,-23,-10,-48,-35,11
+2020-03-29,California,Imperial County,-53,-31,-65,-62,-32,16
+2020-03-29,California,Inyo County,-75,-37,-35,,-39,
+2020-03-29,California,Kern County,-43,-17,-16,-37,-30,11
+2020-03-29,California,Kings County,-34,-14,-12,-43,-27,10
+2020-03-29,California,Lake County,-38,-13,-42,-42,-33,16
+2020-03-29,California,Lassen County,-30,-8,,,-22,
+2020-03-29,California,Los Angeles County,-51,-27,-48,-54,-41,17
+2020-03-29,California,Madera County,-39,-25,-20,-30,-30,11
+2020-03-29,California,Marin County,-61,-30,-59,-61,-42,17
+2020-03-29,California,Mariposa County,-75,-23,-72,,-45,
+2020-03-29,California,Mendocino County,-47,-29,-39,-44,-32,17
+2020-03-29,California,Merced County,-34,-18,-1,-37,-26,11
+2020-03-29,California,Modoc County,-59,-9,,,-26,
+2020-03-29,California,Mono County,-100,-60,-57,,-73,
+2020-03-29,California,Monterey County,-46,-19,-48,-45,-43,14
+2020-03-29,California,Napa County,-53,-34,-24,-45,-51,18
+2020-03-29,California,Nevada County,-56,-26,-48,-73,-41,15
+2020-03-29,California,Orange County,-52,-24,-31,-55,-44,17
+2020-03-29,California,Placer County,-52,-27,-2,-55,-44,13
+2020-03-29,California,Plumas County,-30,-8,,,-25,
+2020-03-29,California,Riverside County,-43,-20,-44,-41,-39,14
+2020-03-29,California,Sacramento County,-45,-21,-1,-57,-37,13
+2020-03-29,California,San Benito County,-45,-25,-36,,-32,23
+2020-03-29,California,San Bernardino County,-45,-23,-36,-42,-34,14
+2020-03-29,California,San Diego County,-50,-26,-51,-64,-41,15
+2020-03-29,California,San Francisco County,-75,-37,-55,-66,-53,21
+2020-03-29,California,San Joaquin County,-41,-16,-16,-31,-30,12
+2020-03-29,California,San Luis Obispo County,-56,-29,-27,-58,-45,13
+2020-03-29,California,San Mateo County,-60,-26,-35,-83,-46,19
+2020-03-29,California,Santa Barbara County,-47,-17,-30,-51,-40,13
+2020-03-29,California,Santa Clara County,-62,-33,-22,-71,-48,17
+2020-03-29,California,Santa Cruz County,-55,-27,-40,-57,-41,15
+2020-03-29,California,Shasta County,-39,-15,-21,-22,-31,9
+2020-03-29,California,Siskiyou County,-35,-20,-6,9,-25,13
+2020-03-29,California,Solano County,-45,-21,-18,-37,-34,13
+2020-03-29,California,Sonoma County,-53,-22,-58,-54,-41,15
+2020-03-29,California,Stanislaus County,-44,-19,-12,-28,-29,11
+2020-03-29,California,Sutter County,-41,-18,-28,-43,-34,13
+2020-03-29,California,Tehama County,-34,-9,-9,-22,-27,15
+2020-03-29,California,Trinity County,-65,-20,,,-28,
+2020-03-29,California,Tulare County,-39,-13,-27,-28,-25,11
+2020-03-29,California,Tuolumne County,-48,-17,-67,,-38,14
+2020-03-29,California,Ventura County,-46,-24,-24,-40,-39,14
+2020-03-29,California,Yolo County,-43,-23,2,-34,-37,13
+2020-03-29,California,Yuba County,-34,-12,24,-34,-38,13
+2020-03-29,Colorado,Total,-51,-27,-12,-60,-40,13
+2020-03-29,Colorado,Adams County,-49,-25,-12,-30,-36,13
+2020-03-29,Colorado,Alamosa County,-44,-28,,,-28,
+2020-03-29,Colorado,Arapahoe County,-52,-30,14,-36,-40,14
+2020-03-29,Colorado,Archuleta County,-60,-28,,,-44,
+2020-03-29,Colorado,Boulder County,-59,-32,-7,-44,-47,15
+2020-03-29,Colorado,Broomfield County,-57,-30,9,-46,-41,30
+2020-03-29,Colorado,Chaffee County,-56,-31,-36,,-45,
+2020-03-29,Colorado,Clear Creek County,-88,-55,-42,,-40,
+2020-03-29,Colorado,Conejos County,,,,,-29,
+2020-03-29,Colorado,Delta County,-41,-20,-40,,-19,5
+2020-03-29,Colorado,Denver County,-63,-25,-17,-75,-43,16
+2020-03-29,Colorado,Douglas County,-56,-36,10,-50,-43,14
+2020-03-29,Colorado,Eagle County,-75,-47,-46,-67,-74,26
+2020-03-29,Colorado,El Paso County,-45,-22,-1,-55,-40,12
+2020-03-29,Colorado,Elbert County,-22,-16,,,-37,0
+2020-03-29,Colorado,Fremont County,-35,-13,-7,,-29,14
+2020-03-29,Colorado,Garfield County,-51,-35,4,-34,-45,22
+2020-03-29,Colorado,Gilpin County,,,,,-67,
+2020-03-29,Colorado,Grand County,-85,-49,-84,-43,-60,
+2020-03-29,Colorado,Gunnison County,-73,-43,-50,,-55,
+2020-03-29,Colorado,Huerfano County,-62,-43,,,-28,
+2020-03-29,Colorado,Jefferson County,-53,-41,-3,-39,-43,14
+2020-03-29,Colorado,Kit Carson County,-39,-20,,-18,-13,
+2020-03-29,Colorado,La Plata County,-58,-28,4,-68,-43,25
+2020-03-29,Colorado,Lake County,-82,-33,,,-57,
+2020-03-29,Colorado,Larimer County,-53,-27,1,-38,-38,13
+2020-03-29,Colorado,Las Animas County,-40,-23,,,-21,
+2020-03-29,Colorado,Lincoln County,-33,-31,,-31,-30,
+2020-03-29,Colorado,Logan County,-32,-15,,,-26,
+2020-03-29,Colorado,Mesa County,-40,-21,11,-35,-35,9
+2020-03-29,Colorado,Moffat County,-26,-22,,,-36,
+2020-03-29,Colorado,Montezuma County,-39,-14,,,-31,-1
+2020-03-29,Colorado,Montrose County,-45,-31,,,-36,17
+2020-03-29,Colorado,Morgan County,-40,-33,0,-23,-18,14
+2020-03-29,Colorado,Otero County,-32,-28,,,-25,
+2020-03-29,Colorado,Ouray County,-28,,,,-56,
+2020-03-29,Colorado,Park County,-84,-44,3,,-52,
+2020-03-29,Colorado,Pitkin County,-100,-56,,-85,-75,
+2020-03-29,Colorado,Prowers County,-32,-25,,-33,-17,
+2020-03-29,Colorado,Pueblo County,-42,-21,-45,-32,-29,9
+2020-03-29,Colorado,Rio Blanco County,,,,,-28,
+2020-03-29,Colorado,Rio Grande County,-38,-24,,,-17,
+2020-03-29,Colorado,Routt County,-82,-49,-48,-65,-62,-2
+2020-03-29,Colorado,Saguache County,,,,,-44,
+2020-03-29,Colorado,San Miguel County,-80,,,,-69,
+2020-03-29,Colorado,Summit County,-86,-73,-74,-67,-71,5
+2020-03-29,Colorado,Teller County,-46,-23,,,-45,-1
+2020-03-29,Colorado,Weld County,-42,-26,-4,-32,-33,12
+2020-03-29,Colorado,Yuma County,-33,-22,,,-30,
+2020-03-29,Connecticut,Total,-56,-32,-52,-64,-38,15
+2020-03-29,Connecticut,Fairfield County,-61,-35,-60,-72,-44,17
+2020-03-29,Connecticut,Hartford County,-56,-31,-48,-61,-35,13
+2020-03-29,Connecticut,Litchfield County,-51,-27,-40,,-33,13
+2020-03-29,Connecticut,Middlesex County,-58,-28,-49,-60,-38,15
+2020-03-29,Connecticut,New Haven County,-56,-31,-52,-62,-36,14
+2020-03-29,Connecticut,New London County,-56,-28,-45,-67,-41,15
+2020-03-29,Connecticut,Tolland County,-59,-33,-38,-38,-37,14
+2020-03-29,Connecticut,Windham County,-42,-27,-58,-69,-32,12
+2020-03-29,Delaware,Total,-47,-28,-6,-57,-37,12
+2020-03-29,Delaware,Kent County,-45,-32,2,-50,-35,11
+2020-03-29,Delaware,New Castle County,-48,-31,5,-60,-37,13
+2020-03-29,Delaware,Sussex County,-46,-23,-5,-40,-36,11
+2020-03-29,District of Columbia,Total,-64,-30,-41,-68,-47,14
+2020-03-29,Florida,Total,-50,-26,-48,-63,-41,13
+2020-03-29,Florida,Alachua County,-54,-26,-32,-48,-37,12
+2020-03-29,Florida,Baker County,-23,-8,,-45,-27,-3
+2020-03-29,Florida,Bay County,-38,-16,-2,-50,-27,8
+2020-03-29,Florida,Bradford County,-26,0,,,-26,0
+2020-03-29,Florida,Brevard County,-44,-22,-26,-37,-38,11
+2020-03-29,Florida,Broward County,-52,-28,-62,-72,-42,16
+2020-03-29,Florida,Calhoun County,-38,-5,,,-28,
+2020-03-29,Florida,Charlotte County,-49,-25,-35,-33,-40,10
+2020-03-29,Florida,Citrus County,-38,-15,-35,,-36,9
+2020-03-29,Florida,Clay County,-33,-15,1,,-34,10
+2020-03-29,Florida,Collier County,-56,-29,-62,-56,-44,14
+2020-03-29,Florida,Columbia County,-36,-8,-41,-25,-25,8
+2020-03-29,Florida,DeSoto County,-35,-21,-28,,-26,12
+2020-03-29,Florida,Dixie County,-30,-4,,,-31,
+2020-03-29,Florida,Duval County,-36,-13,-26,-40,-33,10
+2020-03-29,Florida,Escambia County,-38,-10,-11,-47,-32,9
+2020-03-29,Florida,Flagler County,-44,-16,-34,,-40,10
+2020-03-29,Florida,Franklin County,-56,-12,-14,,-30,
+2020-03-29,Florida,Gadsden County,-24,-10,,-36,-31,14
+2020-03-29,Florida,Gilchrist County,-26,-1,,,-24,
+2020-03-29,Florida,Glades County,-62,,-65,-39,-30,
+2020-03-29,Florida,Gulf County,-28,-1,,,-16,
+2020-03-29,Florida,Hamilton County,-16,-4,,-28,-24,
+2020-03-29,Florida,Hardee County,-30,-29,-30,,-29,
+2020-03-29,Florida,Hendry County,-34,-10,-42,,-28,12
+2020-03-29,Florida,Hernando County,-36,-16,-10,-37,-36,10
+2020-03-29,Florida,Highlands County,-44,-21,-49,,-36,9
+2020-03-29,Florida,Hillsborough County,-52,-30,-53,-67,-42,14
+2020-03-29,Florida,Holmes County,-19,-12,,,-18,
+2020-03-29,Florida,Indian River County,-46,-29,-30,-47,-38,11
+2020-03-29,Florida,Jackson County,-29,-11,,-32,-32,12
+2020-03-29,Florida,Jefferson County,-20,-10,,,-28,
+2020-03-29,Florida,Lafayette County,,,,,-28,
+2020-03-29,Florida,Lake County,-42,-24,-24,-57,-41,12
+2020-03-29,Florida,Lee County,-55,-28,-60,-69,-41,12
+2020-03-29,Florida,Leon County,-45,-22,0,-50,-36,11
+2020-03-29,Florida,Levy County,-35,-12,-20,,-31,12
+2020-03-29,Florida,Liberty County,,-5,,,-28,
+2020-03-29,Florida,Madison County,-41,-2,,-26,-31,
+2020-03-29,Florida,Manatee County,-48,-22,-28,-63,-36,11
+2020-03-29,Florida,Marion County,-41,-21,-40,-31,-34,9
+2020-03-29,Florida,Martin County,-50,-28,-28,-59,-37,12
+2020-03-29,Florida,Miami-Dade County,-57,-35,-77,-71,-46,18
+2020-03-29,Florida,Monroe County,-74,-47,-76,-76,-55,15
+2020-03-29,Florida,Nassau County,-40,-18,-24,-68,-34,10
+2020-03-29,Florida,Okaloosa County,-39,-14,-7,-62,-32,9
+2020-03-29,Florida,Okeechobee County,-37,-10,-23,-84,-33,11
+2020-03-29,Florida,Orange County,-70,-42,-59,-80,-53,17
+2020-03-29,Florida,Osceola County,-64,-40,-49,-65,-54,18
+2020-03-29,Florida,Palm Beach County,-49,-23,-65,-61,-40,15
+2020-03-29,Florida,Pasco County,-40,-24,-10,-25,-35,11
+2020-03-29,Florida,Pinellas County,-51,-25,-16,-44,-39,12
+2020-03-29,Florida,Polk County,-40,-22,-28,-29,-38,11
+2020-03-29,Florida,Putnam County,-23,-15,-20,,-33,9
+2020-03-29,Florida,Santa Rosa County,-28,-13,17,,-32,9
+2020-03-29,Florida,Sarasota County,-52,-28,-59,-28,-41,11
+2020-03-29,Florida,Seminole County,-48,-21,-19,-74,-42,13
+2020-03-29,Florida,St. Johns County,-48,-13,-53,-34,-41,11
+2020-03-29,Florida,St. Lucie County,-40,-14,-22,-52,-34,11
+2020-03-29,Florida,Sumter County,-50,-21,-31,-36,-45,10
+2020-03-29,Florida,Suwannee County,-28,-14,0,-42,-27,11
+2020-03-29,Florida,Taylor County,-34,-7,,,-25,
+2020-03-29,Florida,Union County,-44,-5,,,-35,
+2020-03-29,Florida,Volusia County,-42,-19,-10,-39,-38,10
+2020-03-29,Florida,Wakulla County,-25,-20,20,,-20,16
+2020-03-29,Florida,Walton County,-46,-23,-29,-21,-31,9
+2020-03-29,Florida,Washington County,-33,5,,,-31,
+2020-03-29,Georgia,Total,-42,-17,-2,-52,-37,11
+2020-03-29,Georgia,Appling County,-28,-16,,,-19,
+2020-03-29,Georgia,Atkinson County,-29,12,,,-26,
+2020-03-29,Georgia,Bacon County,-26,-15,,,-20,
+2020-03-29,Georgia,Baldwin County,-34,-20,,,-31,13
+2020-03-29,Georgia,Banks County,-35,,,,-19,
+2020-03-29,Georgia,Barrow County,-35,-12,-37,,-34,11
+2020-03-29,Georgia,Bartow County,-42,-5,40,-25,-33,9
+2020-03-29,Georgia,Ben Hill County,-28,9,,,-30,
+2020-03-29,Georgia,Berrien County,-28,5,,,-20,
+2020-03-29,Georgia,Bibb County,-43,-16,36,-27,-32,10
+2020-03-29,Georgia,Bleckley County,-31,-8,,,-37,
+2020-03-29,Georgia,Brantley County,-27,-4,,,-28,
+2020-03-29,Georgia,Brooks County,-38,-5,,,-23,
+2020-03-29,Georgia,Bryan County,-45,-19,-9,-29,-36,18
+2020-03-29,Georgia,Bulloch County,-41,-12,,,-35,9
+2020-03-29,Georgia,Burke County,-24,-7,-23,,-14,
+2020-03-29,Georgia,Butts County,-30,-6,,-13,-31,-1
+2020-03-29,Georgia,Camden County,-35,3,7,-29,-30,16
+2020-03-29,Georgia,Candler County,-57,-20,,,-24,
+2020-03-29,Georgia,Carroll County,-38,-18,12,-25,-36,10
+2020-03-29,Georgia,Catoosa County,-38,-8,14,,-33,16
+2020-03-29,Georgia,Charlton County,-31,7,,,-25,
+2020-03-29,Georgia,Chatham County,-50,-24,-32,-48,-41,11
+2020-03-29,Georgia,Chattahoochee County,-53,-39,,,-36,
+2020-03-29,Georgia,Chattooga County,-15,-2,,,-42,
+2020-03-29,Georgia,Cherokee County,-39,-20,59,,-40,12
+2020-03-29,Georgia,Clarke County,-51,-24,-21,-30,-41,12
+2020-03-29,Georgia,Clayton County,-30,-18,15,-80,-33,11
+2020-03-29,Georgia,Clinch County,,-2,,,-25,
+2020-03-29,Georgia,Cobb County,-49,-22,-47,-38,-41,13
+2020-03-29,Georgia,Coffee County,-41,-8,,,-23,11
+2020-03-29,Georgia,Colquitt County,-31,-6,,,-25,13
+2020-03-29,Georgia,Columbia County,-35,-7,-20,-44,-37,11
+2020-03-29,Georgia,Cook County,-17,2,,-21,-21,
+2020-03-29,Georgia,Coweta County,-46,-16,-56,-15,-35,11
+2020-03-29,Georgia,Crawford County,,,,,-20,
+2020-03-29,Georgia,Crisp County,-28,-22,,-10,-35,
+2020-03-29,Georgia,Dade County,-49,-9,,-16,-23,
+2020-03-29,Georgia,Dawson County,-49,-25,17,,-37,0
+2020-03-29,Georgia,DeKalb County,-47,-26,-15,-27,-42,13
+2020-03-29,Georgia,Decatur County,-24,-10,,,-19,-3
+2020-03-29,Georgia,Dodge County,-26,-5,,,-26,
+2020-03-29,Georgia,Dooly County,-59,-25,,-28,-21,
+2020-03-29,Georgia,Dougherty County,-51,-24,-37,-30,-34,11
+2020-03-29,Georgia,Douglas County,-40,-26,-2,-28,-37,11
+2020-03-29,Georgia,Early County,-73,-23,,,-27,
+2020-03-29,Georgia,Effingham County,-28,-7,,,-33,16
+2020-03-29,Georgia,Elbert County,-13,3,,,-25,
+2020-03-29,Georgia,Emanuel County,-21,17,,,-9,
+2020-03-29,Georgia,Evans County,-22,4,,,-23,
+2020-03-29,Georgia,Fannin County,-45,-21,38,,-38,
+2020-03-29,Georgia,Fayette County,-40,-29,25,,-43,13
+2020-03-29,Georgia,Floyd County,-36,-8,28,,-28,9
+2020-03-29,Georgia,Forsyth County,-45,-32,3,,-42,13
+2020-03-29,Georgia,Franklin County,-42,-15,-22,-22,-28,
+2020-03-29,Georgia,Fulton County,-54,-26,-44,-47,-43,13
+2020-03-29,Georgia,Gilmer County,-45,-31,,,-33,2
+2020-03-29,Georgia,Glynn County,-45,-22,-32,-39,-40,10
+2020-03-29,Georgia,Gordon County,-30,-8,,-20,-33,15
+2020-03-29,Georgia,Grady County,-35,-6,,,-35,-1
+2020-03-29,Georgia,Greene County,-17,-13,,,-36,
+2020-03-29,Georgia,Gwinnett County,-50,-24,-9,-42,-46,15
+2020-03-29,Georgia,Habersham County,-35,-10,,,-27,13
+2020-03-29,Georgia,Hall County,-39,-19,51,-20,-34,10
+2020-03-29,Georgia,Hancock County,,6,,,-24,
+2020-03-29,Georgia,Haralson County,-27,-6,-29,-22,-33,8
+2020-03-29,Georgia,Harris County,-4,9,,,-41,13
+2020-03-29,Georgia,Hart County,-18,-6,,,-17,
+2020-03-29,Georgia,Heard County,,2,,,-31,
+2020-03-29,Georgia,Henry County,-42,-13,22,,-41,12
+2020-03-29,Georgia,Houston County,-39,-15,-6,,-36,10
+2020-03-29,Georgia,Irwin County,,-2,,,-26,
+2020-03-29,Georgia,Jackson County,-61,-38,,-22,-30,16
+2020-03-29,Georgia,Jasper County,-39,-2,,,-9,
+2020-03-29,Georgia,Jeff Davis County,-27,-12,,,-21,
+2020-03-29,Georgia,Jefferson County,-28,-3,,,-13,
+2020-03-29,Georgia,Jenkins County,-33,2,,,-25,
+2020-03-29,Georgia,Johnson County,,-9,,,-26,
+2020-03-29,Georgia,Jones County,-25,4,,,-38,8
+2020-03-29,Georgia,Lamar County,-34,-6,,,-36,
+2020-03-29,Georgia,Lanier County,-43,-6,,,-35,
+2020-03-29,Georgia,Laurens County,-42,-15,,-27,-31,14
+2020-03-29,Georgia,Lee County,-45,-21,,,-28,11
+2020-03-29,Georgia,Liberty County,-32,-17,-17,-22,-27,10
+2020-03-29,Georgia,Lincoln County,,,,,-27,
+2020-03-29,Georgia,Long County,,,,,-30,
+2020-03-29,Georgia,Lowndes County,-45,-17,-13,-21,-29,8
+2020-03-29,Georgia,Lumpkin County,-35,19,,,-37,6
+2020-03-29,Georgia,Macon County,-35,-4,,,-22,
+2020-03-29,Georgia,Madison County,-51,-17,,,-24,8
+2020-03-29,Georgia,Marion County,,12,,,-27,
+2020-03-29,Georgia,McDuffie County,-14,4,,-21,-18,
+2020-03-29,Georgia,McIntosh County,-49,0,,,-39,
+2020-03-29,Georgia,Meriwether County,-21,-4,,,-26,
+2020-03-29,Georgia,Miller County,-58,,,,-30,
+2020-03-29,Georgia,Mitchell County,-21,-25,,,-13,
+2020-03-29,Georgia,Monroe County,-39,3,11,-35,-32,-2
+2020-03-29,Georgia,Montgomery County,,-7,,,-26,
+2020-03-29,Georgia,Morgan County,-33,-14,,-27,-30,
+2020-03-29,Georgia,Murray County,-18,1,,,-25,13
+2020-03-29,Georgia,Muscogee County,-44,-8,19,-56,-29,9
+2020-03-29,Georgia,Newton County,-31,-14,-13,,-36,10
+2020-03-29,Georgia,Oconee County,-46,-7,,,-37,0
+2020-03-29,Georgia,Oglethorpe County,,0,,,-41,
+2020-03-29,Georgia,Paulding County,-34,-25,-55,,-36,11
+2020-03-29,Georgia,Peach County,-39,-16,,-24,-33,7
+2020-03-29,Georgia,Pickens County,-27,-16,,,-30,9
+2020-03-29,Georgia,Pierce County,-48,-14,,,-26,
+2020-03-29,Georgia,Pike County,-38,3,,,-38,
+2020-03-29,Georgia,Polk County,-21,-4,,,-31,12
+2020-03-29,Georgia,Pulaski County,-54,-12,,,-31,
+2020-03-29,Georgia,Putnam County,-3,2,,-59,-28,
+2020-03-29,Georgia,Rabun County,-42,-2,37,,-40,
+2020-03-29,Georgia,Randolph County,-64,,,,-32,
+2020-03-29,Georgia,Richmond County,-40,-5,26,-51,-31,8
+2020-03-29,Georgia,Rockdale County,-43,-11,-18,,-39,12
+2020-03-29,Georgia,Schley County,,,,,-36,
+2020-03-29,Georgia,Screven County,-37,0,,,-29,
+2020-03-29,Georgia,Seminole County,-7,-18,,,-22,
+2020-03-29,Georgia,Spalding County,-27,-13,,,-31,8
+2020-03-29,Georgia,Stephens County,-24,-9,,,-27,1
+2020-03-29,Georgia,Sumter County,-29,-25,,,-21,1
+2020-03-29,Georgia,Talbot County,,,-9,,-29,
+2020-03-29,Georgia,Tattnall County,-32,3,,,-23,
+2020-03-29,Georgia,Taylor County,,4,,,-15,
+2020-03-29,Georgia,Telfair County,-55,0,,,-28,
+2020-03-29,Georgia,Terrell County,-27,-17,,,-33,
+2020-03-29,Georgia,Thomas County,-35,-9,,,-28,15
+2020-03-29,Georgia,Tift County,-40,-26,,-24,-25,14
+2020-03-29,Georgia,Toombs County,-31,-12,,,-23,-2
+2020-03-29,Georgia,Towns County,-38,-3,,,-22,
+2020-03-29,Georgia,Treutlen County,,-4,,,-26,
+2020-03-29,Georgia,Troup County,-36,-10,,-28,-27,10
+2020-03-29,Georgia,Turner County,-61,23,,-22,-23,
+2020-03-29,Georgia,Twiggs County,,,,,-36,
+2020-03-29,Georgia,Union County,-30,11,22,,-36,
+2020-03-29,Georgia,Upson County,-25,-8,,,-36,-4
+2020-03-29,Georgia,Walker County,-20,7,-28,,-28,15
+2020-03-29,Georgia,Walton County,-28,7,,,-35,9
+2020-03-29,Georgia,Ware County,-39,-18,,,-23,11
+2020-03-29,Georgia,Warren County,,,,,-32,
+2020-03-29,Georgia,Washington County,-12,-31,,,-13,
+2020-03-29,Georgia,Wayne County,-30,-8,,,-33,-2
+2020-03-29,Georgia,White County,-43,-2,-16,,-29,9
+2020-03-29,Georgia,Whitfield County,-34,-7,-45,-23,-25,9
+2020-03-29,Georgia,Wilcox County,,13,,,-24,
+2020-03-29,Georgia,Wilkes County,-31,-14,,,-22,
+2020-03-29,Georgia,Wilkinson County,,0,,,-24,
+2020-03-29,Georgia,Worth County,-28,-9,,,-28,
+2020-03-29,Hawaii,Total,-56,-36,-65,-72,-45,16
+2020-03-29,Hawaii,Hawaii County,-61,-47,-77,-84,-41,15
+2020-03-29,Hawaii,Honolulu County,-53,-32,-58,-69,-44,16
+2020-03-29,Hawaii,Kauai County,-69,-53,-74,-83,-48,26
+2020-03-29,Hawaii,Maui County,-64,-40,-73,-85,-54,17
+2020-03-29,Idaho,Total,-42,-18,25,-34,-38,10
+2020-03-29,Idaho,Ada County,-49,-23,33,-54,-43,11
+2020-03-29,Idaho,Bannock County,-39,-24,-6,-28,-37,9
+2020-03-29,Idaho,Bear Lake County,-53,,,,-36,
+2020-03-29,Idaho,Benewah County,-65,4,,,-35,
+2020-03-29,Idaho,Bingham County,-21,-13,,,-38,14
+2020-03-29,Idaho,Blaine County,-83,-48,,-49,-62,
+2020-03-29,Idaho,Boise County,-62,,-50,,-48,
+2020-03-29,Idaho,Bonner County,-40,-34,-22,,-38,14
+2020-03-29,Idaho,Bonneville County,-38,-11,59,-21,-34,9
+2020-03-29,Idaho,Boundary County,-23,-9,,,-18,
+2020-03-29,Idaho,Canyon County,-41,-15,35,-15,-37,9
+2020-03-29,Idaho,Caribou County,-50,-2,,,-27,
+2020-03-29,Idaho,Cassia County,-7,-10,,,-26,0
+2020-03-29,Idaho,Clearwater County,-61,0,,,-28,
+2020-03-29,Idaho,Elmore County,-35,-9,,-25,-29,14
+2020-03-29,Idaho,Franklin County,-6,-4,,,-27,
+2020-03-29,Idaho,Fremont County,-36,-5,-33,,-57,
+2020-03-29,Idaho,Gem County,-20,-25,,,-34,
+2020-03-29,Idaho,Gooding County,-42,-10,,,-21,
+2020-03-29,Idaho,Idaho County,-60,-12,,,-46,
+2020-03-29,Idaho,Jefferson County,-39,-10,-56,,-45,9
+2020-03-29,Idaho,Jerome County,-8,-44,,-13,-27,6
+2020-03-29,Idaho,Kootenai County,-42,-20,26,-18,-40,10
+2020-03-29,Idaho,Latah County,-54,-33,,,-47,20
+2020-03-29,Idaho,Lemhi County,-26,-20,,,-28,
+2020-03-29,Idaho,Lincoln County,,,,,-44,
+2020-03-29,Idaho,Madison County,-29,-19,,,-59,20
+2020-03-29,Idaho,Minidoka County,-43,10,,-11,-33,1
+2020-03-29,Idaho,Nez Perce County,-46,-14,-24,-55,-31,18
+2020-03-29,Idaho,Oneida County,,,,,-42,
+2020-03-29,Idaho,Owyhee County,-14,13,,,-20,
+2020-03-29,Idaho,Payette County,-33,-10,,,-26,5
+2020-03-29,Idaho,Power County,,-7,,,-34,
+2020-03-29,Idaho,Shoshone County,-31,4,,,-31,
+2020-03-29,Idaho,Teton County,-73,-20,,,-47,
+2020-03-29,Idaho,Twin Falls County,-43,-13,-6,,-25,8
+2020-03-29,Idaho,Valley County,-86,-58,-57,,-60,
+2020-03-29,Idaho,Washington County,-23,-15,,,-39,
+2020-03-29,Illinois,Total,-53,-24,-29,-55,-39,13
+2020-03-29,Illinois,Adams County,-42,-15,,-30,-27,16
+2020-03-29,Illinois,Alexander County,,,,,-30,
+2020-03-29,Illinois,Bond County,-36,-2,,-5,-21,
+2020-03-29,Illinois,Boone County,-41,-23,,-65,-38,21
+2020-03-29,Illinois,Bureau County,-43,-9,,,-25,3
+2020-03-29,Illinois,Carroll County,-60,-9,,,-32,
+2020-03-29,Illinois,Cass County,-21,-10,,,-6,
+2020-03-29,Illinois,Champaign County,-54,-29,44,-48,-40,13
+2020-03-29,Illinois,Christian County,-31,-30,,,-20,9
+2020-03-29,Illinois,Clark County,-28,,,-15,-32,
+2020-03-29,Illinois,Clay County,-25,,,,-27,
+2020-03-29,Illinois,Clinton County,-28,-4,,,-29,14
+2020-03-29,Illinois,Coles County,-35,-11,,,-27,18
+2020-03-29,Illinois,Cook County,-58,-26,-45,-63,-45,15
+2020-03-29,Illinois,Crawford County,-24,2,,,-27,
+2020-03-29,Illinois,Cumberland County,-65,,,-23,-33,
+2020-03-29,Illinois,De Witt County,-65,-29,,,-22,
+2020-03-29,Illinois,DeKalb County,-52,-20,,,-37,14
+2020-03-29,Illinois,Douglas County,-53,-3,,,-30,
+2020-03-29,Illinois,DuPage County,-60,-29,-42,-51,-45,15
+2020-03-29,Illinois,Edgar County,-25,-20,,,-38,
+2020-03-29,Illinois,Edwards County,,,,,-39,
+2020-03-29,Illinois,Effingham County,-42,-2,,-26,-36,12
+2020-03-29,Illinois,Fayette County,-33,-16,,,-19,
+2020-03-29,Illinois,Ford County,-59,-18,,,-22,
+2020-03-29,Illinois,Franklin County,-17,9,,-34,-28,14
+2020-03-29,Illinois,Fulton County,-37,-19,,,-26,17
+2020-03-29,Illinois,Greene County,-46,-2,,,-21,
+2020-03-29,Illinois,Grundy County,-43,-24,,-22,-34,19
+2020-03-29,Illinois,Hamilton County,-50,,,,-33,
+2020-03-29,Illinois,Hancock County,-44,-16,,,-24,
+2020-03-29,Illinois,Henderson County,,,,,-23,
+2020-03-29,Illinois,Henry County,-44,-18,,-35,-31,18
+2020-03-29,Illinois,Iroquois County,-38,-2,,-39,-24,3
+2020-03-29,Illinois,Jackson County,-47,-14,22,,-33,18
+2020-03-29,Illinois,Jasper County,-41,,,,-27,
+2020-03-29,Illinois,Jefferson County,-37,-21,,-10,-39,14
+2020-03-29,Illinois,Jersey County,-39,10,,,-23,
+2020-03-29,Illinois,Jo Daviess County,-59,-13,,,-38,
+2020-03-29,Illinois,Johnson County,-22,,-20,,-35,
+2020-03-29,Illinois,Kane County,-57,-27,-20,-46,-39,14
+2020-03-29,Illinois,Kankakee County,-48,-20,,-15,-29,11
+2020-03-29,Illinois,Kendall County,-46,-28,-25,,-38,17
+2020-03-29,Illinois,Knox County,-50,3,,-31,-32,16
+2020-03-29,Illinois,LaSalle County,-53,0,-62,-18,-32,11
+2020-03-29,Illinois,Lake County,-57,-25,-36,-58,-41,14
+2020-03-29,Illinois,Lawrence County,-17,,,,-17,
+2020-03-29,Illinois,Lee County,-39,-18,,,-24,13
+2020-03-29,Illinois,Livingston County,-44,-1,,,-27,17
+2020-03-29,Illinois,Logan County,-40,-31,,,-25,6
+2020-03-29,Illinois,Macon County,-43,-14,,-20,-30,10
+2020-03-29,Illinois,Macoupin County,-40,1,,,-30,17
+2020-03-29,Illinois,Madison County,-39,-17,58,-24,-34,10
+2020-03-29,Illinois,Marion County,-39,-5,,,-33,14
+2020-03-29,Illinois,Marshall County,-72,,,,-39,
+2020-03-29,Illinois,Mason County,-32,4,,,-27,
+2020-03-29,Illinois,Massac County,-48,-18,,,-22,
+2020-03-29,Illinois,McDonough County,-40,-13,,,-28,0
+2020-03-29,Illinois,McHenry County,-54,-23,-26,-61,-38,13
+2020-03-29,Illinois,McLean County,-53,-28,1,-37,-41,12
+2020-03-29,Illinois,Menard County,-62,,,,-42,
+2020-03-29,Illinois,Mercer County,-63,,,,-33,
+2020-03-29,Illinois,Monroe County,-37,-12,,,-33,16
+2020-03-29,Illinois,Montgomery County,-37,-13,,,-28,1
+2020-03-29,Illinois,Morgan County,-39,-3,,-14,-34,6
+2020-03-29,Illinois,Moultrie County,-56,,,,-26,
+2020-03-29,Illinois,Ogle County,-46,-9,,,-27,17
+2020-03-29,Illinois,Peoria County,-50,-19,-16,-45,-35,11
+2020-03-29,Illinois,Perry County,-35,-4,,,-28,
+2020-03-29,Illinois,Piatt County,-55,,,,-26,
+2020-03-29,Illinois,Pike County,-36,-11,,,-19,
+2020-03-29,Illinois,Pulaski County,,,,,-33,
+2020-03-29,Illinois,Putnam County,,,,,-38,
+2020-03-29,Illinois,Randolph County,-24,9,,,-24,10
+2020-03-29,Illinois,Richland County,-32,-11,,,-19,
+2020-03-29,Illinois,Rock Island County,-50,0,-55,-57,-36,10
+2020-03-29,Illinois,Saline County,-20,1,,,-24,
+2020-03-29,Illinois,Sangamon County,-47,-18,31,-38,-36,10
+2020-03-29,Illinois,Schuyler County,-55,,,,-29,
+2020-03-29,Illinois,Shelby County,-20,,,,-31,
+2020-03-29,Illinois,St. Clair County,-45,-13,52,-26,-34,10
+2020-03-29,Illinois,Stark County,,,,,-36,
+2020-03-29,Illinois,Stephenson County,-44,-27,,,-30,17
+2020-03-29,Illinois,Tazewell County,-41,-9,-15,,-33,11
+2020-03-29,Illinois,Union County,-8,-5,,,-23,
+2020-03-29,Illinois,Vermilion County,-39,-15,,-31,-26,9
+2020-03-29,Illinois,Wabash County,-33,-17,,,-32,
+2020-03-29,Illinois,Warren County,-48,0,,,-20,
+2020-03-29,Illinois,Washington County,-58,0,,,-40,
+2020-03-29,Illinois,Wayne County,-30,-8,,,-24,
+2020-03-29,Illinois,White County,-23,-7,,,-23,
+2020-03-29,Illinois,Whiteside County,-53,-24,,,-30,18
+2020-03-29,Illinois,Will County,-54,-27,-36,-28,-36,14
+2020-03-29,Illinois,Williamson County,-33,-15,-45,-16,-32,17
+2020-03-29,Illinois,Winnebago County,-47,-30,-40,-40,-36,11
+2020-03-29,Illinois,Woodford County,-61,-5,,,-34,15
+2020-03-29,Indiana,Total,-48,-25,24,-34,-36,11
+2020-03-29,Indiana,Adams County,-43,-25,,,-33,8
+2020-03-29,Indiana,Allen County,-54,-36,13,-44,-39,12
+2020-03-29,Indiana,Bartholomew County,-49,-30,10,-28,-45,26
+2020-03-29,Indiana,Benton County,,,,,-42,
+2020-03-29,Indiana,Blackford County,-51,-17,,,-24,
+2020-03-29,Indiana,Boone County,-51,-28,,-19,-39,26
+2020-03-29,Indiana,Brown County,-68,-4,,,-37,
+2020-03-29,Indiana,Carroll County,-52,-14,,,-38,
+2020-03-29,Indiana,Cass County,-38,-17,,,-34,18
+2020-03-29,Indiana,Clark County,-48,-10,64,-14,-36,10
+2020-03-29,Indiana,Clay County,-33,-35,,-21,-32,-1
+2020-03-29,Indiana,Clinton County,-36,-30,,,-30,19
+2020-03-29,Indiana,Crawford County,-58,-16,,-38,-36,
+2020-03-29,Indiana,Daviess County,-40,-5,,,-25,8
+2020-03-29,Indiana,DeKalb County,-50,-18,,,-34,22
+2020-03-29,Indiana,Dearborn County,-35,-11,,,-42,22
+2020-03-29,Indiana,Decatur County,-45,-26,,-35,-43,11
+2020-03-29,Indiana,Delaware County,-52,-28,,1,-36,10
+2020-03-29,Indiana,Dubois County,-40,-19,,,-29,21
+2020-03-29,Indiana,Elkhart County,-43,-35,18,-19,-35,10
+2020-03-29,Indiana,Fayette County,-32,-21,,,-35,6
+2020-03-29,Indiana,Floyd County,-39,-21,,,-38,21
+2020-03-29,Indiana,Fountain County,-65,-10,,,-36,
+2020-03-29,Indiana,Franklin County,-38,-28,,,-36,
+2020-03-29,Indiana,Fulton County,-33,-19,,-54,-31,
+2020-03-29,Indiana,Gibson County,-35,-19,,-29,-29,11
+2020-03-29,Indiana,Grant County,-46,-17,,-13,-22,17
+2020-03-29,Indiana,Greene County,-33,-23,,,-29,5
+2020-03-29,Indiana,Hamilton County,-58,-31,38,,-47,13
+2020-03-29,Indiana,Hancock County,-46,9,,-12,-38,24
+2020-03-29,Indiana,Harrison County,-44,-8,,,-30,20
+2020-03-29,Indiana,Hendricks County,-47,-26,-13,-19,-39,12
+2020-03-29,Indiana,Henry County,-32,-19,,-28,-31,21
+2020-03-29,Indiana,Howard County,-56,-36,,,-47,14
+2020-03-29,Indiana,Huntington County,-47,-29,,-46,-34,21
+2020-03-29,Indiana,Jackson County,-24,-55,,-6,-41,22
+2020-03-29,Indiana,Jasper County,-44,-24,,-22,-33,15
+2020-03-29,Indiana,Jay County,-40,-35,,,-22,
+2020-03-29,Indiana,Jefferson County,-37,-1,,,-23,14
+2020-03-29,Indiana,Jennings County,-26,-11,,,-37,12
+2020-03-29,Indiana,Johnson County,-51,-22,-5,-24,-37,11
+2020-03-29,Indiana,Knox County,-44,-15,,,-31,14
+2020-03-29,Indiana,Kosciusko County,-52,-24,,,-33,23
+2020-03-29,Indiana,LaGrange County,-70,-25,-46,-32,-36,9
+2020-03-29,Indiana,LaPorte County,-49,-24,-23,-43,-32,10
+2020-03-29,Indiana,Lake County,-52,-27,-18,-25,-38,13
+2020-03-29,Indiana,Lawrence County,-41,-23,,,-34,17
+2020-03-29,Indiana,Madison County,-44,-12,,-27,-35,10
+2020-03-29,Indiana,Marion County,-52,-27,17,-49,-38,11
+2020-03-29,Indiana,Marshall County,-48,-19,,-26,-25,21
+2020-03-29,Indiana,Martin County,-40,-4,,,-36,
+2020-03-29,Indiana,Miami County,-43,-27,,,-39,16
+2020-03-29,Indiana,Monroe County,-53,-33,39,-40,-42,12
+2020-03-29,Indiana,Montgomery County,-40,-25,,-35,-31,16
+2020-03-29,Indiana,Morgan County,-39,-12,,,-32,20
+2020-03-29,Indiana,Newton County,-45,,,,-27,
+2020-03-29,Indiana,Noble County,-42,-26,,,-42,23
+2020-03-29,Indiana,Ohio County,,,,,-53,
+2020-03-29,Indiana,Orange County,-41,-19,,,-45,
+2020-03-29,Indiana,Owen County,-30,-21,,,-29,
+2020-03-29,Indiana,Parke County,-44,-2,,,-37,
+2020-03-29,Indiana,Perry County,-59,-4,,,-45,
+2020-03-29,Indiana,Pike County,-54,-7,,,-39,
+2020-03-29,Indiana,Porter County,-54,-28,20,-39,-34,13
+2020-03-29,Indiana,Posey County,-25,6,,,-22,-1
+2020-03-29,Indiana,Pulaski County,-33,-23,,,-34,
+2020-03-29,Indiana,Putnam County,-45,-31,,,-26,11
+2020-03-29,Indiana,Randolph County,-24,-14,,,-28,8
+2020-03-29,Indiana,Ripley County,-46,-18,,,-27,0
+2020-03-29,Indiana,Rush County,-44,-11,,,-35,
+2020-03-29,Indiana,Scott County,-30,-8,,,-33,3
+2020-03-29,Indiana,Shelby County,-46,-18,,-43,-32,21
+2020-03-29,Indiana,Spencer County,-45,15,,,-24,
+2020-03-29,Indiana,St. Joseph County,-53,-26,-17,-37,-35,11
+2020-03-29,Indiana,Starke County,-50,-10,,,-25,
+2020-03-29,Indiana,Steuben County,-49,-32,,-29,-37,19
+2020-03-29,Indiana,Sullivan County,-38,-17,,,-20,
+2020-03-29,Indiana,Switzerland County,,-34,,,-44,
+2020-03-29,Indiana,Tippecanoe County,-57,-37,5,-27,-41,12
+2020-03-29,Indiana,Tipton County,-46,-22,,,-33,
+2020-03-29,Indiana,Union County,-55,,,,-39,
+2020-03-29,Indiana,Vanderburgh County,-41,-16,-16,-53,-29,10
+2020-03-29,Indiana,Vermillion County,-34,4,,-32,-20,
+2020-03-29,Indiana,Vigo County,-47,-24,-12,-9,-36,9
+2020-03-29,Indiana,Wabash County,-50,-36,,,-26,8
+2020-03-29,Indiana,Warren County,,,,,-32,
+2020-03-29,Indiana,Warrick County,-23,-1,,,-30,22
+2020-03-29,Indiana,Washington County,-27,-22,,,-25,11
+2020-03-29,Indiana,Wayne County,-48,-30,,-18,-32,12
+2020-03-29,Indiana,Wells County,-35,-12,,,-29,11
+2020-03-29,Indiana,White County,-38,-12,,-22,-39,6
+2020-03-29,Indiana,Whitley County,-45,-34,,,-32,22
+2020-03-29,Iowa,Total,-43,-10,41,-28,-29,10
+2020-03-29,Iowa,Adair County,-46,-3,,,-33,
+2020-03-29,Iowa,Allamakee County,-57,-27,,,-22,
+2020-03-29,Iowa,Appanoose County,-21,26,,,-24,
+2020-03-29,Iowa,Audubon County,,,,,-28,
+2020-03-29,Iowa,Benton County,-54,-10,,,-33,8
+2020-03-29,Iowa,Black Hawk County,-46,-23,11,-14,-30,10
+2020-03-29,Iowa,Boone County,-32,-21,,,-22,14
+2020-03-29,Iowa,Bremer County,-36,-24,,,-34,-1
+2020-03-29,Iowa,Buchanan County,-39,-13,,,-23,
+2020-03-29,Iowa,Buena Vista County,-28,-6,,,-13,
+2020-03-29,Iowa,Butler County,,-15,,,-30,
+2020-03-29,Iowa,Calhoun County,,-12,,,-29,
+2020-03-29,Iowa,Carroll County,-34,-4,,,-29,
+2020-03-29,Iowa,Cass County,-23,-6,,,-16,
+2020-03-29,Iowa,Cedar County,-44,-23,,14,-18,
+2020-03-29,Iowa,Cerro Gordo County,-46,-13,,-44,-29,17
+2020-03-29,Iowa,Cherokee County,-75,,,,-20,
+2020-03-29,Iowa,Chickasaw County,-56,-28,,,-25,
+2020-03-29,Iowa,Clarke County,-30,,,-29,-17,
+2020-03-29,Iowa,Clay County,-27,-18,,,-17,
+2020-03-29,Iowa,Clayton County,-61,-12,,,-19,
+2020-03-29,Iowa,Clinton County,-41,18,,,-24,16
+2020-03-29,Iowa,Crawford County,-34,,,,-23,
+2020-03-29,Iowa,Dallas County,-60,-40,,,-34,25
+2020-03-29,Iowa,Davis County,-64,,,,-21,
+2020-03-29,Iowa,Decatur County,,,,,-25,
+2020-03-29,Iowa,Delaware County,-40,-20,,,-22,
+2020-03-29,Iowa,Des Moines County,-40,-7,,-32,-24,14
+2020-03-29,Iowa,Dickinson County,-29,-2,-50,,-20,
+2020-03-29,Iowa,Dubuque County,-53,-9,-25,-63,-34,15
+2020-03-29,Iowa,Emmet County,-42,11,,,-32,
+2020-03-29,Iowa,Fayette County,-36,-11,,,-20,
+2020-03-29,Iowa,Floyd County,-40,-21,,-9,-16,
+2020-03-29,Iowa,Franklin County,-47,-16,,,-25,
+2020-03-29,Iowa,Fremont County,-65,-9,,-16,-15,
+2020-03-29,Iowa,Greene County,-51,2,,,-31,
+2020-03-29,Iowa,Grundy County,-70,-33,,,-29,
+2020-03-29,Iowa,Guthrie County,,,,,-34,
+2020-03-29,Iowa,Hamilton County,-27,-6,,-39,-6,
+2020-03-29,Iowa,Hancock County,,-22,,,-34,
+2020-03-29,Iowa,Hardin County,-52,15,,,-25,
+2020-03-29,Iowa,Harrison County,-26,0,,,-19,
+2020-03-29,Iowa,Henry County,-28,-17,,-17,-30,
+2020-03-29,Iowa,Howard County,-69,-5,,,-21,
+2020-03-29,Iowa,Humboldt County,-45,-7,,,-32,
+2020-03-29,Iowa,Ida County,-57,,,,-22,
+2020-03-29,Iowa,Iowa County,-80,-9,,,-41,
+2020-03-29,Iowa,Jackson County,-37,-10,,,-24,
+2020-03-29,Iowa,Jasper County,-40,60,,5,-22,11
+2020-03-29,Iowa,Jefferson County,-40,,,,-34,
+2020-03-29,Iowa,Johnson County,-58,-36,-6,-24,-36,13
+2020-03-29,Iowa,Jones County,-43,4,,,-30,
+2020-03-29,Iowa,Keokuk County,-66,,,,-21,
+2020-03-29,Iowa,Kossuth County,-70,47,,,-21,
+2020-03-29,Iowa,Lee County,-24,-13,,,-14,14
+2020-03-29,Iowa,Linn County,-52,-7,2,-55,-36,11
+2020-03-29,Iowa,Louisa County,,,,,-18,
+2020-03-29,Iowa,Lucas County,-59,6,,,-16,
+2020-03-29,Iowa,Lyon County,-66,,,,-24,
+2020-03-29,Iowa,Madison County,-53,33,,,-25,
+2020-03-29,Iowa,Mahaska County,-31,,,,-22,
+2020-03-29,Iowa,Marion County,-17,26,,,-19,13
+2020-03-29,Iowa,Marshall County,-36,-15,,,-29,14
+2020-03-29,Iowa,Mills County,-6,,,,-20,
+2020-03-29,Iowa,Mitchell County,-73,,,,-28,
+2020-03-29,Iowa,Monona County,-35,,,,-30,
+2020-03-29,Iowa,Monroe County,-51,,,,-26,
+2020-03-29,Iowa,Montgomery County,-56,2,,,-23,
+2020-03-29,Iowa,Muscatine County,-42,33,,,-28,16
+2020-03-29,Iowa,O'Brien County,-22,-6,,,-4,
+2020-03-29,Iowa,Osceola County,,,,,-25,
+2020-03-29,Iowa,Page County,-35,,,,-22,
+2020-03-29,Iowa,Palo Alto County,-73,-55,,,-30,
+2020-03-29,Iowa,Plymouth County,-26,6,,,-30,8
+2020-03-29,Iowa,Pocahontas County,,,,,-26,
+2020-03-29,Iowa,Polk County,-44,-9,66,-45,-34,10
+2020-03-29,Iowa,Pottawattamie County,-33,2,14,-4,-30,7
+2020-03-29,Iowa,Poweshiek County,-36,-15,,-18,-28,
+2020-03-29,Iowa,Sac County,,,,,-22,
+2020-03-29,Iowa,Scott County,-50,-22,-1,-24,-31,11
+2020-03-29,Iowa,Shelby County,-17,-5,,,-25,
+2020-03-29,Iowa,Sioux County,-25,4,,,-23,19
+2020-03-29,Iowa,Story County,-50,-29,,-38,-43,22
+2020-03-29,Iowa,Tama County,-44,-18,,,-36,
+2020-03-29,Iowa,Taylor County,,,,,-18,
+2020-03-29,Iowa,Union County,-14,,,,-29,
+2020-03-29,Iowa,Van Buren County,,-7,,,-13,
+2020-03-29,Iowa,Wapello County,-33,8,,,-18,10
+2020-03-29,Iowa,Warren County,-28,-13,,,-32,15
+2020-03-29,Iowa,Washington County,-41,-19,,,-30,-3
+2020-03-29,Iowa,Wayne County,,,,,-25,
+2020-03-29,Iowa,Webster County,-33,22,,,-24,15
+2020-03-29,Iowa,Winnebago County,-53,-18,,,-36,
+2020-03-29,Iowa,Winneshiek County,-56,-33,,,-33,
+2020-03-29,Iowa,Woodbury County,-34,-3,,-13,-26,8
+2020-03-29,Iowa,Worth County,,-42,,,-31,
+2020-03-29,Iowa,Wright County,-57,-4,,,-8,
+2020-03-29,Kansas,Total,-36,-14,72,-20,-30,9
+2020-03-29,Kansas,Allen County,-19,-2,,,-14,
+2020-03-29,Kansas,Anderson County,-18,,,,-27,
+2020-03-29,Kansas,Atchison County,-24,,,,-27,
+2020-03-29,Kansas,Barton County,-12,3,,,-15,-1
+2020-03-29,Kansas,Bourbon County,-38,-21,,,-29,
+2020-03-29,Kansas,Brown County,8,0,,,-20,
+2020-03-29,Kansas,Butler County,-19,-11,-46,,-25,15
+2020-03-29,Kansas,Cherokee County,5,16,,,-23,-4
+2020-03-29,Kansas,Clay County,-16,-22,,,-27,
+2020-03-29,Kansas,Cloud County,-27,,,,-20,
+2020-03-29,Kansas,Coffey County,-67,-24,,-29,-35,
+2020-03-29,Kansas,Cowley County,-17,5,,,-28,12
+2020-03-29,Kansas,Crawford County,-42,-29,,,-22,15
+2020-03-29,Kansas,Dickinson County,-29,-4,,-9,-24,
+2020-03-29,Kansas,Doniphan County,,,,,-24,
+2020-03-29,Kansas,Douglas County,-50,-20,88,-26,-38,11
+2020-03-29,Kansas,Ellis County,-34,-19,,-17,-14,-1
+2020-03-29,Kansas,Ellsworth County,,,,,-16,
+2020-03-29,Kansas,Finney County,-24,2,,-24,-15,12
+2020-03-29,Kansas,Ford County,-21,-1,,-8,-16,11
+2020-03-29,Kansas,Franklin County,-30,-27,,-17,-20,15
+2020-03-29,Kansas,Geary County,-38,-18,,,-33,15
+2020-03-29,Kansas,Grant County,-20,,,,-14,
+2020-03-29,Kansas,Greenwood County,,,,,-27,
+2020-03-29,Kansas,Harper County,-61,,,,,
+2020-03-29,Kansas,Harvey County,-13,-1,,-38,-31,14
+2020-03-29,Kansas,Jackson County,-24,-33,,,-35,
+2020-03-29,Kansas,Jefferson County,-62,13,,,-31,
+2020-03-29,Kansas,Johnson County,-42,-24,192,-20,-40,12
+2020-03-29,Kansas,Kingman County,-51,,,,-28,
+2020-03-29,Kansas,Labette County,-13,0,,,-6,
+2020-03-29,Kansas,Leavenworth County,-30,-19,,-43,-32,17
+2020-03-29,Kansas,Linn County,,,,,-17,
+2020-03-29,Kansas,Lyon County,-41,-27,,-31,-23,15
+2020-03-29,Kansas,Marion County,-32,,,,-28,
+2020-03-29,Kansas,Marshall County,-15,,,,-13,
+2020-03-29,Kansas,McPherson County,-32,-9,,-16,-26,13
+2020-03-29,Kansas,Miami County,-19,-16,,,-28,16
+2020-03-29,Kansas,Mitchell County,-73,,,,-24,
+2020-03-29,Kansas,Montgomery County,-8,13,,,1,9
+2020-03-29,Kansas,Morris County,,,,,-29,
+2020-03-29,Kansas,Nemaha County,-40,,,,-15,
+2020-03-29,Kansas,Neosho County,-11,15,,-22,-18,
+2020-03-29,Kansas,Osage County,-51,-7,,,-12,
+2020-03-29,Kansas,Ottawa County,,,,,-24,
+2020-03-29,Kansas,Pawnee County,-22,2,,,-26,
+2020-03-29,Kansas,Pottawatomie County,-37,-26,,,-31,2
+2020-03-29,Kansas,Pratt County,-8,-2,,,-20,
+2020-03-29,Kansas,Reno County,-28,-11,,-16,-25,10
+2020-03-29,Kansas,Rice County,-26,10,,,-27,
+2020-03-29,Kansas,Riley County,-58,-34,-50,,-38,20
+2020-03-29,Kansas,Russell County,-66,-2,,,-17,
+2020-03-29,Kansas,Saline County,-27,-16,-7,-11,-21,11
+2020-03-29,Kansas,Scott County,-53,,,,-19,
+2020-03-29,Kansas,Sedgwick County,-38,-16,76,-37,-34,9
+2020-03-29,Kansas,Seward County,-24,-1,,-11,-14,-1
+2020-03-29,Kansas,Shawnee County,-37,-16,55,13,-30,10
+2020-03-29,Kansas,Sherman County,-18,,,,,
+2020-03-29,Kansas,Stevens County,-62,,,,,
+2020-03-29,Kansas,Sumner County,-26,10,,,-30,1
+2020-03-29,Kansas,Thomas County,-31,,,-2,-25,
+2020-03-29,Kansas,Trego County,,-14,,,,
+2020-03-29,Kansas,Wabaunsee County,,,,,-32,
+2020-03-29,Kansas,Washington County,,,,,-16,
+2020-03-29,Kansas,Wilson County,-18,2,,,-26,
+2020-03-29,Kansas,Wyandotte County,-43,-10,53,-5,-33,9
+2020-03-29,Kentucky,Total,-37,-11,68,-34,-34,9
+2020-03-29,Kentucky,Adair County,-22,-16,,,-39,
+2020-03-29,Kentucky,Allen County,-17,0,,,-24,
+2020-03-29,Kentucky,Anderson County,-26,-5,,,-27,-1
+2020-03-29,Kentucky,Ballard County,,,,,-24,
+2020-03-29,Kentucky,Barren County,-31,-9,,,-28,7
+2020-03-29,Kentucky,Bath County,,-9,,,-34,
+2020-03-29,Kentucky,Bell County,-28,-12,,,-25,
+2020-03-29,Kentucky,Boone County,-44,-16,53,-54,-37,9
+2020-03-29,Kentucky,Bourbon County,-19,-25,,,-29,
+2020-03-29,Kentucky,Boyd County,-44,-11,,-18,-27,15
+2020-03-29,Kentucky,Boyle County,-40,-15,,,-38,
+2020-03-29,Kentucky,Bracken County,,,,,-33,
+2020-03-29,Kentucky,Breathitt County,-14,,,,-33,
+2020-03-29,Kentucky,Breckinridge County,-7,7,,,-21,
+2020-03-29,Kentucky,Bullitt County,-36,-10,,-26,-35,18
+2020-03-29,Kentucky,Butler County,-39,4,,,-33,
+2020-03-29,Kentucky,Caldwell County,-20,10,,,-30,
+2020-03-29,Kentucky,Calloway County,-39,-10,,,-34,10
+2020-03-29,Kentucky,Campbell County,-42,-4,,,-38,13
+2020-03-29,Kentucky,Carroll County,-20,-18,,,-9,
+2020-03-29,Kentucky,Carter County,-26,-6,,-13,-15,
+2020-03-29,Kentucky,Casey County,0,5,,,-38,
+2020-03-29,Kentucky,Christian County,-21,-11,,-17,-36,16
+2020-03-29,Kentucky,Clark County,-27,-8,,,-34,12
+2020-03-29,Kentucky,Clay County,-2,-12,,,-24,
+2020-03-29,Kentucky,Clinton County,,,,,-29,
+2020-03-29,Kentucky,Crittenden County,-37,-2,,,-25,
+2020-03-29,Kentucky,Daviess County,-43,-16,39,,-28,8
+2020-03-29,Kentucky,Edmonson County,,,,,-35,
+2020-03-29,Kentucky,Estill County,-26,-11,,,-34,
+2020-03-29,Kentucky,Fayette County,-45,-12,57,-46,-39,10
+2020-03-29,Kentucky,Fleming County,-10,0,,,-39,
+2020-03-29,Kentucky,Floyd County,-22,-6,,,-25,
+2020-03-29,Kentucky,Franklin County,-32,-15,,,-36,18
+2020-03-29,Kentucky,Fulton County,-16,-12,,,-22,
+2020-03-29,Kentucky,Gallatin County,-6,58,,-89,-34,
+2020-03-29,Kentucky,Garrard County,-49,9,,,-34,
+2020-03-29,Kentucky,Grant County,-27,-10,,,-42,1
+2020-03-29,Kentucky,Graves County,-21,-6,,,-32,10
+2020-03-29,Kentucky,Grayson County,-13,8,,,-36,
+2020-03-29,Kentucky,Green County,,,,,-30,
+2020-03-29,Kentucky,Greenup County,-33,-5,,,-23,1
+2020-03-29,Kentucky,Hancock County,,,,,-32,
+2020-03-29,Kentucky,Hardin County,-39,-16,,-34,-38,8
+2020-03-29,Kentucky,Harlan County,-14,3,,,-4,
+2020-03-29,Kentucky,Harrison County,86,-49,,,-33,
+2020-03-29,Kentucky,Hart County,10,3,,-15,-30,
+2020-03-29,Kentucky,Henderson County,-21,23,,,-30,16
+2020-03-29,Kentucky,Henry County,-35,1,,-26,-42,
+2020-03-29,Kentucky,Hopkins County,-35,-18,,-37,-31,15
+2020-03-29,Kentucky,Jackson County,,,,,-38,
+2020-03-29,Kentucky,Jefferson County,-44,-10,83,-37,-38,10
+2020-03-29,Kentucky,Jessamine County,-38,-24,,-7,-39,17
+2020-03-29,Kentucky,Johnson County,-22,-17,,,-22,
+2020-03-29,Kentucky,Kenton County,-35,-8,108,-2,-35,10
+2020-03-29,Kentucky,Knott County,,,,,-35,
+2020-03-29,Kentucky,Knox County,-20,-15,,,-24,
+2020-03-29,Kentucky,Larue County,-26,-5,,,-28,
+2020-03-29,Kentucky,Laurel County,-36,-14,61,-22,-30,14
+2020-03-29,Kentucky,Lawrence County,-28,-33,,,-20,
+2020-03-29,Kentucky,Letcher County,-12,-11,,,-32,
+2020-03-29,Kentucky,Lewis County,,-14,,,-22,
+2020-03-29,Kentucky,Lincoln County,-12,16,,,-29,
+2020-03-29,Kentucky,Livingston County,,4,,,-34,
+2020-03-29,Kentucky,Logan County,-16,-5,,,-23,
+2020-03-29,Kentucky,Lyon County,-33,,,,-29,
+2020-03-29,Kentucky,Madison County,-40,-15,,-8,-41,8
+2020-03-29,Kentucky,Marion County,-12,-4,,,-34,
+2020-03-29,Kentucky,Marshall County,-24,7,,-16,-30,9
+2020-03-29,Kentucky,Mason County,-23,,,,-20,
+2020-03-29,Kentucky,McCracken County,-40,-13,-24,-15,-34,16
+2020-03-29,Kentucky,McCreary County,-21,5,,,-33,
+2020-03-29,Kentucky,McLean County,,,,,-27,
+2020-03-29,Kentucky,Meade County,-26,4,,,-29,8
+2020-03-29,Kentucky,Menifee County,,,,,-38,
+2020-03-29,Kentucky,Mercer County,-25,-9,,,-28,
+2020-03-29,Kentucky,Metcalfe County,,-16,,,-36,
+2020-03-29,Kentucky,Monroe County,-16,,,,-33,
+2020-03-29,Kentucky,Montgomery County,-28,-3,,-8,-23,-3
+2020-03-29,Kentucky,Morgan County,-59,,,,-34,
+2020-03-29,Kentucky,Muhlenberg County,-26,-2,,,-30,
+2020-03-29,Kentucky,Nelson County,-29,-15,,,-35,17
+2020-03-29,Kentucky,Nicholas County,,,,,-43,
+2020-03-29,Kentucky,Ohio County,-18,8,,-34,-27,
+2020-03-29,Kentucky,Oldham County,-36,-6,,,-41,24
+2020-03-29,Kentucky,Owen County,,,,,-41,
+2020-03-29,Kentucky,Pendleton County,-4,-19,,,-35,
+2020-03-29,Kentucky,Perry County,-30,-12,,,-18,
+2020-03-29,Kentucky,Pike County,-35,-12,,,-25,
+2020-03-29,Kentucky,Powell County,1,-4,,,-37,
+2020-03-29,Kentucky,Pulaski County,-34,-22,,,-36,15
+2020-03-29,Kentucky,Rockcastle County,-53,-21,,,-24,
+2020-03-29,Kentucky,Rowan County,-26,1,,,-28,
+2020-03-29,Kentucky,Russell County,-22,10,,,-32,
+2020-03-29,Kentucky,Scott County,-38,-23,,-25,-42,23
+2020-03-29,Kentucky,Shelby County,-38,-4,,-35,-45,18
+2020-03-29,Kentucky,Simpson County,-22,-8,,-25,-31,
+2020-03-29,Kentucky,Spencer County,-25,6,,,-40,
+2020-03-29,Kentucky,Taylor County,-33,-5,,,-22,
+2020-03-29,Kentucky,Todd County,-48,0,,,-32,
+2020-03-29,Kentucky,Trigg County,-27,-2,,,-35,
+2020-03-29,Kentucky,Trimble County,,,,,-36,
+2020-03-29,Kentucky,Union County,-19,-10,,,-44,
+2020-03-29,Kentucky,Warren County,-42,-23,-26,-22,-37,10
+2020-03-29,Kentucky,Washington County,-33,,,,-44,
+2020-03-29,Kentucky,Wayne County,-8,-21,,,-29,
+2020-03-29,Kentucky,Webster County,,-8,,,-25,
+2020-03-29,Kentucky,Whitley County,-33,3,,-4,-26,-3
+2020-03-29,Kentucky,Woodford County,-33,-17,,,-30,
+2020-03-29,Louisiana,Total,-45,-16,-18,-49,-35,11
+2020-03-29,Louisiana,Acadia Parish,-24,-5,,-36,-21,15
+2020-03-29,Louisiana,Allen Parish,-34,-19,,,-33,
+2020-03-29,Louisiana,Ascension Parish,-45,-21,,,-34,15
+2020-03-29,Louisiana,Assumption Parish,,-8,,,-36,
+2020-03-29,Louisiana,Avoyelles Parish,-24,-8,,,-32,-2
+2020-03-29,Louisiana,Beauregard Parish,-29,-10,,,-31,3
+2020-03-29,Louisiana,Bienville Parish,-41,-15,,,-32,
+2020-03-29,Louisiana,Bossier Parish,-49,-19,4,-30,-37,12
+2020-03-29,Louisiana,Caddo Parish,-36,-9,-14,-31,-32,10
+2020-03-29,Louisiana,Calcasieu Parish,-40,-19,-6,-38,-34,11
+2020-03-29,Louisiana,Caldwell Parish,-25,,,,-29,
+2020-03-29,Louisiana,Cameron Parish,,10,,,-17,
+2020-03-29,Louisiana,Catahoula Parish,-64,-20,,,-38,
+2020-03-29,Louisiana,Claiborne Parish,-49,-18,,,-31,
+2020-03-29,Louisiana,Concordia Parish,-23,-16,,,-20,
+2020-03-29,Louisiana,De Soto Parish,-13,-16,,-35,-24,
+2020-03-29,Louisiana,East Baton Rouge Parish,-48,-16,-26,-44,-34,12
+2020-03-29,Louisiana,East Feliciana Parish,-23,-9,,,-35,
+2020-03-29,Louisiana,Evangeline Parish,-16,-4,,,-25,
+2020-03-29,Louisiana,Franklin Parish,-28,-8,,,-22,
+2020-03-29,Louisiana,Grant Parish,,-13,,,-20,
+2020-03-29,Louisiana,Iberia Parish,-26,-11,-30,,-23,16
+2020-03-29,Louisiana,Iberville Parish,-29,-4,,-43,-30,
+2020-03-29,Louisiana,Jackson Parish,-19,-8,,,-30,
+2020-03-29,Louisiana,Jefferson Davis Parish,-40,-12,,-47,-33,-1
+2020-03-29,Louisiana,Jefferson Parish,-49,-20,-1,-84,-44,14
+2020-03-29,Louisiana,La Salle Parish,-27,-9,,,-31,
+2020-03-29,Louisiana,Lafayette Parish,-44,-22,15,-42,-31,11
+2020-03-29,Louisiana,Lafourche Parish,-23,-13,,-36,-25,12
+2020-03-29,Louisiana,Lincoln Parish,-53,-26,,,-38,9
+2020-03-29,Louisiana,Livingston Parish,-40,-12,-13,-16,-32,10
+2020-03-29,Louisiana,Madison Parish,-17,-8,,-37,-20,
+2020-03-29,Louisiana,Morehouse Parish,-24,-8,,,-23,
+2020-03-29,Louisiana,Natchitoches Parish,-33,-24,,,-30,6
+2020-03-29,Louisiana,Orleans Parish,-71,-35,-55,-59,-54,16
+2020-03-29,Louisiana,Ouachita Parish,-41,-15,-24,-27,-29,9
+2020-03-29,Louisiana,Plaquemines Parish,-39,-21,-31,,-25,
+2020-03-29,Louisiana,Pointe Coupee Parish,-15,-12,,,-16,
+2020-03-29,Louisiana,Rapides Parish,-40,-15,-2,-55,-30,10
+2020-03-29,Louisiana,Red River Parish,-42,,,,-26,
+2020-03-29,Louisiana,Richland Parish,-24,-10,,-25,-16,
+2020-03-29,Louisiana,Sabine Parish,-16,-6,,,-23,
+2020-03-29,Louisiana,St. Bernard Parish,-31,1,-21,,-35,23
+2020-03-29,Louisiana,St. Charles Parish,-39,-13,,-18,-35,22
+2020-03-29,Louisiana,St. Helena Parish,,-20,,,-35,
+2020-03-29,Louisiana,St. James Parish,-46,-11,,,-17,
+2020-03-29,Louisiana,St. John the Baptist Parish,-34,-3,-67,-51,-37,22
+2020-03-29,Louisiana,St. Landry Parish,-28,-16,,-40,-28,14
+2020-03-29,Louisiana,St. Martin Parish,-34,-14,-10,-45,-29,19
+2020-03-29,Louisiana,St. Mary Parish,-31,-11,,-43,-33,15
+2020-03-29,Louisiana,St. Tammany Parish,-45,-19,3,-21,-35,11
+2020-03-29,Louisiana,Tangipahoa Parish,-35,-6,-20,-17,-32,10
+2020-03-29,Louisiana,Terrebonne Parish,-43,-12,25,-42,-32,9
+2020-03-29,Louisiana,Union Parish,-22,6,,,-31,
+2020-03-29,Louisiana,Vermilion Parish,-21,-3,,,-29,16
+2020-03-29,Louisiana,Vernon Parish,-32,-21,,,-34,19
+2020-03-29,Louisiana,Washington Parish,-21,-1,,,-20,2
+2020-03-29,Louisiana,Webster Parish,-27,-19,,-19,-31,13
+2020-03-29,Louisiana,West Baton Rouge Parish,-42,1,,-37,-36,
+2020-03-29,Louisiana,West Carroll Parish,-23,-29,,,-22,
+2020-03-29,Louisiana,West Feliciana Parish,-54,-19,,,-45,
+2020-03-29,Louisiana,Winn Parish,-25,0,,,-23,
+2020-03-29,Maine,Total,-50,-22,-24,-56,-31,10
+2020-03-29,Maine,Androscoggin County,-49,-21,-26,,-30,10
+2020-03-29,Maine,Aroostook County,-28,9,-4,,-18,16
+2020-03-29,Maine,Cumberland County,-60,-36,-38,-67,-37,13
+2020-03-29,Maine,Franklin County,-53,-21,,,-32,0
+2020-03-29,Maine,Hancock County,-35,-1,15,,-22,17
+2020-03-29,Maine,Kennebec County,-42,-19,-37,-53,-28,10
+2020-03-29,Maine,Knox County,-35,-24,,,-30,11
+2020-03-29,Maine,Lincoln County,-54,-15,,,-30,6
+2020-03-29,Maine,Oxford County,-53,-27,-55,,-38,18
+2020-03-29,Maine,Penobscot County,-45,-14,4,-29,-31,9
+2020-03-29,Maine,Piscataquis County,-62,-8,,,-14,
+2020-03-29,Maine,Sagadahoc County,-48,-11,,,-34,13
+2020-03-29,Maine,Somerset County,-29,-15,-9,,-22,17
+2020-03-29,Maine,Waldo County,-44,-20,,,-27,13
+2020-03-29,Maine,Washington County,-42,-8,,,-24,
+2020-03-29,Maine,York County,-55,-23,-48,-64,-36,12
+2020-03-29,Maryland,Total,-45,-25,29,-51,-39,13
+2020-03-29,Maryland,Allegany County,-39,-17,-8,-32,-31,16
+2020-03-29,Maryland,Anne Arundel County,-49,-31,33,-76,-42,13
+2020-03-29,Maryland,Baltimore,-44,-18,12,-34,-37,12
+2020-03-29,Maryland,Baltimore County,-46,-21,10,-39,-36,13
+2020-03-29,Maryland,Calvert County,-37,-33,33,,-39,23
+2020-03-29,Maryland,Caroline County,-28,-21,,,-28,15
+2020-03-29,Maryland,Carroll County,-43,-35,10,-50,-34,12
+2020-03-29,Maryland,Cecil County,-34,-32,-34,-57,-30,10
+2020-03-29,Maryland,Charles County,-41,-18,-42,-28,-39,13
+2020-03-29,Maryland,Dorchester County,-29,-6,,,-28,12
+2020-03-29,Maryland,Frederick County,-49,-30,19,-35,-38,13
+2020-03-29,Maryland,Garrett County,-37,-20,,-17,-37,-1
+2020-03-29,Maryland,Harford County,-43,-30,50,-62,-32,12
+2020-03-29,Maryland,Howard County,-57,-45,7,-30,-47,16
+2020-03-29,Maryland,Kent County,-43,-14,,,-33,
+2020-03-29,Maryland,Montgomery County,-51,-30,44,-50,-45,16
+2020-03-29,Maryland,Prince George's County,-40,-26,37,-50,-40,14
+2020-03-29,Maryland,Queen Anne's County,-57,-33,-36,,-40,21
+2020-03-29,Maryland,Somerset County,-41,-7,,,-36,
+2020-03-29,Maryland,St. Mary's County,-40,-19,32,,-34,14
+2020-03-29,Maryland,Talbot County,-42,-23,,,-38,8
+2020-03-29,Maryland,Washington County,-42,-20,28,-22,-32,10
+2020-03-29,Maryland,Wicomico County,-46,-23,,-58,-34,10
+2020-03-29,Maryland,Worcester County,-47,-21,-24,,-39,16
+2020-03-29,Massachusetts,Total,-59,-36,-56,-73,-42,16
+2020-03-29,Massachusetts,Barnstable County,-57,-28,-38,-67,-41,13
+2020-03-29,Massachusetts,Berkshire County,-49,-31,-36,-68,-35,12
+2020-03-29,Massachusetts,Bristol County,-54,-32,-44,-54,-35,13
+2020-03-29,Massachusetts,Dukes County,-79,-41,,-53,-51,
+2020-03-29,Massachusetts,Essex County,-58,-39,-53,-60,-44,16
+2020-03-29,Massachusetts,Franklin County,-58,-40,-37,-39,-37,22
+2020-03-29,Massachusetts,Hampden County,-54,-28,-46,-56,-37,12
+2020-03-29,Massachusetts,Hampshire County,-60,-39,-45,-65,-43,15
+2020-03-29,Massachusetts,Middlesex County,-64,-41,-62,-73,-46,18
+2020-03-29,Massachusetts,Nantucket County,-70,-38,,,-54,
+2020-03-29,Massachusetts,Norfolk County,-63,-37,-57,-61,-44,17
+2020-03-29,Massachusetts,Plymouth County,-57,-32,-34,-54,-37,14
+2020-03-29,Massachusetts,Suffolk County,-71,-41,-68,-79,-51,18
+2020-03-29,Massachusetts,Worcester County,-55,-36,-60,-66,-38,14
+2020-03-29,Michigan,Total,-58,-28,15,-55,-43,12
+2020-03-29,Michigan,Alcona County,1,,,,-45,
+2020-03-29,Michigan,Alger County,-79,-57,-54,,-56,
+2020-03-29,Michigan,Allegan County,-49,-17,-21,-36,-39,12
+2020-03-29,Michigan,Alpena County,-43,-17,,,-31,3
+2020-03-29,Michigan,Antrim County,-75,-20,,,-43,
+2020-03-29,Michigan,Arenac County,-41,-9,,,-36,
+2020-03-29,Michigan,Baraga County,,-44,,,-57,
+2020-03-29,Michigan,Barry County,-55,-9,,,-40,25
+2020-03-29,Michigan,Bay County,-55,-25,-23,,-37,11
+2020-03-29,Michigan,Benzie County,-44,-7,,,-39,
+2020-03-29,Michigan,Berrien County,-50,-22,31,-37,-38,11
+2020-03-29,Michigan,Branch County,-52,-36,,,-28,22
+2020-03-29,Michigan,Calhoun County,-53,-24,-13,-30,-42,11
+2020-03-29,Michigan,Cass County,-55,-15,,,-38,22
+2020-03-29,Michigan,Charlevoix County,-54,-20,-34,,-40,
+2020-03-29,Michigan,Cheboygan County,-45,-14,,,-37,
+2020-03-29,Michigan,Chippewa County,-63,-3,-47,,-44,2
+2020-03-29,Michigan,Clare County,-61,-17,,,-35,9
+2020-03-29,Michigan,Clinton County,-59,-36,,-54,-38,28
+2020-03-29,Michigan,Crawford County,-55,-40,,,-39,
+2020-03-29,Michigan,Delta County,-47,-24,,,-29,9
+2020-03-29,Michigan,Dickinson County,-38,-13,,,-27,0
+2020-03-29,Michigan,Eaton County,-59,-35,,,-38,12
+2020-03-29,Michigan,Emmet County,-60,-32,,,-49,1
+2020-03-29,Michigan,Genesee County,-55,-25,6,-48,-45,12
+2020-03-29,Michigan,Gladwin County,-77,-6,,,-41,0
+2020-03-29,Michigan,Gogebic County,-53,-35,,,-45,
+2020-03-29,Michigan,Grand Traverse County,-60,-30,-8,-69,-43,15
+2020-03-29,Michigan,Gratiot County,-50,-31,,,-32,21
+2020-03-29,Michigan,Hillsdale County,-48,-22,,,-38,24
+2020-03-29,Michigan,Houghton County,-61,-27,-59,,-44,3
+2020-03-29,Michigan,Huron County,-42,-5,,,-29,0
+2020-03-29,Michigan,Ingham County,-64,-31,13,-63,-41,14
+2020-03-29,Michigan,Ionia County,-52,-24,,-47,-39,24
+2020-03-29,Michigan,Iosco County,-42,-5,,,-39,
+2020-03-29,Michigan,Iron County,-58,-14,,,-39,
+2020-03-29,Michigan,Isabella County,-62,-36,,,-47,24
+2020-03-29,Michigan,Jackson County,-54,-23,-7,-41,-42,11
+2020-03-29,Michigan,Kalamazoo County,-61,-34,15,-56,-40,12
+2020-03-29,Michigan,Kalkaska County,-73,-11,,,-42,
+2020-03-29,Michigan,Kent County,-65,-31,-26,-68,-44,13
+2020-03-29,Michigan,Lake County,-56,5,,,-47,
+2020-03-29,Michigan,Lapeer County,-52,-30,-38,,-46,27
+2020-03-29,Michigan,Leelanau County,-67,-12,,,-49,
+2020-03-29,Michigan,Lenawee County,-55,-23,,,-42,11
+2020-03-29,Michigan,Livingston County,-65,-29,11,,-46,12
+2020-03-29,Michigan,Luce County,-67,,,,,
+2020-03-29,Michigan,Mackinac County,-71,-39,,,-52,
+2020-03-29,Michigan,Macomb County,-59,-30,106,-33,-48,13
+2020-03-29,Michigan,Manistee County,-71,-17,,,-40,
+2020-03-29,Michigan,Marquette County,-61,-39,-40,,-37,21
+2020-03-29,Michigan,Mason County,-48,-24,,,-43,7
+2020-03-29,Michigan,Mecosta County,-46,-18,,,-37,20
+2020-03-29,Michigan,Menominee County,-47,-35,,,-23,
+2020-03-29,Michigan,Midland County,-55,-27,-15,,-40,27
+2020-03-29,Michigan,Missaukee County,-44,,,,-39,
+2020-03-29,Michigan,Monroe County,-54,-30,52,-21,-34,11
+2020-03-29,Michigan,Montcalm County,-46,-17,,,-29,22
+2020-03-29,Michigan,Montmorency County,-54,-14,,,-40,
+2020-03-29,Michigan,Muskegon County,-52,-22,15,,-40,11
+2020-03-29,Michigan,Newaygo County,-49,-13,40,,-34,23
+2020-03-29,Michigan,Oakland County,-65,-35,31,-50,-50,14
+2020-03-29,Michigan,Oceana County,-69,-5,-26,,-35,-1
+2020-03-29,Michigan,Ogemaw County,-47,-14,,,-45,
+2020-03-29,Michigan,Ontonagon County,-46,,,,,
+2020-03-29,Michigan,Osceola County,-66,-5,,,-42,
+2020-03-29,Michigan,Oscoda County,-74,-12,,,-43,
+2020-03-29,Michigan,Otsego County,-58,-36,,,-41,-1
+2020-03-29,Michigan,Ottawa County,-57,-32,33,-20,-48,13
+2020-03-29,Michigan,Presque Isle County,-63,-19,,,-38,
+2020-03-29,Michigan,Roscommon County,-45,-9,-38,,-43,
+2020-03-29,Michigan,Saginaw County,-60,-24,-10,-61,-43,12
+2020-03-29,Michigan,Sanilac County,-38,-8,,,-39,12
+2020-03-29,Michigan,Schoolcraft County,-80,-37,-51,,-44,
+2020-03-29,Michigan,Shiawassee County,-51,-25,,,-34,24
+2020-03-29,Michigan,St. Clair County,-50,-30,38,-32,-37,11
+2020-03-29,Michigan,St. Joseph County,-44,-31,,,-39,23
+2020-03-29,Michigan,Tuscola County,-47,-19,,,-37,23
+2020-03-29,Michigan,Van Buren County,-43,-24,-9,,-30,23
+2020-03-29,Michigan,Washtenaw County,-65,-48,53,-49,-53,15
+2020-03-29,Michigan,Wayne County,-57,-25,24,-61,-45,13
+2020-03-29,Michigan,Wexford County,-52,-21,,,-37,12
+2020-03-29,Minnesota,Total,-58,-35,-16,-64,-38,14
+2020-03-29,Minnesota,Aitkin County,-63,-46,-65,,-41,
+2020-03-29,Minnesota,Anoka County,-55,-34,12,-45,-39,15
+2020-03-29,Minnesota,Becker County,-51,-21,,,-35,16
+2020-03-29,Minnesota,Beltrami County,-52,-29,4,,-36,18
+2020-03-29,Minnesota,Benton County,-58,-33,,,-31,18
+2020-03-29,Minnesota,Big Stone County,,,,,-35,
+2020-03-29,Minnesota,Blue Earth County,-65,-38,-40,,-35,20
+2020-03-29,Minnesota,Brown County,-31,-39,,,-19,9
+2020-03-29,Minnesota,Carlton County,-57,-45,,,-26,11
+2020-03-29,Minnesota,Carver County,-53,-39,-41,,-46,24
+2020-03-29,Minnesota,Cass County,-67,-22,-18,,-45,0
+2020-03-29,Minnesota,Chippewa County,-31,,,,-25,
+2020-03-29,Minnesota,Chisago County,-72,-41,-33,,-35,20
+2020-03-29,Minnesota,Clay County,-44,-25,,,-34,20
+2020-03-29,Minnesota,Clearwater County,-35,-34,,,-38,
+2020-03-29,Minnesota,Cook County,-78,-47,,,-46,
+2020-03-29,Minnesota,Cottonwood County,-74,,,,-24,
+2020-03-29,Minnesota,Crow Wing County,-55,-31,-33,,-37,16
+2020-03-29,Minnesota,Dakota County,-57,-37,-16,-43,-41,15
+2020-03-29,Minnesota,Dodge County,-71,-35,,,-30,4
+2020-03-29,Minnesota,Douglas County,-56,-38,-47,-20,-35,17
+2020-03-29,Minnesota,Faribault County,-59,-31,,,-18,
+2020-03-29,Minnesota,Fillmore County,-74,-25,,,-28,
+2020-03-29,Minnesota,Freeborn County,-47,-29,,-20,-32,15
+2020-03-29,Minnesota,Goodhue County,-49,-38,-20,,-39,18
+2020-03-29,Minnesota,Grant County,,,,,-23,
+2020-03-29,Minnesota,Hennepin County,-64,-37,-17,-74,-44,16
+2020-03-29,Minnesota,Houston County,-85,-30,,,-28,
+2020-03-29,Minnesota,Hubbard County,-45,-32,,,-44,
+2020-03-29,Minnesota,Isanti County,-53,-40,-36,,-32,17
+2020-03-29,Minnesota,Itasca County,-54,-29,,,-26,17
+2020-03-29,Minnesota,Jackson County,-77,,,,-27,
+2020-03-29,Minnesota,Kanabec County,-59,-39,,,-38,
+2020-03-29,Minnesota,Kandiyohi County,-51,-25,,,-29,16
+2020-03-29,Minnesota,Koochiching County,-44,-32,,,-29,
+2020-03-29,Minnesota,Lac qui Parle County,,,,,-20,
+2020-03-29,Minnesota,Lake County,-81,-48,-50,,-31,
+2020-03-29,Minnesota,Lake of the Woods County,-71,,,,,
+2020-03-29,Minnesota,Le Sueur County,-22,-22,,,-33,17
+2020-03-29,Minnesota,Lincoln County,,,,,-26,
+2020-03-29,Minnesota,Lyon County,-51,-33,,,-25,4
+2020-03-29,Minnesota,Mahnomen County,,,,,-52,
+2020-03-29,Minnesota,Marshall County,,,,,-29,
+2020-03-29,Minnesota,Martin County,-55,-27,,,-26,
+2020-03-29,Minnesota,McLeod County,-49,-31,,,-25,16
+2020-03-29,Minnesota,Meeker County,-40,-49,,,-32,3
+2020-03-29,Minnesota,Mille Lacs County,-49,-30,,,-39,11
+2020-03-29,Minnesota,Morrison County,-49,-37,-61,,-27,13
+2020-03-29,Minnesota,Mower County,-48,-37,,,-25,18
+2020-03-29,Minnesota,Murray County,-35,,,,-22,
+2020-03-29,Minnesota,Nicollet County,-64,-43,,,-33,20
+2020-03-29,Minnesota,Nobles County,-49,-20,,-45,-22,
+2020-03-29,Minnesota,Norman County,,,,,-23,
+2020-03-29,Minnesota,Olmsted County,-62,-35,-13,-57,-40,15
+2020-03-29,Minnesota,Otter Tail County,-45,-15,-2,,-30,15
+2020-03-29,Minnesota,Pennington County,-39,-21,,,-40,
+2020-03-29,Minnesota,Pine County,-56,-58,-47,,-53,10
+2020-03-29,Minnesota,Pipestone County,-64,-20,,,-26,
+2020-03-29,Minnesota,Polk County,-55,-28,,,-29,15
+2020-03-29,Minnesota,Pope County,-83,,,,-33,
+2020-03-29,Minnesota,Ramsey County,-64,-34,-29,-43,-42,15
+2020-03-29,Minnesota,Redwood County,-49,-2,,,-38,
+2020-03-29,Minnesota,Renville County,-50,,,,-22,
+2020-03-29,Minnesota,Rice County,-51,-28,-48,-43,-39,18
+2020-03-29,Minnesota,Rock County,-65,,,,-26,
+2020-03-29,Minnesota,Roseau County,-73,-26,,,-49,
+2020-03-29,Minnesota,Scott County,-55,-41,-19,,-42,15
+2020-03-29,Minnesota,Sherburne County,-50,-37,-42,,-38,20
+2020-03-29,Minnesota,Sibley County,-32,,,,-18,
+2020-03-29,Minnesota,St. Louis County,-64,-41,-35,-56,-37,14
+2020-03-29,Minnesota,Stearns County,-61,-37,-53,-62,-36,14
+2020-03-29,Minnesota,Steele County,-53,-27,-60,-44,-33,19
+2020-03-29,Minnesota,Stevens County,-63,-26,,,-28,
+2020-03-29,Minnesota,Swift County,-29,-27,,,-23,
+2020-03-29,Minnesota,Todd County,-46,-20,,,-28,3
+2020-03-29,Minnesota,Wabasha County,-75,-25,,,-28,
+2020-03-29,Minnesota,Wadena County,-46,-27,,,-28,
+2020-03-29,Minnesota,Waseca County,-40,-45,,,-21,
+2020-03-29,Minnesota,Washington County,-55,-39,-8,-38,-40,16
+2020-03-29,Minnesota,Watonwan County,-57,,,,-7,
+2020-03-29,Minnesota,Wilkin County,,,,,-28,
+2020-03-29,Minnesota,Winona County,-52,-35,,-49,-23,20
+2020-03-29,Minnesota,Wright County,-55,-37,-25,,-35,15
+2020-03-29,Minnesota,Yellow Medicine County,-23,,,,-26,
+2020-03-29,Mississippi,Total,-32,-7,27,-29,-30,9
+2020-03-29,Mississippi,Adams County,-33,-10,,,-34,
+2020-03-29,Mississippi,Alcorn County,-32,-9,,,-28,1
+2020-03-29,Mississippi,Amite County,-34,-13,,,-33,
+2020-03-29,Mississippi,Attala County,-10,11,,,-20,
+2020-03-29,Mississippi,Benton County,,,,,-23,
+2020-03-29,Mississippi,Bolivar County,-15,1,,,-24,
+2020-03-29,Mississippi,Calhoun County,-30,2,,,-32,
+2020-03-29,Mississippi,Carroll County,,,,,-33,
+2020-03-29,Mississippi,Chickasaw County,-18,-16,,,-35,
+2020-03-29,Mississippi,Claiborne County,-22,,,,-9,
+2020-03-29,Mississippi,Clarke County,-31,-10,,,-25,
+2020-03-29,Mississippi,Clay County,-24,8,,-34,-33,
+2020-03-29,Mississippi,Coahoma County,-19,18,,,-43,
+2020-03-29,Mississippi,Copiah County,-19,-2,,,-15,
+2020-03-29,Mississippi,Covington County,-32,-7,,,-29,
+2020-03-29,Mississippi,DeSoto County,-37,-7,50,-25,-34,10
+2020-03-29,Mississippi,Forrest County,-32,-8,,-27,-30,13
+2020-03-29,Mississippi,George County,-28,9,,,-28,
+2020-03-29,Mississippi,Greene County,,-10,,,-23,
+2020-03-29,Mississippi,Grenada County,-14,10,,,-15,
+2020-03-29,Mississippi,Hancock County,-22,-7,,,-40,16
+2020-03-29,Mississippi,Harrison County,-39,-13,51,-41,-44,10
+2020-03-29,Mississippi,Hinds County,-28,0,10,-9,-29,9
+2020-03-29,Mississippi,Holmes County,2,13,,,-30,
+2020-03-29,Mississippi,Humphreys County,,-9,,,-30,
+2020-03-29,Mississippi,Itawamba County,-33,14,,,-28,
+2020-03-29,Mississippi,Jackson County,-28,-9,19,-38,-38,10
+2020-03-29,Mississippi,Jasper County,-22,-3,,,-18,
+2020-03-29,Mississippi,Jefferson Davis County,,6,,,-34,
+2020-03-29,Mississippi,Jones County,-24,1,,,-28,11
+2020-03-29,Mississippi,Kemper County,,,,,-26,
+2020-03-29,Mississippi,Lafayette County,-46,-21,,,-35,10
+2020-03-29,Mississippi,Lamar County,-52,-11,,-44,-25,14
+2020-03-29,Mississippi,Lauderdale County,-38,-14,8,-29,-35,14
+2020-03-29,Mississippi,Lawrence County,,4,,,-30,
+2020-03-29,Mississippi,Leake County,-21,-23,,,-26,
+2020-03-29,Mississippi,Lee County,-46,-12,,-26,-33,19
+2020-03-29,Mississippi,Leflore County,-7,6,,,-15,
+2020-03-29,Mississippi,Lincoln County,-22,-13,,,-25,
+2020-03-29,Mississippi,Lowndes County,-33,8,,-39,-28,13
+2020-03-29,Mississippi,Madison County,-33,-11,45,-45,-37,21
+2020-03-29,Mississippi,Marion County,-17,-7,,,-15,
+2020-03-29,Mississippi,Marshall County,-14,4,,,-22,5
+2020-03-29,Mississippi,Monroe County,-46,-7,,,-31,0
+2020-03-29,Mississippi,Montgomery County,-50,-23,,-22,-17,
+2020-03-29,Mississippi,Neshoba County,-23,-7,,,-27,
+2020-03-29,Mississippi,Newton County,-19,-7,,,-16,
+2020-03-29,Mississippi,Noxubee County,-5,10,,,-19,
+2020-03-29,Mississippi,Oktibbeha County,-44,-20,,,-32,2
+2020-03-29,Mississippi,Panola County,-8,7,,-28,-22,-3
+2020-03-29,Mississippi,Pearl River County,-18,0,,-24,-28,14
+2020-03-29,Mississippi,Perry County,,-4,-22,,-27,
+2020-03-29,Mississippi,Pike County,-27,-9,,-28,-19,-2
+2020-03-29,Mississippi,Pontotoc County,-28,-3,,,-29,-1
+2020-03-29,Mississippi,Prentiss County,-23,-3,,,-25,
+2020-03-29,Mississippi,Quitman County,,,,,-32,
+2020-03-29,Mississippi,Rankin County,-42,-12,-9,-42,-27,10
+2020-03-29,Mississippi,Scott County,-27,-1,,-9,-17,
+2020-03-29,Mississippi,Simpson County,-25,-3,,-40,-20,
+2020-03-29,Mississippi,Smith County,,7,,,-21,
+2020-03-29,Mississippi,Stone County,-18,-22,,,-28,
+2020-03-29,Mississippi,Sunflower County,-9,25,,-20,-10,
+2020-03-29,Mississippi,Tallahatchie County,,-6,,,-31,
+2020-03-29,Mississippi,Tate County,-24,-1,,-8,-28,
+2020-03-29,Mississippi,Tippah County,-26,-17,,,-25,
+2020-03-29,Mississippi,Tishomingo County,-2,8,,,-22,
+2020-03-29,Mississippi,Tunica County,-50,16,,,-44,
+2020-03-29,Mississippi,Union County,-25,-8,,-20,-32,
+2020-03-29,Mississippi,Walthall County,-47,2,,,-28,
+2020-03-29,Mississippi,Warren County,-26,-11,-20,,-28,15
+2020-03-29,Mississippi,Washington County,-22,5,,,-18,11
+2020-03-29,Mississippi,Wayne County,-25,11,,,-21,
+2020-03-29,Mississippi,Webster County,-41,-9,,,-33,
+2020-03-29,Mississippi,Wilkinson County,,-8,,,-28,
+2020-03-29,Mississippi,Winston County,-6,-6,,,-23,
+2020-03-29,Mississippi,Yalobusha County,,-2,,,-28,
+2020-03-29,Mississippi,Yazoo County,-19,11,,,-20,
+2020-03-29,Missouri,Total,-38,-12,73,-34,-32,9
+2020-03-29,Missouri,Adair County,-40,55,,,-20,-1
+2020-03-29,Missouri,Andrew County,-63,5,,,-32,
+2020-03-29,Missouri,Audrain County,-29,-9,,,-20,6
+2020-03-29,Missouri,Barry County,-18,19,,,-26,9
+2020-03-29,Missouri,Barton County,-18,,,,-25,
+2020-03-29,Missouri,Bates County,-20,15,,,-18,
+2020-03-29,Missouri,Benton County,-32,128,,,-24,
+2020-03-29,Missouri,Bollinger County,-50,-18,,,-35,
+2020-03-29,Missouri,Boone County,-55,-18,65,-58,-36,10
+2020-03-29,Missouri,Buchanan County,-29,2,,-5,-22,7
+2020-03-29,Missouri,Butler County,-23,-5,,,-20,10
+2020-03-29,Missouri,Caldwell County,,,,,-20,
+2020-03-29,Missouri,Callaway County,-36,-1,,,-20,18
+2020-03-29,Missouri,Camden County,-28,16,,,-36,13
+2020-03-29,Missouri,Cape Girardeau County,-43,-20,0,,-33,12
+2020-03-29,Missouri,Carroll County,-28,,,,-19,
+2020-03-29,Missouri,Cass County,-26,-17,29,-14,-33,9
+2020-03-29,Missouri,Cedar County,-15,-5,,,-28,
+2020-03-29,Missouri,Chariton County,,,,,-30,
+2020-03-29,Missouri,Christian County,-30,-10,-19,,-33,13
+2020-03-29,Missouri,Clark County,,-10,,-46,-4,
+2020-03-29,Missouri,Clay County,-32,-17,214,-30,-38,10
+2020-03-29,Missouri,Clinton County,-76,-8,,,-31,
+2020-03-29,Missouri,Cole County,-44,-23,,,-29,19
+2020-03-29,Missouri,Cooper County,-27,-19,,-15,-20,
+2020-03-29,Missouri,Crawford County,-20,-7,,-7,-17,
+2020-03-29,Missouri,Dade County,,,,,-13,
+2020-03-29,Missouri,Dallas County,-11,8,,,-16,
+2020-03-29,Missouri,Daviess County,,,,,-13,
+2020-03-29,Missouri,DeKalb County,-7,3,,,-18,
+2020-03-29,Missouri,Dent County,0,,,,-5,
+2020-03-29,Missouri,Douglas County,-5,-14,,,-21,
+2020-03-29,Missouri,Dunklin County,-15,10,,,-23,
+2020-03-29,Missouri,Franklin County,-33,2,61,-12,-25,8
+2020-03-29,Missouri,Gasconade County,-22,,,,-25,
+2020-03-29,Missouri,Gentry County,,,,,-34,
+2020-03-29,Missouri,Greene County,-45,-30,43,-34,-36,10
+2020-03-29,Missouri,Grundy County,-16,-7,,,-10,
+2020-03-29,Missouri,Harrison County,-25,-20,,-15,-20,
+2020-03-29,Missouri,Henry County,-9,2,,,-20,-1
+2020-03-29,Missouri,Hickory County,,,,,-2,
+2020-03-29,Missouri,Howard County,,,,,-23,
+2020-03-29,Missouri,Howell County,-36,-16,,-24,-28,12
+2020-03-29,Missouri,Iron County,-18,4,104,,-9,
+2020-03-29,Missouri,Jackson County,-43,-14,28,-13,-36,10
+2020-03-29,Missouri,Jasper County,-26,-10,42,-11,-22,7
+2020-03-29,Missouri,Jefferson County,-36,-16,94,6,-33,9
+2020-03-29,Missouri,Johnson County,-28,-5,,,-20,16
+2020-03-29,Missouri,Laclede County,-21,-2,,,-22,13
+2020-03-29,Missouri,Lafayette County,-24,-8,,-19,-24,13
+2020-03-29,Missouri,Lawrence County,-5,-2,,-17,-25,11
+2020-03-29,Missouri,Lewis County,-14,,,,-13,
+2020-03-29,Missouri,Lincoln County,-40,-14,,,-32,18
+2020-03-29,Missouri,Linn County,-19,-7,,,-7,
+2020-03-29,Missouri,Livingston County,-15,-6,,,-25,
+2020-03-29,Missouri,Macon County,-29,-19,,-30,-19,
+2020-03-29,Missouri,Madison County,-5,,,,-22,
+2020-03-29,Missouri,Maries County,,,,,-21,
+2020-03-29,Missouri,Marion County,-38,1,,-46,-26,13
+2020-03-29,Missouri,McDonald County,-9,9,,,-25,-4
+2020-03-29,Missouri,Miller County,-15,3,-32,,-24,-3
+2020-03-29,Missouri,Mississippi County,-38,,,-13,-16,
+2020-03-29,Missouri,Moniteau County,-18,14,,,-25,
+2020-03-29,Missouri,Monroe County,-54,,,,-24,
+2020-03-29,Missouri,Montgomery County,-54,-8,,,-18,
+2020-03-29,Missouri,Morgan County,-17,23,,,-33,
+2020-03-29,Missouri,New Madrid County,-22,-4,,-12,-23,
+2020-03-29,Missouri,Newton County,-27,-7,7,-19,-26,13
+2020-03-29,Missouri,Nodaway County,-30,-10,,,-16,
+2020-03-29,Missouri,Oregon County,-2,4,,,-19,
+2020-03-29,Missouri,Osage County,-47,-6,,,-26,
+2020-03-29,Missouri,Ozark County,,,,,-17,
+2020-03-29,Missouri,Pemiscot County,-37,5,,-27,-26,
+2020-03-29,Missouri,Perry County,-33,-13,,,-33,
+2020-03-29,Missouri,Pettis County,-27,7,,,-22,15
+2020-03-29,Missouri,Phelps County,-37,-17,,-18,-27,16
+2020-03-29,Missouri,Pike County,-28,-2,,,-26,
+2020-03-29,Missouri,Platte County,-46,15,-19,-80,-40,15
+2020-03-29,Missouri,Polk County,-24,-13,-46,,-23,10
+2020-03-29,Missouri,Pulaski County,-32,-9,,-45,-19,13
+2020-03-29,Missouri,Putnam County,,,,,-28,
+2020-03-29,Missouri,Ralls County,-54,,,-9,-22,
+2020-03-29,Missouri,Randolph County,-31,-17,,,-18,1
+2020-03-29,Missouri,Ray County,-14,1,,,-22,7
+2020-03-29,Missouri,Ripley County,-5,-2,,,-28,
+2020-03-29,Missouri,Saline County,-26,0,,,3,0
+2020-03-29,Missouri,Scott County,-34,0,,-19,-21,11
+2020-03-29,Missouri,Shannon County,,,,,-29,
+2020-03-29,Missouri,Shelby County,,,,,-28,
+2020-03-29,Missouri,St. Charles County,-45,-13,63,-16,-37,11
+2020-03-29,Missouri,St. Clair County,-27,-4,,,-17,
+2020-03-29,Missouri,St. Francois County,-26,3,-29,,-15,13
+2020-03-29,Missouri,St. Louis,-52,-7,34,-35,-36,11
+2020-03-29,Missouri,St. Louis County,-45,-21,87,-59,-38,11
+2020-03-29,Missouri,Ste. Genevieve County,-30,,,-3,-17,
+2020-03-29,Missouri,Stoddard County,-19,-5,,,-18,-2
+2020-03-29,Missouri,Stone County,-16,19,,,-39,9
+2020-03-29,Missouri,Sullivan County,,,,,-7,
+2020-03-29,Missouri,Taney County,-47,-7,41,,-49,13
+2020-03-29,Missouri,Texas County,-21,13,,,-23,
+2020-03-29,Missouri,Vernon County,-21,13,,-24,-14,
+2020-03-29,Missouri,Warren County,-25,-5,,-4,-26,16
+2020-03-29,Missouri,Washington County,-9,-9,,,-14,
+2020-03-29,Missouri,Wayne County,-21,6,,,-29,
+2020-03-29,Missouri,Webster County,-1,-13,,-38,-31,16
+2020-03-29,Missouri,Wright County,-27,2,,,-19,
+2020-03-29,Montana,Total,-51,-25,28,-37,-37,10
+2020-03-29,Montana,Beaverhead County,-31,-11,,,-31,
+2020-03-29,Montana,Big Horn County,-51,-7,,-13,-28,
+2020-03-29,Montana,Blaine County,,,,,-41,
+2020-03-29,Montana,Broadwater County,-62,-3,,,-33,
+2020-03-29,Montana,Carbon County,-63,-30,,,-45,
+2020-03-29,Montana,Cascade County,-48,-26,-22,-70,-32,12
+2020-03-29,Montana,Custer County,-48,,,,-28,
+2020-03-29,Montana,Dawson County,-60,-7,,,-23,
+2020-03-29,Montana,Deer Lodge County,-57,-26,,,-31,
+2020-03-29,Montana,Fergus County,-45,-31,,,-32,
+2020-03-29,Montana,Flathead County,-53,-29,-35,-50,-42,10
+2020-03-29,Montana,Gallatin County,-63,-39,61,-66,-51,12
+2020-03-29,Montana,Glacier County,-71,-28,,,-45,
+2020-03-29,Montana,Hill County,-42,-4,,,-24,
+2020-03-29,Montana,Jefferson County,-69,,,,-36,
+2020-03-29,Montana,Lake County,-41,-22,,,-31,1
+2020-03-29,Montana,Lewis and Clark County,-51,-34,19,,-37,18
+2020-03-29,Montana,Lincoln County,-79,-29,,,-38,
+2020-03-29,Montana,Madison County,-100,,-42,,-44,
+2020-03-29,Montana,Mineral County,,-54,,,-38,
+2020-03-29,Montana,Missoula County,-55,-30,31,-28,-36,11
+2020-03-29,Montana,Park County,-54,-29,,,-44,
+2020-03-29,Montana,Pondera County,-53,,,,,
+2020-03-29,Montana,Powell County,,,,,-30,
+2020-03-29,Montana,Ravalli County,-49,-20,,,-39,11
+2020-03-29,Montana,Richland County,-36,-22,,,-41,
+2020-03-29,Montana,Roosevelt County,-25,-20,,,-42,
+2020-03-29,Montana,Rosebud County,,,,,-30,
+2020-03-29,Montana,Sanders County,-62,-27,,,-36,
+2020-03-29,Montana,Silver Bow County,-45,-15,,-20,-37,13
+2020-03-29,Montana,Stillwater County,-47,,,-4,-33,
+2020-03-29,Montana,Teton County,,,,,-38,
+2020-03-29,Montana,Valley County,-64,,,,-28,
+2020-03-29,Montana,Yellowstone County,-49,-21,114,-45,-32,8
+2020-03-29,Nebraska,Total,-34,-9,109,-18,-24,8
+2020-03-29,Nebraska,Adams County,-24,-14,,,-18,13
+2020-03-29,Nebraska,Box Butte County,-20,-7,,,-14,
+2020-03-29,Nebraska,Buffalo County,-39,-16,,-3,-28,17
+2020-03-29,Nebraska,Burt County,-58,,,,-18,
+2020-03-29,Nebraska,Butler County,-53,,,,-19,
+2020-03-29,Nebraska,Cass County,-33,,-63,,-28,12
+2020-03-29,Nebraska,Cedar County,,,,,-19,
+2020-03-29,Nebraska,Cherry County,-70,,,,-34,
+2020-03-29,Nebraska,Cheyenne County,-21,-20,,-1,-26,
+2020-03-29,Nebraska,Clay County,,,,,-28,
+2020-03-29,Nebraska,Colfax County,-52,-10,,,-6,
+2020-03-29,Nebraska,Cuming County,-29,,,,-24,
+2020-03-29,Nebraska,Custer County,-33,-14,,,-14,
+2020-03-29,Nebraska,Dakota County,-10,7,,,-23,1
+2020-03-29,Nebraska,Dawes County,-26,,,,-30,
+2020-03-29,Nebraska,Dawson County,-19,3,,,-12,-2
+2020-03-29,Nebraska,Deuel County,,,,-5,,
+2020-03-29,Nebraska,Dixon County,,,,,-25,
+2020-03-29,Nebraska,Dodge County,-21,-5,,-2,-22,13
+2020-03-29,Nebraska,Douglas County,-41,-7,55,-38,-30,9
+2020-03-29,Nebraska,Fillmore County,,,,,-20,
+2020-03-29,Nebraska,Gage County,-22,6,,,-21,1
+2020-03-29,Nebraska,Hall County,-35,-20,,-15,-26,12
+2020-03-29,Nebraska,Hamilton County,-58,,,-6,-22,
+2020-03-29,Nebraska,Holt County,-20,6,,,-9,
+2020-03-29,Nebraska,Howard County,,,,,-21,
+2020-03-29,Nebraska,Jefferson County,-13,,,,-22,
+2020-03-29,Nebraska,Kearney County,,,,,-29,
+2020-03-29,Nebraska,Keith County,-31,-20,,14,-26,
+2020-03-29,Nebraska,Kimball County,,,,,-41,
+2020-03-29,Nebraska,Knox County,,,,,-25,
+2020-03-29,Nebraska,Lancaster County,-39,-19,156,-18,-26,8
+2020-03-29,Nebraska,Lincoln County,-29,-4,,-8,-14,14
+2020-03-29,Nebraska,Madison County,-38,-7,,,-17,14
+2020-03-29,Nebraska,Merrick County,-55,,,,-24,
+2020-03-29,Nebraska,Morrill County,,,,,-22,
+2020-03-29,Nebraska,Nemaha County,-56,,,,-27,
+2020-03-29,Nebraska,Otoe County,-8,3,,,-16,
+2020-03-29,Nebraska,Phelps County,-20,-8,,,-30,
+2020-03-29,Nebraska,Pierce County,,,,,-24,
+2020-03-29,Nebraska,Platte County,-34,-2,,-16,-17,15
+2020-03-29,Nebraska,Polk County,,,,,-22,
+2020-03-29,Nebraska,Red Willow County,-16,,,,-18,
+2020-03-29,Nebraska,Richardson County,-24,-2,,,-13,
+2020-03-29,Nebraska,Saline County,-17,-10,,,-24,
+2020-03-29,Nebraska,Sarpy County,-36,-15,191,23,-30,9
+2020-03-29,Nebraska,Saunders County,-29,18,,,-27,
+2020-03-29,Nebraska,Scotts Bluff County,-25,-3,,,-18,14
+2020-03-29,Nebraska,Seward County,-29,,,,-32,
+2020-03-29,Nebraska,Stanton County,,,,,-20,
+2020-03-29,Nebraska,Thayer County,,,,,-19,
+2020-03-29,Nebraska,Thurston County,,,,,-30,
+2020-03-29,Nebraska,Washington County,-18,-9,,,-23,
+2020-03-29,Nebraska,Wayne County,-53,,,,-26,
+2020-03-29,Nebraska,York County,-39,,,-12,-31,
+2020-03-29,Nevada,Total,-47,-23,-38,-62,-52,14
+2020-03-29,Nevada,Carson City,-36,-13,-3,,-35,18
+2020-03-29,Nevada,Churchill County,-27,-11,,,-28,5
+2020-03-29,Nevada,Clark County,-48,-26,-47,-66,-56,15
+2020-03-29,Nevada,Douglas County,-58,-35,-35,,-47,18
+2020-03-29,Nevada,Elko County,-40,10,7,-11,-35,17
+2020-03-29,Nevada,Humboldt County,-46,-1,,-40,-20,
+2020-03-29,Nevada,Lander County,-59,-12,,,-41,
+2020-03-29,Nevada,Lyon County,-14,-5,,-10,-27,15
+2020-03-29,Nevada,Mineral County,,,,-29,,
+2020-03-29,Nevada,Nye County,-26,-15,-52,-20,-40,13
+2020-03-29,Nevada,Pershing County,,,,6,-32,
+2020-03-29,Nevada,Storey County,-73,,,,-38,
+2020-03-29,Nevada,Washoe County,-44,-21,6,-64,-42,12
+2020-03-29,Nevada,White Pine County,-65,-4,,-4,-23,
+2020-03-29,New Hampshire,Total,-58,-35,-63,-63,-38,13
+2020-03-29,New Hampshire,Belknap County,-52,-28,-53,,-35,18
+2020-03-29,New Hampshire,Carroll County,-69,-30,-66,,-51,19
+2020-03-29,New Hampshire,Cheshire County,-51,-36,-46,,-34,18
+2020-03-29,New Hampshire,Coos County,-52,-21,-68,,-37,10
+2020-03-29,New Hampshire,Grafton County,-62,-37,-71,-45,-44,20
+2020-03-29,New Hampshire,Hillsborough County,-62,-37,-55,-57,-38,14
+2020-03-29,New Hampshire,Merrimack County,-58,-31,-59,-76,-37,13
+2020-03-29,New Hampshire,Rockingham County,-59,-36,-63,-60,-39,14
+2020-03-29,New Hampshire,Strafford County,-51,-38,-53,-39,-38,13
+2020-03-29,New Hampshire,Sullivan County,-45,-22,,,-28,16
+2020-03-29,New Jersey,Total,-59,-33,-36,-70,-44,16
+2020-03-29,New Jersey,Atlantic County,-56,-30,11,-72,-55,16
+2020-03-29,New Jersey,Bergen County,-66,-37,-64,-64,-50,19
+2020-03-29,New Jersey,Burlington County,-53,-39,7,-53,-38,14
+2020-03-29,New Jersey,Camden County,-50,-30,-29,-59,-37,13
+2020-03-29,New Jersey,Cape May County,-49,-27,-14,-59,-41,19
+2020-03-29,New Jersey,Cumberland County,-36,-19,-35,-28,-25,10
+2020-03-29,New Jersey,Essex County,-60,-27,-50,-78,-43,17
+2020-03-29,New Jersey,Gloucester County,-54,-30,-3,-15,-36,13
+2020-03-29,New Jersey,Hudson County,-62,-38,-69,-72,-51,18
+2020-03-29,New Jersey,Hunterdon County,-64,-35,21,-31,-42,28
+2020-03-29,New Jersey,Mercer County,-55,-25,-27,-74,-43,15
+2020-03-29,New Jersey,Middlesex County,-64,-41,-31,-77,-44,17
+2020-03-29,New Jersey,Monmouth County,-62,-34,-32,-67,-44,17
+2020-03-29,New Jersey,Morris County,-63,-39,-43,-64,-47,18
+2020-03-29,New Jersey,Ocean County,-55,-31,-25,-58,-42,15
+2020-03-29,New Jersey,Passaic County,-66,-34,-53,-55,-46,16
+2020-03-29,New Jersey,Salem County,-39,-21,-22,-61,-28,18
+2020-03-29,New Jersey,Somerset County,-61,-36,-31,-60,-47,17
+2020-03-29,New Jersey,Sussex County,-57,-27,-39,-53,-39,15
+2020-03-29,New Jersey,Union County,-62,-32,-40,-61,-44,17
+2020-03-29,New Jersey,Warren County,-47,-37,-35,-40,-35,14
+2020-03-29,New Mexico,Total,-44,-18,-12,-31,-34,11
+2020-03-29,New Mexico,Bernalillo County,-46,-22,8,-43,-37,11
+2020-03-29,New Mexico,Chaves County,-46,-26,-41,-49,-26,12
+2020-03-29,New Mexico,Cibola County,-27,-7,,-16,-30,
+2020-03-29,New Mexico,Colfax County,-62,-29,,-26,-40,
+2020-03-29,New Mexico,Curry County,-38,-17,-32,-38,-25,16
+2020-03-29,New Mexico,Doña Ana County,-41,-19,-15,-34,-33,12
+2020-03-29,New Mexico,Eddy County,-38,-20,-39,-35,-20,12
+2020-03-29,New Mexico,Grant County,-35,-9,,,-25,2
+2020-03-29,New Mexico,Guadalupe County,-39,-30,,-9,,
+2020-03-29,New Mexico,Hidalgo County,-57,,,-31,,
+2020-03-29,New Mexico,Lea County,-44,-9,-24,-34,-26,13
+2020-03-29,New Mexico,Lincoln County,-71,-41,-72,,-48,
+2020-03-29,New Mexico,Los Alamos County,-70,-33,,,-53,
+2020-03-29,New Mexico,Luna County,-41,-16,-45,-22,-22,
+2020-03-29,New Mexico,McKinley County,-41,1,,-13,-20,22
+2020-03-29,New Mexico,Otero County,-39,-25,-58,,-36,19
+2020-03-29,New Mexico,Quay County,-10,-4,,-7,-25,
+2020-03-29,New Mexico,Rio Arriba County,-30,-20,,,-37,12
+2020-03-29,New Mexico,Roosevelt County,-31,-23,,,-22,
+2020-03-29,New Mexico,San Juan County,-42,-15,2,-38,-26,10
+2020-03-29,New Mexico,San Miguel County,-29,-22,,-41,-29,-1
+2020-03-29,New Mexico,Sandoval County,-34,-13,3,-28,-42,11
+2020-03-29,New Mexico,Santa Fe County,-52,-23,-23,-51,-44,12
+2020-03-29,New Mexico,Sierra County,-44,-4,,,-24,
+2020-03-29,New Mexico,Socorro County,-42,-8,,,-36,
+2020-03-29,New Mexico,Taos County,-59,-29,-36,,-52,1
+2020-03-29,New Mexico,Torrance County,-24,-7,,-8,-25,
+2020-03-29,New Mexico,Union County,,,,-34,,
+2020-03-29,New Mexico,Valencia County,-38,-8,-10,-21,-33,13
+2020-03-29,New York,Total,-62,-32,-47,-68,-46,16
+2020-03-29,New York,Albany County,-59,-30,-15,-64,-36,13
+2020-03-29,New York,Allegany County,-40,-15,,,-33,18
+2020-03-29,New York,Bronx County,-64,-30,-51,-55,-50,16
+2020-03-29,New York,Broome County,-51,-27,5,-43,-34,11
+2020-03-29,New York,Cattaraugus County,-40,-15,-37,,-32,18
+2020-03-29,New York,Cayuga County,-39,-15,,-49,-29,20
+2020-03-29,New York,Chautauqua County,-33,-8,-22,,-26,8
+2020-03-29,New York,Chemung County,-48,-14,,-58,-29,14
+2020-03-29,New York,Chenango County,-38,-12,,,-23,20
+2020-03-29,New York,Clinton County,-52,-18,,-67,-29,18
+2020-03-29,New York,Columbia County,-51,-40,,-36,-35,19
+2020-03-29,New York,Cortland County,-42,-9,,,-31,22
+2020-03-29,New York,Delaware County,-48,-23,,,-29,10
+2020-03-29,New York,Dutchess County,-54,-28,-34,-72,-38,14
+2020-03-29,New York,Erie County,-52,-23,64,-49,-37,10
+2020-03-29,New York,Essex County,-68,-35,-70,,-48,3
+2020-03-29,New York,Franklin County,-44,-18,,,-34,17
+2020-03-29,New York,Fulton County,-38,-25,,,-23,15
+2020-03-29,New York,Genesee County,-25,-22,,-56,-27,20
+2020-03-29,New York,Greene County,-46,-30,-48,,-36,17
+2020-03-29,New York,Herkimer County,-45,-19,,-70,-34,18
+2020-03-29,New York,Jefferson County,-48,-24,,,-27,9
+2020-03-29,New York,Kings County,-68,-33,-55,-63,-51,18
+2020-03-29,New York,Lewis County,-49,-17,,,-29,
+2020-03-29,New York,Livingston County,-36,-7,,-37,-30,21
+2020-03-29,New York,Madison County,-40,-18,,-62,-36,22
+2020-03-29,New York,Monroe County,-48,-27,115,-41,-36,11
+2020-03-29,New York,Montgomery County,-40,-20,,2,-23,17
+2020-03-29,New York,Nassau County,-66,-34,-60,-69,-47,19
+2020-03-29,New York,New York County,-86,-51,-79,-78,-57,19
+2020-03-29,New York,Niagara County,-40,-15,14,-59,-33,10
+2020-03-29,New York,Oneida County,-45,-25,-6,-50,-33,10
+2020-03-29,New York,Onondaga County,-53,-29,38,-55,-36,11
+2020-03-29,New York,Ontario County,-55,-21,-26,-62,-35,9
+2020-03-29,New York,Orange County,-58,-38,-24,-61,-40,15
+2020-03-29,New York,Orleans County,-22,-7,,,-27,19
+2020-03-29,New York,Oswego County,-39,-14,15,,-26,10
+2020-03-29,New York,Otsego County,-49,-29,,,-36,19
+2020-03-29,New York,Putnam County,-54,-31,-36,-69,-40,28
+2020-03-29,New York,Queens County,-69,-37,-52,-75,-58,20
+2020-03-29,New York,Rensselaer County,-50,-23,-25,-54,-36,12
+2020-03-29,New York,Richmond County,-59,-31,-48,-60,-42,17
+2020-03-29,New York,Rockland County,-67,-35,-49,-68,-47,20
+2020-03-29,New York,Saratoga County,-60,-29,-48,-52,-35,13
+2020-03-29,New York,Schenectady County,-46,-24,-20,-48,-31,12
+2020-03-29,New York,Schoharie County,-38,-22,,,-19,3
+2020-03-29,New York,Schuyler County,-35,-4,,,-29,
+2020-03-29,New York,Seneca County,-42,31,,-67,-34,15
+2020-03-29,New York,St. Lawrence County,-45,-22,-47,,-30,11
+2020-03-29,New York,Steuben County,-39,-23,-12,-22,-29,10
+2020-03-29,New York,Suffolk County,-58,-31,-42,-70,-41,16
+2020-03-29,New York,Sullivan County,-40,-8,,,-34,18
+2020-03-29,New York,Tioga County,-63,-15,,,-35,19
+2020-03-29,New York,Tompkins County,-59,-34,28,-50,-48,28
+2020-03-29,New York,Ulster County,-53,-30,-41,-69,-35,14
+2020-03-29,New York,Warren County,-56,-21,-46,-43,-36,18
+2020-03-29,New York,Washington County,-48,-19,,,-24,17
+2020-03-29,New York,Wayne County,-31,-8,,,-30,13
+2020-03-29,New York,Westchester County,-64,-37,-47,-66,-47,18
+2020-03-29,New York,Wyoming County,-26,-4,,,-21,19
+2020-03-29,New York,Yates County,-34,-13,,,-31,
+2020-03-29,North Carolina,Total,-40,-15,13,-51,-35,10
+2020-03-29,North Carolina,Alamance County,-39,-7,34,-18,-33,9
+2020-03-29,North Carolina,Alexander County,-24,10,,,-23,12
+2020-03-29,North Carolina,Alleghany County,-31,-11,,,-22,
+2020-03-29,North Carolina,Anson County,-43,2,,,-21,
+2020-03-29,North Carolina,Ashe County,-5,1,,,-29,
+2020-03-29,North Carolina,Avery County,-50,-18,,,-28,
+2020-03-29,North Carolina,Beaufort County,-22,-7,58,,-25,13
+2020-03-29,North Carolina,Bertie County,105,-3,,,-20,
+2020-03-29,North Carolina,Bladen County,-14,5,-27,,-21,12
+2020-03-29,North Carolina,Brunswick County,-27,-11,26,-33,-33,8
+2020-03-29,North Carolina,Buncombe County,-60,-30,-9,-70,-45,13
+2020-03-29,North Carolina,Burke County,-26,-3,30,,-24,7
+2020-03-29,North Carolina,Cabarrus County,-50,-26,6,-33,-41,12
+2020-03-29,North Carolina,Caldwell County,-20,-8,-2,,-29,7
+2020-03-29,North Carolina,Camden County,-41,,,,-30,
+2020-03-29,North Carolina,Carteret County,-25,-13,-2,,-33,8
+2020-03-29,North Carolina,Caswell County,-25,38,,,-32,
+2020-03-29,North Carolina,Catawba County,-41,-8,49,-11,-29,8
+2020-03-29,North Carolina,Chatham County,-21,-20,0,,-35,17
+2020-03-29,North Carolina,Cherokee County,-33,-14,,,-43,1
+2020-03-29,North Carolina,Chowan County,-11,-1,,,-12,
+2020-03-29,North Carolina,Clay County,-26,-14,,,-32,
+2020-03-29,North Carolina,Cleveland County,-33,-5,8,,-27,7
+2020-03-29,North Carolina,Columbus County,-19,3,,,-23,10
+2020-03-29,North Carolina,Craven County,-30,-2,35,-25,-32,7
+2020-03-29,North Carolina,Cumberland County,-31,-11,18,-32,-34,8
+2020-03-29,North Carolina,Currituck County,-14,-7,,,-27,8
+2020-03-29,North Carolina,Dare County,-45,-27,3,,-31,12
+2020-03-29,North Carolina,Davidson County,-32,-12,60,-18,-31,9
+2020-03-29,North Carolina,Davie County,-28,-9,,-27,-30,14
+2020-03-29,North Carolina,Duplin County,-34,-3,,-20,-25,11
+2020-03-29,North Carolina,Durham County,-50,-28,-7,-36,-43,13
+2020-03-29,North Carolina,Edgecombe County,-9,12,,,-26,12
+2020-03-29,North Carolina,Forsyth County,-45,-28,57,-17,-39,11
+2020-03-29,North Carolina,Franklin County,-21,-8,,,-39,16
+2020-03-29,North Carolina,Gaston County,-38,-26,-7,,-33,10
+2020-03-29,North Carolina,Gates County,,,,,-28,
+2020-03-29,North Carolina,Graham County,,,,,-30,
+2020-03-29,North Carolina,Granville County,-18,-14,,,-32,16
+2020-03-29,North Carolina,Greene County,-37,-6,-14,,-31,
+2020-03-29,North Carolina,Guilford County,-47,-29,20,-42,-39,12
+2020-03-29,North Carolina,Halifax County,-23,-8,,,-20,11
+2020-03-29,North Carolina,Harnett County,-23,-3,0,-9,-32,8
+2020-03-29,North Carolina,Haywood County,-40,-21,24,-19,-35,9
+2020-03-29,North Carolina,Henderson County,-49,-26,25,-46,-38,11
+2020-03-29,North Carolina,Hertford County,-46,9,,,-25,
+2020-03-29,North Carolina,Hoke County,-14,3,,,-29,14
+2020-03-29,North Carolina,Iredell County,-35,-7,38,-15,-31,8
+2020-03-29,North Carolina,Jackson County,-40,-25,17,,-51,15
+2020-03-29,North Carolina,Johnston County,-36,-14,21,-14,-33,9
+2020-03-29,North Carolina,Jones County,,-8,,,-22,
+2020-03-29,North Carolina,Lee County,-25,1,,,-27,14
+2020-03-29,North Carolina,Lenoir County,-30,-4,,,-25,12
+2020-03-29,North Carolina,Lincoln County,-16,-2,-31,,-32,7
+2020-03-29,North Carolina,Macon County,-33,-8,-7,,-38,13
+2020-03-29,North Carolina,Madison County,-38,-20,,,-28,
+2020-03-29,North Carolina,Martin County,-21,0,,,-28,
+2020-03-29,North Carolina,McDowell County,-20,-2,35,-23,-18,12
+2020-03-29,North Carolina,Mecklenburg County,-53,-23,1,-70,-43,13
+2020-03-29,North Carolina,Mitchell County,-26,-10,,,-24,
+2020-03-29,North Carolina,Montgomery County,-21,24,9,-19,-24,-1
+2020-03-29,North Carolina,Moore County,-40,-11,21,,-39,9
+2020-03-29,North Carolina,Nash County,-32,-1,-39,-16,-29,7
+2020-03-29,North Carolina,New Hanover County,-43,-17,12,-63,-34,9
+2020-03-29,North Carolina,Northampton County,-62,22,,,-18,
+2020-03-29,North Carolina,Onslow County,-30,-5,25,-61,-29,7
+2020-03-29,North Carolina,Orange County,-56,-39,-20,-50,-44,14
+2020-03-29,North Carolina,Pamlico County,-15,15,,,-29,
+2020-03-29,North Carolina,Pasquotank County,-24,-9,,-49,-31,14
+2020-03-29,North Carolina,Pender County,-17,-2,,,-27,14
+2020-03-29,North Carolina,Perquimans County,-47,-10,,,-24,
+2020-03-29,North Carolina,Person County,-21,15,,,-31,15
+2020-03-29,North Carolina,Pitt County,-47,-20,6,-38,-32,9
+2020-03-29,North Carolina,Polk County,-43,-14,,,-34,
+2020-03-29,North Carolina,Randolph County,-38,-6,-13,,-25,8
+2020-03-29,North Carolina,Richmond County,-31,-2,,,-26,10
+2020-03-29,North Carolina,Robeson County,-27,-3,,-21,-26,6
+2020-03-29,North Carolina,Rockingham County,-20,-3,-12,-8,-30,8
+2020-03-29,North Carolina,Rowan County,-38,-6,66,-28,-30,8
+2020-03-29,North Carolina,Rutherford County,-34,-8,-10,,-29,9
+2020-03-29,North Carolina,Sampson County,-14,4,,,-24,11
+2020-03-29,North Carolina,Scotland County,-25,-4,,,-30,11
+2020-03-29,North Carolina,Stanly County,-18,-13,,,-32,12
+2020-03-29,North Carolina,Stokes County,-33,-6,-25,,-26,12
+2020-03-29,North Carolina,Surry County,-24,-3,-20,-9,-29,12
+2020-03-29,North Carolina,Swain County,-77,9,-31,,-52,
+2020-03-29,North Carolina,Transylvania County,-28,-11,14,,-37,6
+2020-03-29,North Carolina,Union County,-33,-18,4,-17,-38,11
+2020-03-29,North Carolina,Vance County,-24,0,,,-28,13
+2020-03-29,North Carolina,Wake County,-51,-31,-1,-74,-43,13
+2020-03-29,North Carolina,Warren County,-4,18,,,-20,
+2020-03-29,North Carolina,Washington County,-29,8,,,-15,
+2020-03-29,North Carolina,Watauga County,-55,-38,56,,-49,17
+2020-03-29,North Carolina,Wayne County,-30,-5,22,-30,-24,7
+2020-03-29,North Carolina,Wilkes County,-26,3,-49,,-25,10
+2020-03-29,North Carolina,Wilson County,-27,-7,-11,,-26,7
+2020-03-29,North Carolina,Yadkin County,-47,-7,,,-31,11
+2020-03-29,North Carolina,Yancey County,-31,-7,,,-31,
+2020-03-29,North Dakota,Total,-44,-13,73,-36,-24,9
+2020-03-29,North Dakota,Barnes County,-22,,,,-25,
+2020-03-29,North Dakota,Bottineau County,-39,,,,-35,
+2020-03-29,North Dakota,Burleigh County,-44,-14,26,-56,-25,11
+2020-03-29,North Dakota,Cass County,-54,-26,69,-34,-30,12
+2020-03-29,North Dakota,Dunn County,-56,-18,-26,,,
+2020-03-29,North Dakota,Grand Forks County,-46,-20,-48,-38,-28,20
+2020-03-29,North Dakota,McKenzie County,-40,-15,,-25,-14,
+2020-03-29,North Dakota,McLean County,-63,,,,-26,
+2020-03-29,North Dakota,Mercer County,,10,,,-27,
+2020-03-29,North Dakota,Morton County,-33,2,,-12,-24,17
+2020-03-29,North Dakota,Mountrail County,-35,-14,,,-27,
+2020-03-29,North Dakota,Pembina County,,,,,-22,
+2020-03-29,North Dakota,Ramsey County,-39,-27,,,-29,
+2020-03-29,North Dakota,Ransom County,,,,,-13,
+2020-03-29,North Dakota,Richland County,-42,-4,,,-23,
+2020-03-29,North Dakota,Rolette County,-33,,,,-37,
+2020-03-29,North Dakota,Stark County,-29,18,,,-10,14
+2020-03-29,North Dakota,Stutsman County,-25,-15,,,-15,
+2020-03-29,North Dakota,Traill County,,,,,-31,
+2020-03-29,North Dakota,Walsh County,-26,,,,-22,
+2020-03-29,North Dakota,Ward County,-38,-12,,-35,-23,18
+2020-03-29,North Dakota,Williams County,-30,-6,,-25,-21,14
+2020-03-29,Ohio,Total,-43,-19,117,-33,-35,10
+2020-03-29,Ohio,Adams County,-25,-4,,,-22,-2
+2020-03-29,Ohio,Allen County,-48,-25,13,-31,-29,10
+2020-03-29,Ohio,Ashland County,-38,-12,,,-28,19
+2020-03-29,Ohio,Ashtabula County,-28,-11,-1,-23,-22,8
+2020-03-29,Ohio,Athens County,-50,-20,,,-44,20
+2020-03-29,Ohio,Auglaize County,-49,-19,,,-27,23
+2020-03-29,Ohio,Belmont County,-37,-7,,-28,-27,18
+2020-03-29,Ohio,Brown County,-30,-17,,,-25,19
+2020-03-29,Ohio,Butler County,-45,-20,136,-6,-35,10
+2020-03-29,Ohio,Carroll County,-32,-14,,,-32,0
+2020-03-29,Ohio,Champaign County,-34,-15,,,-33,22
+2020-03-29,Ohio,Clark County,-33,-20,,-19,-34,9
+2020-03-29,Ohio,Clermont County,-40,-22,126,,-37,10
+2020-03-29,Ohio,Clinton County,-40,-11,,30,-34,22
+2020-03-29,Ohio,Columbiana County,-29,-6,,,-31,8
+2020-03-29,Ohio,Coshocton County,-26,-5,,,-27,15
+2020-03-29,Ohio,Crawford County,-32,-20,,,-38,19
+2020-03-29,Ohio,Cuyahoga County,-48,-20,137,-47,-36,10
+2020-03-29,Ohio,Darke County,-30,-11,,,-28,20
+2020-03-29,Ohio,Defiance County,-47,-31,,,-33,23
+2020-03-29,Ohio,Delaware County,-59,-33,171,-32,-43,12
+2020-03-29,Ohio,Erie County,-47,-22,2,,-44,15
+2020-03-29,Ohio,Fairfield County,-44,-18,61,,-36,10
+2020-03-29,Ohio,Fayette County,-40,-25,,-20,-26,9
+2020-03-29,Ohio,Franklin County,-46,-22,106,-47,-40,11
+2020-03-29,Ohio,Fulton County,-42,-20,,-38,-34,24
+2020-03-29,Ohio,Gallia County,-25,-17,,2,-22,
+2020-03-29,Ohio,Geauga County,-37,-23,10,,-36,23
+2020-03-29,Ohio,Greene County,-48,-21,113,,-42,11
+2020-03-29,Ohio,Guernsey County,-31,-25,,-20,-25,15
+2020-03-29,Ohio,Hamilton County,-45,-18,139,-16,-37,10
+2020-03-29,Ohio,Hancock County,-51,-30,,-28,-45,25
+2020-03-29,Ohio,Hardin County,-26,-10,,,-32,13
+2020-03-29,Ohio,Harrison County,-28,2,,,-22,
+2020-03-29,Ohio,Henry County,-38,-18,,-26,-29,13
+2020-03-29,Ohio,Highland County,-15,-9,,,-30,19
+2020-03-29,Ohio,Hocking County,-30,3,25,,-31,-3
+2020-03-29,Ohio,Holmes County,-26,-18,,,-24,-1
+2020-03-29,Ohio,Huron County,-41,-16,,,-36,19
+2020-03-29,Ohio,Jackson County,-22,-9,,-22,-22,-1
+2020-03-29,Ohio,Jefferson County,-26,-18,,-15,-27,15
+2020-03-29,Ohio,Knox County,-28,-15,,,-33,20
+2020-03-29,Ohio,Lake County,-47,-22,146,-43,-32,10
+2020-03-29,Ohio,Lawrence County,-26,-14,,,-25,16
+2020-03-29,Ohio,Licking County,-35,-18,39,-24,-32,9
+2020-03-29,Ohio,Logan County,-32,4,,,-41,26
+2020-03-29,Ohio,Lorain County,-42,-15,-8,-60,-35,10
+2020-03-29,Ohio,Lucas County,-52,-25,78,-21,-35,10
+2020-03-29,Ohio,Madison County,-28,-12,,-16,-38,22
+2020-03-29,Ohio,Mahoning County,-42,-17,-25,-24,-36,9
+2020-03-29,Ohio,Marion County,-39,-19,,,-35,19
+2020-03-29,Ohio,Medina County,-45,-19,,-26,-37,11
+2020-03-29,Ohio,Meigs County,-31,,,,-24,
+2020-03-29,Ohio,Mercer County,-44,-16,,,-30,24
+2020-03-29,Ohio,Miami County,-39,-20,-7,,-32,10
+2020-03-29,Ohio,Monroe County,-46,-17,,,-38,
+2020-03-29,Ohio,Montgomery County,-44,-16,104,-32,-36,10
+2020-03-29,Ohio,Morgan County,-42,0,,,-39,
+2020-03-29,Ohio,Morrow County,-36,-13,,-35,-29,20
+2020-03-29,Ohio,Muskingum County,-37,-22,,-22,-26,7
+2020-03-29,Ohio,Noble County,-55,-15,,-24,-33,
+2020-03-29,Ohio,Ottawa County,-30,-2,,,-27,21
+2020-03-29,Ohio,Paulding County,-51,-7,,,-26,
+2020-03-29,Ohio,Perry County,-10,-5,,,-20,10
+2020-03-29,Ohio,Pickaway County,-27,-12,,-8,-28,20
+2020-03-29,Ohio,Pike County,-31,-15,,,-32,
+2020-03-29,Ohio,Portage County,-41,-14,26,-43,-35,10
+2020-03-29,Ohio,Preble County,-30,-22,,-18,-32,22
+2020-03-29,Ohio,Putnam County,-41,-8,,,-34,16
+2020-03-29,Ohio,Richland County,-50,-23,,-25,-33,9
+2020-03-29,Ohio,Ross County,-37,-10,-28,-7,-28,17
+2020-03-29,Ohio,Sandusky County,-43,-16,,-47,-30,22
+2020-03-29,Ohio,Scioto County,-29,-18,,,-20,15
+2020-03-29,Ohio,Seneca County,-35,-19,,,-37,23
+2020-03-29,Ohio,Shelby County,-27,-29,,-22,-31,23
+2020-03-29,Ohio,Stark County,-40,-18,167,10,-32,9
+2020-03-29,Ohio,Summit County,-42,-17,139,-24,-36,10
+2020-03-29,Ohio,Trumbull County,-36,-9,80,-12,-30,8
+2020-03-29,Ohio,Tuscarawas County,-31,-12,,,-31,8
+2020-03-29,Ohio,Union County,-46,-22,,,-35,30
+2020-03-29,Ohio,Van Wert County,-39,-25,,,-27,19
+2020-03-29,Ohio,Vinton County,-56,2,,,-35,
+2020-03-29,Ohio,Warren County,-47,-17,23,-21,-40,11
+2020-03-29,Ohio,Washington County,-41,-18,,,-34,19
+2020-03-29,Ohio,Wayne County,-43,-18,,-33,-32,10
+2020-03-29,Ohio,Williams County,-38,-20,,-42,-38,23
+2020-03-29,Ohio,Wood County,-51,-37,-7,-23,-36,11
+2020-03-29,Ohio,Wyandot County,-41,-5,,-21,-45,6
+2020-03-29,Oklahoma,Total,-36,-12,29,-23,-32,9
+2020-03-29,Oklahoma,Adair County,-3,8,,,-23,
+2020-03-29,Oklahoma,Atoka County,-19,-19,,-26,-27,
+2020-03-29,Oklahoma,Beckham County,-20,-9,,-10,-13,
+2020-03-29,Oklahoma,Blaine County,-12,-1,,,-23,
+2020-03-29,Oklahoma,Bryan County,-30,-25,,-21,-34,15
+2020-03-29,Oklahoma,Caddo County,-17,-1,,-10,-35,
+2020-03-29,Oklahoma,Canadian County,-33,-20,85,-9,-37,10
+2020-03-29,Oklahoma,Carter County,-27,1,,-16,-29,14
+2020-03-29,Oklahoma,Cherokee County,-26,-5,-38,,-33,17
+2020-03-29,Oklahoma,Choctaw County,-22,-6,,,-21,
+2020-03-29,Oklahoma,Cleveland County,-46,-22,26,,-39,11
+2020-03-29,Oklahoma,Coal County,,,,,-28,
+2020-03-29,Oklahoma,Comanche County,-38,-9,66,5,-38,9
+2020-03-29,Oklahoma,Cotton County,,-23,,-43,-33,
+2020-03-29,Oklahoma,Craig County,-14,-21,,8,-24,
+2020-03-29,Oklahoma,Creek County,-22,-7,-18,,-31,10
+2020-03-29,Oklahoma,Custer County,-32,-7,,-6,-28,
+2020-03-29,Oklahoma,Delaware County,-16,20,,-13,-20,12
+2020-03-29,Oklahoma,Garfield County,-38,-19,-36,-20,-23,13
+2020-03-29,Oklahoma,Garvin County,-18,-3,-27,-16,-19,-4
+2020-03-29,Oklahoma,Grady County,-37,2,,,-37,16
+2020-03-29,Oklahoma,Greer County,,,,,-38,
+2020-03-29,Oklahoma,Haskell County,-17,14,,,-30,
+2020-03-29,Oklahoma,Hughes County,-19,8,,,-29,
+2020-03-29,Oklahoma,Jackson County,-29,0,,,-25,9
+2020-03-29,Oklahoma,Jefferson County,,5,,,-41,
+2020-03-29,Oklahoma,Johnston County,-47,0,,,-26,
+2020-03-29,Oklahoma,Kay County,-22,11,,-25,-32,13
+2020-03-29,Oklahoma,Kingfisher County,-8,,,,-33,
+2020-03-29,Oklahoma,Kiowa County,-15,-4,,,-20,
+2020-03-29,Oklahoma,Latimer County,-19,-10,,,-32,
+2020-03-29,Oklahoma,Le Flore County,-18,-5,,,-23,10
+2020-03-29,Oklahoma,Lincoln County,-29,4,,,-31,12
+2020-03-29,Oklahoma,Logan County,-18,-3,,-16,-26,17
+2020-03-29,Oklahoma,Love County,-37,-9,,,-44,
+2020-03-29,Oklahoma,Major County,,,,,-24,
+2020-03-29,Oklahoma,Marshall County,-13,6,,,-27,
+2020-03-29,Oklahoma,Mayes County,-22,-3,,-17,-25,14
+2020-03-29,Oklahoma,McClain County,-30,-13,,-42,-38,17
+2020-03-29,Oklahoma,McCurtain County,-23,-2,-11,-18,-18,9
+2020-03-29,Oklahoma,McIntosh County,-15,25,,8,-22,
+2020-03-29,Oklahoma,Murray County,-16,7,-22,,-30,
+2020-03-29,Oklahoma,Muskogee County,-30,-10,1,-8,-24,14
+2020-03-29,Oklahoma,Noble County,-42,-9,,-50,-33,
+2020-03-29,Oklahoma,Nowata County,-8,-2,,-62,-29,
+2020-03-29,Oklahoma,Okfuskee County,-32,-4,,-20,-31,
+2020-03-29,Oklahoma,Oklahoma County,-43,-16,24,-37,-35,10
+2020-03-29,Oklahoma,Okmulgee County,-21,-6,,-17,-25,13
+2020-03-29,Oklahoma,Osage County,-25,7,-38,,-39,15
+2020-03-29,Oklahoma,Ottawa County,-21,-3,,,-35,8
+2020-03-29,Oklahoma,Pawnee County,-29,-25,,,-28,
+2020-03-29,Oklahoma,Payne County,-44,-19,22,,-41,18
+2020-03-29,Oklahoma,Pittsburg County,-40,-2,,-42,-24,12
+2020-03-29,Oklahoma,Pontotoc County,-31,-15,,,-34,16
+2020-03-29,Oklahoma,Pottawatomie County,-36,-7,-35,,-35,11
+2020-03-29,Oklahoma,Pushmataha County,-18,-1,,,-17,
+2020-03-29,Oklahoma,Rogers County,-29,-3,-10,,-32,11
+2020-03-29,Oklahoma,Seminole County,-22,-1,,-30,-22,
+2020-03-29,Oklahoma,Sequoyah County,-26,11,,-11,-32,14
+2020-03-29,Oklahoma,Stephens County,-35,-12,,,-29,13
+2020-03-29,Oklahoma,Texas County,-30,-4,,-13,-24,
+2020-03-29,Oklahoma,Tillman County,-12,-8,,,-30,
+2020-03-29,Oklahoma,Tulsa County,-42,-18,-22,-22,-36,10
+2020-03-29,Oklahoma,Wagoner County,-21,7,,,-35,10
+2020-03-29,Oklahoma,Washington County,-30,-7,,,-26,15
+2020-03-29,Oklahoma,Washita County,,-17,,,-28,
+2020-03-29,Oklahoma,Woods County,-12,,24,,-38,
+2020-03-29,Oklahoma,Woodward County,-25,-7,,,-25,
+2020-03-29,Oregon,Total,-51,-25,-22,-47,-38,12
+2020-03-29,Oregon,Baker County,-44,-14,,-12,-31,
+2020-03-29,Oregon,Benton County,-60,-35,-5,-51,-46,25
+2020-03-29,Oregon,Clackamas County,-51,-23,-15,-44,-38,13
+2020-03-29,Oregon,Clatsop County,-60,-34,-58,-61,-44,17
+2020-03-29,Oregon,Columbia County,-44,-22,2,,-34,19
+2020-03-29,Oregon,Coos County,-45,-24,-48,,-38,15
+2020-03-29,Oregon,Crook County,-30,-15,,,-29,-1
+2020-03-29,Oregon,Curry County,-48,-26,-24,,-35,
+2020-03-29,Oregon,Deschutes County,-50,-24,-10,-66,-42,11
+2020-03-29,Oregon,Douglas County,-38,-18,-10,-13,-33,9
+2020-03-29,Oregon,Grant County,-72,-19,,,-30,
+2020-03-29,Oregon,Harney County,-38,11,,,-20,
+2020-03-29,Oregon,Hood River County,-56,-11,-12,,-51,
+2020-03-29,Oregon,Jackson County,-46,-19,12,-49,-34,9
+2020-03-29,Oregon,Jefferson County,-38,-13,,-32,-36,0
+2020-03-29,Oregon,Josephine County,-40,-19,27,-33,-30,9
+2020-03-29,Oregon,Klamath County,-37,-11,21,-14,-33,8
+2020-03-29,Oregon,Lake County,-67,,,,-26,
+2020-03-29,Oregon,Lane County,-52,-28,-29,-65,-40,12
+2020-03-29,Oregon,Lincoln County,-62,-29,-53,,-52,17
+2020-03-29,Oregon,Linn County,-44,-25,-9,-29,-32,11
+2020-03-29,Oregon,Malheur County,-33,-15,,2,-23,7
+2020-03-29,Oregon,Marion County,-48,-23,-26,-33,-34,12
+2020-03-29,Oregon,Morrow County,-51,,,-7,-19,
+2020-03-29,Oregon,Multnomah County,-61,-29,-23,-58,-41,14
+2020-03-29,Oregon,Polk County,-42,-23,-5,,-39,13
+2020-03-29,Oregon,Sherman County,,,,-37,,
+2020-03-29,Oregon,Tillamook County,-61,-27,-50,,-37,-1
+2020-03-29,Oregon,Umatilla County,-30,-6,-13,-23,-28,8
+2020-03-29,Oregon,Union County,-39,-35,,-17,-29,0
+2020-03-29,Oregon,Wallowa County,-63,-14,,,-30,
+2020-03-29,Oregon,Wasco County,-45,-22,-9,,-41,7
+2020-03-29,Oregon,Washington County,-53,-31,-6,-47,-41,14
+2020-03-29,Oregon,Yamhill County,-42,-24,11,-63,-39,12
+2020-03-29,Pennsylvania,Total,-50,-27,7,-52,-38,12
+2020-03-29,Pennsylvania,Adams County,-58,-29,0,,-41,16
+2020-03-29,Pennsylvania,Allegheny County,-51,-21,83,-56,-41,11
+2020-03-29,Pennsylvania,Armstrong County,-27,-17,,,-26,18
+2020-03-29,Pennsylvania,Beaver County,-42,-20,-59,-44,-37,10
+2020-03-29,Pennsylvania,Bedford County,-41,-9,,-77,-26,17
+2020-03-29,Pennsylvania,Berks County,-53,-32,-21,-24,-37,13
+2020-03-29,Pennsylvania,Blair County,-50,-16,-36,-25,-31,9
+2020-03-29,Pennsylvania,Bradford County,-37,-14,,,-19,17
+2020-03-29,Pennsylvania,Bucks County,-52,-36,-8,-51,-40,14
+2020-03-29,Pennsylvania,Butler County,-49,-51,-4,-14,-40,11
+2020-03-29,Pennsylvania,Cambria County,-38,-14,,,-28,7
+2020-03-29,Pennsylvania,Carbon County,-47,-7,-31,,-35,19
+2020-03-29,Pennsylvania,Centre County,-71,-45,-24,-44,-54,16
+2020-03-29,Pennsylvania,Chester County,-54,-38,-44,-72,-41,14
+2020-03-29,Pennsylvania,Clarion County,-43,-18,,,-27,10
+2020-03-29,Pennsylvania,Clearfield County,-33,-18,-34,-21,-23,13
+2020-03-29,Pennsylvania,Clinton County,-34,-12,,-29,-20,18
+2020-03-29,Pennsylvania,Columbia County,-44,-20,,-26,-28,20
+2020-03-29,Pennsylvania,Crawford County,-33,-7,,,-31,18
+2020-03-29,Pennsylvania,Cumberland County,-53,-25,-15,-25,-37,13
+2020-03-29,Pennsylvania,Dauphin County,-55,-32,-18,-57,-35,12
+2020-03-29,Pennsylvania,Delaware County,-50,-28,13,-43,-40,14
+2020-03-29,Pennsylvania,Elk County,-26,-18,,,-33,8
+2020-03-29,Pennsylvania,Erie County,-45,-13,127,-30,-32,9
+2020-03-29,Pennsylvania,Fayette County,-35,-7,-34,,-31,8
+2020-03-29,Pennsylvania,Franklin County,-41,-19,-40,-21,-30,10
+2020-03-29,Pennsylvania,Fulton County,-59,-27,,-70,-33,
+2020-03-29,Pennsylvania,Greene County,-31,-7,,,-24,3
+2020-03-29,Pennsylvania,Huntingdon County,-34,-7,,,-26,16
+2020-03-29,Pennsylvania,Indiana County,-37,-19,,,-33,19
+2020-03-29,Pennsylvania,Jefferson County,-32,-7,,-14,-20,17
+2020-03-29,Pennsylvania,Juniata County,-70,-31,,,-40,
+2020-03-29,Pennsylvania,Lackawanna County,-56,-28,-9,-45,-34,12
+2020-03-29,Pennsylvania,Lancaster County,-59,-38,-11,-67,-39,14
+2020-03-29,Pennsylvania,Lawrence County,-28,-16,-50,,-29,18
+2020-03-29,Pennsylvania,Lebanon County,-43,-23,-42,-28,-32,12
+2020-03-29,Pennsylvania,Lehigh County,-58,-32,-28,-49,-37,13
+2020-03-29,Pennsylvania,Luzerne County,-54,-25,-5,-30,-32,12
+2020-03-29,Pennsylvania,Lycoming County,-49,-21,-44,-44,-32,10
+2020-03-29,Pennsylvania,McKean County,-32,-11,,,-26,17
+2020-03-29,Pennsylvania,Mercer County,-44,-34,,,-30,8
+2020-03-29,Pennsylvania,Mifflin County,-35,-12,,,-24,18
+2020-03-29,Pennsylvania,Monroe County,-59,-34,-49,-74,-45,13
+2020-03-29,Pennsylvania,Montgomery County,-58,-36,-4,-54,-44,15
+2020-03-29,Pennsylvania,Montour County,-63,-31,,,-13,
+2020-03-29,Pennsylvania,Northampton County,-56,-32,-6,-61,-39,14
+2020-03-29,Pennsylvania,Northumberland County,-42,-11,,-25,-22,9
+2020-03-29,Pennsylvania,Perry County,-38,-13,,,-25,21
+2020-03-29,Pennsylvania,Philadelphia County,-57,-27,-47,-57,-42,14
+2020-03-29,Pennsylvania,Pike County,-48,-16,,,-39,22
+2020-03-29,Pennsylvania,Potter County,-52,-6,,,-28,
+2020-03-29,Pennsylvania,Schuylkill County,-39,-16,-43,-6,-28,10
+2020-03-29,Pennsylvania,Snyder County,-55,-28,,,-33,12
+2020-03-29,Pennsylvania,Somerset County,-36,-14,-20,-55,-26,19
+2020-03-29,Pennsylvania,Sullivan County,,,,,-42,
+2020-03-29,Pennsylvania,Susquehanna County,-42,-17,,-25,-30,15
+2020-03-29,Pennsylvania,Tioga County,-45,-15,,,-27,16
+2020-03-29,Pennsylvania,Union County,-55,-30,,,-35,14
+2020-03-29,Pennsylvania,Venango County,-25,-15,,-70,-28,16
+2020-03-29,Pennsylvania,Warren County,-28,5,-38,,-27,17
+2020-03-29,Pennsylvania,Washington County,-45,-17,45,-16,-35,10
+2020-03-29,Pennsylvania,Wayne County,-49,-19,,,-41,17
+2020-03-29,Pennsylvania,Westmoreland County,-44,-28,103,-36,-35,10
+2020-03-29,Pennsylvania,Wyoming County,-36,-8,,,-35,-1
+2020-03-29,Pennsylvania,York County,-52,-34,-11,-46,-37,13
+2020-03-29,Rhode Island,Total,-55,-30,-50,-67,-37,14
+2020-03-29,Rhode Island,Bristol County,-61,-45,,,-37,22
+2020-03-29,Rhode Island,Kent County,-57,-26,-44,-72,-36,13
+2020-03-29,Rhode Island,Newport County,-57,-32,-60,-24,-39,21
+2020-03-29,Rhode Island,Providence County,-57,-29,-50,-65,-36,14
+2020-03-29,Rhode Island,Washington County,-53,-34,-59,-8,-40,13
+2020-03-29,South Carolina,Total,-38,-11,-4,-34,-34,9
+2020-03-29,South Carolina,Abbeville County,-35,7,,,-30,
+2020-03-29,South Carolina,Aiken County,-31,-11,-1,0,-33,8
+2020-03-29,South Carolina,Allendale County,,-12,,,-16,
+2020-03-29,South Carolina,Anderson County,-40,-3,-1,-20,-34,8
+2020-03-29,South Carolina,Bamberg County,-28,2,,,-26,
+2020-03-29,South Carolina,Barnwell County,-23,11,,,-24,
+2020-03-29,South Carolina,Beaufort County,-38,-16,1,-32,-39,10
+2020-03-29,South Carolina,Berkeley County,-32,-10,47,-53,-32,9
+2020-03-29,South Carolina,Calhoun County,-9,13,,-47,-32,
+2020-03-29,South Carolina,Charleston County,-48,-25,-35,-62,-42,11
+2020-03-29,South Carolina,Cherokee County,-37,-3,-7,-20,-24,11
+2020-03-29,South Carolina,Chester County,-29,4,,-25,-25,14
+2020-03-29,South Carolina,Chesterfield County,-34,3,,,-26,13
+2020-03-29,South Carolina,Clarendon County,-23,-2,,-12,-28,
+2020-03-29,South Carolina,Colleton County,-32,-13,,-27,-31,12
+2020-03-29,South Carolina,Darlington County,-20,-2,-36,,-22,13
+2020-03-29,South Carolina,Dillon County,-21,3,-41,-21,-19,-2
+2020-03-29,South Carolina,Dorchester County,-32,-12,1,-38,-36,9
+2020-03-29,South Carolina,Edgefield County,-46,8,,,-32,
+2020-03-29,South Carolina,Fairfield County,0,1,,-27,-33,
+2020-03-29,South Carolina,Florence County,-38,-11,-30,-24,-30,8
+2020-03-29,South Carolina,Georgetown County,-41,-6,58,,-30,11
+2020-03-29,South Carolina,Greenville County,-42,-12,-35,-38,-39,10
+2020-03-29,South Carolina,Greenwood County,-30,-4,,,-27,11
+2020-03-29,South Carolina,Hampton County,-44,-10,,-26,-23,
+2020-03-29,South Carolina,Horry County,-43,-13,17,-58,-39,8
+2020-03-29,South Carolina,Jasper County,-32,-21,-25,-8,-39,8
+2020-03-29,South Carolina,Kershaw County,-38,-7,,-36,-30,14
+2020-03-29,South Carolina,Lancaster County,-30,-13,,,-35,9
+2020-03-29,South Carolina,Laurens County,-23,2,,-27,-26,6
+2020-03-29,South Carolina,Lee County,-51,6,,-28,-20,
+2020-03-29,South Carolina,Lexington County,-42,-15,24,-33,-35,10
+2020-03-29,South Carolina,Marion County,-26,-7,,,-25,2
+2020-03-29,South Carolina,Marlboro County,-20,4,,,-22,
+2020-03-29,South Carolina,McCormick County,-36,30,,,-30,
+2020-03-29,South Carolina,Newberry County,-22,1,,-31,-25,10
+2020-03-29,South Carolina,Oconee County,-26,-6,2,,-28,8
+2020-03-29,South Carolina,Orangeburg County,-34,-5,,-31,-24,8
+2020-03-29,South Carolina,Pickens County,-35,-10,3,,-35,9
+2020-03-29,South Carolina,Richland County,-43,-19,-37,-21,-35,11
+2020-03-29,South Carolina,Saluda County,-36,-1,,,-26,
+2020-03-29,South Carolina,Spartanburg County,-34,-11,10,-57,-34,9
+2020-03-29,South Carolina,Sumter County,-33,-6,,-32,-31,8
+2020-03-29,South Carolina,Union County,-24,1,,,-23,4
+2020-03-29,South Carolina,Williamsburg County,-21,-2,,,-19,
+2020-03-29,South Carolina,York County,-33,-16,31,-34,-35,10
+2020-03-29,South Dakota,Total,-35,-3,126,-31,-25,8
+2020-03-29,South Dakota,Beadle County,-35,-22,,,-26,
+2020-03-29,South Dakota,Bon Homme County,,,,,-27,
+2020-03-29,South Dakota,Brookings County,-44,-21,,,-30,21
+2020-03-29,South Dakota,Brown County,-30,-10,,,-23,17
+2020-03-29,South Dakota,Brule County,-51,,,,-32,
+2020-03-29,South Dakota,Butte County,-8,,,,-17,
+2020-03-29,South Dakota,Charles Mix County,-59,,,,-18,
+2020-03-29,South Dakota,Clay County,-32,,,,-28,
+2020-03-29,South Dakota,Codington County,-35,-14,,-29,-24,15
+2020-03-29,South Dakota,Custer County,,,,,-23,
+2020-03-29,South Dakota,Davison County,-36,-7,,,-19,
+2020-03-29,South Dakota,Dewey County,,,,,-42,
+2020-03-29,South Dakota,Fall River County,-35,-12,,,-23,
+2020-03-29,South Dakota,Grant County,-52,,,,-21,
+2020-03-29,South Dakota,Hamlin County,,,,,-32,
+2020-03-29,South Dakota,Hughes County,-20,6,,,-16,
+2020-03-29,South Dakota,Hutchinson County,,,,,-17,
+2020-03-29,South Dakota,Kingsbury County,,,,,-27,
+2020-03-29,South Dakota,Lake County,-13,-13,,,-27,
+2020-03-29,South Dakota,Lawrence County,-42,-14,-41,,-46,0
+2020-03-29,South Dakota,Lincoln County,-13,13,,,-24,22
+2020-03-29,South Dakota,McCook County,,,,,-24,
+2020-03-29,South Dakota,Meade County,-38,-10,,,-32,12
+2020-03-29,South Dakota,Minnehaha County,-38,-5,141,-41,-23,8
+2020-03-29,South Dakota,Moody County,,,,,-27,
+2020-03-29,South Dakota,Pennington County,-42,-6,90,-24,-30,8
+2020-03-29,South Dakota,Roberts County,-37,4,,-33,-29,
+2020-03-29,South Dakota,Shannon County,-50,-11,,,-30,
+2020-03-29,South Dakota,Spink County,,,,,-28,
+2020-03-29,South Dakota,Todd County,,-26,,,-43,
+2020-03-29,South Dakota,Tripp County,-36,,,,,
+2020-03-29,South Dakota,Turner County,,,,,-21,
+2020-03-29,South Dakota,Union County,-30,-15,,-18,-17,
+2020-03-29,South Dakota,Walworth County,-19,,,,-37,
+2020-03-29,South Dakota,Yankton County,-23,-3,,,-22,8
+2020-03-29,Tennessee,Total,-35,-9,35,-35,-34,8
+2020-03-29,Tennessee,Anderson County,-30,-5,65,,-31,8
+2020-03-29,Tennessee,Bedford County,-17,-2,,,-33,14
+2020-03-29,Tennessee,Benton County,-28,16,,-25,-30,
+2020-03-29,Tennessee,Bledsoe County,-23,18,,,-29,
+2020-03-29,Tennessee,Blount County,-35,-4,35,-79,-39,9
+2020-03-29,Tennessee,Bradley County,-34,-6,,-18,-24,9
+2020-03-29,Tennessee,Campbell County,-16,-1,30,-12,-29,10
+2020-03-29,Tennessee,Cannon County,34,15,,,-24,
+2020-03-29,Tennessee,Carroll County,-33,-2,,,-26,4
+2020-03-29,Tennessee,Carter County,-15,1,16,,-21,11
+2020-03-29,Tennessee,Cheatham County,-9,23,,-36,-32,16
+2020-03-29,Tennessee,Chester County,-13,-3,,,-28,
+2020-03-29,Tennessee,Claiborne County,-28,29,,,-26,-2
+2020-03-29,Tennessee,Clay County,,,,,-28,
+2020-03-29,Tennessee,Cocke County,-24,-11,-3,-20,-36,11
+2020-03-29,Tennessee,Coffee County,-29,-6,,-35,-33,14
+2020-03-29,Tennessee,Crockett County,-9,3,,,-11,
+2020-03-29,Tennessee,Cumberland County,-22,-13,,-25,-32,11
+2020-03-29,Tennessee,Davidson County,-44,-17,-6,-64,-44,11
+2020-03-29,Tennessee,DeKalb County,-1,26,,,-34,
+2020-03-29,Tennessee,Decatur County,-10,8,,,-28,
+2020-03-29,Tennessee,Dickson County,-30,-13,,-19,-34,15
+2020-03-29,Tennessee,Dyer County,-21,-5,,-9,-21,11
+2020-03-29,Tennessee,Fayette County,-15,46,,-30,-35,9
+2020-03-29,Tennessee,Fentress County,-19,0,,,-19,
+2020-03-29,Tennessee,Franklin County,-15,3,,,-35,12
+2020-03-29,Tennessee,Gibson County,-18,4,,,-25,12
+2020-03-29,Tennessee,Giles County,-14,2,,-25,-24,8
+2020-03-29,Tennessee,Grainger County,-46,-1,,,-20,
+2020-03-29,Tennessee,Greene County,-26,-8,,-8,-19,4
+2020-03-29,Tennessee,Grundy County,-52,4,,,-33,
+2020-03-29,Tennessee,Hamblen County,-29,-12,,,-28,12
+2020-03-29,Tennessee,Hamilton County,-46,-15,17,-39,-36,10
+2020-03-29,Tennessee,Hancock County,,,,,-39,
+2020-03-29,Tennessee,Hardeman County,-11,-4,,,-28,
+2020-03-29,Tennessee,Hardin County,-24,-3,,,-29,
+2020-03-29,Tennessee,Hawkins County,-14,-5,,,-25,12
+2020-03-29,Tennessee,Haywood County,-11,4,,,-24,
+2020-03-29,Tennessee,Henderson County,-21,11,,,-33,-1
+2020-03-29,Tennessee,Henry County,-15,8,,,-30,11
+2020-03-29,Tennessee,Hickman County,-28,3,,,-26,-3
+2020-03-29,Tennessee,Houston County,-37,-17,,,-27,
+2020-03-29,Tennessee,Humphreys County,-12,2,,,-26,
+2020-03-29,Tennessee,Jackson County,,2,,,-31,
+2020-03-29,Tennessee,Jefferson County,-14,-10,,-17,-37,13
+2020-03-29,Tennessee,Johnson County,-26,3,,,-20,
+2020-03-29,Tennessee,Knox County,-41,-16,35,-28,-40,10
+2020-03-29,Tennessee,Lauderdale County,-7,21,,,-21,
+2020-03-29,Tennessee,Lawrence County,-22,2,,,-28,12
+2020-03-29,Tennessee,Lewis County,-7,-4,,,-39,
+2020-03-29,Tennessee,Lincoln County,-23,5,,,-21,7
+2020-03-29,Tennessee,Loudon County,-27,1,,-22,-40,13
+2020-03-29,Tennessee,Macon County,-16,-5,,,-33,
+2020-03-29,Tennessee,Madison County,-37,-15,-14,-32,-33,8
+2020-03-29,Tennessee,Marion County,-27,-26,29,-16,-28,0
+2020-03-29,Tennessee,Marshall County,-9,11,,-34,-29,14
+2020-03-29,Tennessee,Maury County,-30,-15,-33,-15,-33,9
+2020-03-29,Tennessee,McMinn County,-29,-13,,-23,-29,12
+2020-03-29,Tennessee,McNairy County,-17,-1,,-20,-17,
+2020-03-29,Tennessee,Meigs County,-12,14,,,-28,
+2020-03-29,Tennessee,Monroe County,-22,-7,,,-37,14
+2020-03-29,Tennessee,Montgomery County,-33,-9,91,-13,-32,8
+2020-03-29,Tennessee,Moore County,,,,,-29,
+2020-03-29,Tennessee,Morgan County,-5,2,,,-11,
+2020-03-29,Tennessee,Obion County,-28,14,,,-24,6
+2020-03-29,Tennessee,Overton County,-11,6,,,-30,
+2020-03-29,Tennessee,Perry County,-61,,,,-30,
+2020-03-29,Tennessee,Polk County,-29,9,,,-29,
+2020-03-29,Tennessee,Putnam County,-25,-14,,-11,-30,6
+2020-03-29,Tennessee,Rhea County,-7,-1,,,-26,11
+2020-03-29,Tennessee,Roane County,-16,-6,-19,,-27,13
+2020-03-29,Tennessee,Robertson County,-25,6,,-25,-36,15
+2020-03-29,Tennessee,Rutherford County,-35,-12,74,-16,-35,10
+2020-03-29,Tennessee,Scott County,-19,3,,,-20,
+2020-03-29,Tennessee,Sequatchie County,-20,11,,,-25,
+2020-03-29,Tennessee,Sevier County,-64,-29,-55,,-53,12
+2020-03-29,Tennessee,Shelby County,-36,-9,0,-25,-32,10
+2020-03-29,Tennessee,Smith County,-17,15,,-10,-13,
+2020-03-29,Tennessee,Stewart County,-23,11,,,-23,
+2020-03-29,Tennessee,Sullivan County,-33,-10,-22,-44,-30,8
+2020-03-29,Tennessee,Sumner County,-35,-13,112,,-36,10
+2020-03-29,Tennessee,Tipton County,-19,1,,,-29,16
+2020-03-29,Tennessee,Trousdale County,-20,11,,,-33,
+2020-03-29,Tennessee,Unicoi County,-22,3,,,-23,
+2020-03-29,Tennessee,Union County,-24,6,,,-17,
+2020-03-29,Tennessee,Van Buren County,,,,,-32,
+2020-03-29,Tennessee,Warren County,0,40,,,-33,13
+2020-03-29,Tennessee,Washington County,-45,-15,-25,-8,-33,8
+2020-03-29,Tennessee,Wayne County,-20,3,,,-28,
+2020-03-29,Tennessee,Weakley County,-27,-1,,,-23,7
+2020-03-29,Tennessee,White County,-35,-16,,,-44,-1
+2020-03-29,Tennessee,Williamson County,-46,-20,76,-19,-45,12
+2020-03-29,Tennessee,Wilson County,-34,-4,51,-6,-38,10
+2020-03-29,Texas,Total,-45,-23,-27,-47,-36,13
+2020-03-29,Texas,Anderson County,-23,1,,-17,-22,11
+2020-03-29,Texas,Andrews County,-28,-22,,32,-33,
+2020-03-29,Texas,Angelina County,-38,-9,-45,-25,-25,12
+2020-03-29,Texas,Aransas County,-48,-31,-67,,-29,10
+2020-03-29,Texas,Archer County,,,,,-27,
+2020-03-29,Texas,Atascosa County,-23,-24,,-65,-24,17
+2020-03-29,Texas,Austin County,-32,-6,,,-24,1
+2020-03-29,Texas,Bailey County,-29,-14,,,-31,
+2020-03-29,Texas,Bandera County,-25,15,-36,,-35,
+2020-03-29,Texas,Bastrop County,-32,-24,-14,,-34,12
+2020-03-29,Texas,Bee County,-46,-35,,,-27,-1
+2020-03-29,Texas,Bell County,-37,-24,8,-34,-33,10
+2020-03-29,Texas,Bexar County,-47,-23,-46,-46,-38,13
+2020-03-29,Texas,Blanco County,-41,-10,-50,,-39,
+2020-03-29,Texas,Bosque County,-26,0,,,-17,
+2020-03-29,Texas,Bowie County,-44,-20,-11,-18,-32,10
+2020-03-29,Texas,Brazoria County,-39,-21,9,-24,-30,13
+2020-03-29,Texas,Brazos County,-50,-28,-37,-60,-39,14
+2020-03-29,Texas,Brewster County,-52,-37,,,-28,
+2020-03-29,Texas,Brooks County,-53,-14,,-43,-31,
+2020-03-29,Texas,Brown County,-34,-18,,,-21,12
+2020-03-29,Texas,Burleson County,-26,0,,,-24,
+2020-03-29,Texas,Burnet County,-27,-15,8,,-36,15
+2020-03-29,Texas,Caldwell County,-35,-36,,-35,-36,17
+2020-03-29,Texas,Calhoun County,-35,-20,,,-20,
+2020-03-29,Texas,Callahan County,-26,-5,,-18,-8,
+2020-03-29,Texas,Cameron County,-61,-41,-70,-62,-37,17
+2020-03-29,Texas,Camp County,-11,-4,,,-13,
+2020-03-29,Texas,Carson County,,-28,,-20,-30,
+2020-03-29,Texas,Cass County,-28,4,,-20,-23,6
+2020-03-29,Texas,Castro County,,-14,,,-20,
+2020-03-29,Texas,Chambers County,-42,-19,,-39,-27,20
+2020-03-29,Texas,Cherokee County,-22,-5,,,-22,12
+2020-03-29,Texas,Childress County,-25,-31,,-11,-32,
+2020-03-29,Texas,Clay County,-53,,,-10,-24,
+2020-03-29,Texas,Coke County,,-21,,,,
+2020-03-29,Texas,Coleman County,-18,-16,,,-20,
+2020-03-29,Texas,Collin County,-50,-33,-11,-37,-45,14
+2020-03-29,Texas,Colorado County,-36,-8,,-31,-18,
+2020-03-29,Texas,Comal County,-47,-33,-30,-10,-36,12
+2020-03-29,Texas,Comanche County,-9,-22,,,-25,
+2020-03-29,Texas,Cooke County,-28,-3,-8,-33,-32,16
+2020-03-29,Texas,Coryell County,-29,-18,35,,-27,11
+2020-03-29,Texas,Crane County,-39,-27,,,-37,
+2020-03-29,Texas,Crockett County,,-27,,,,
+2020-03-29,Texas,Crosby County,,-15,,,-35,
+2020-03-29,Texas,Culberson County,-46,,,-30,,
+2020-03-29,Texas,Dallam County,-34,-12,,,-10,
+2020-03-29,Texas,Dallas County,-45,-21,-24,-45,-38,14
+2020-03-29,Texas,Dawson County,-36,-10,,,-26,
+2020-03-29,Texas,DeWitt County,-30,-22,,,-19,
+2020-03-29,Texas,Deaf Smith County,-24,-12,,-13,-18,
+2020-03-29,Texas,Delta County,,,,,-37,
+2020-03-29,Texas,Denton County,-47,-27,1,-30,-42,14
+2020-03-29,Texas,Dimmit County,-19,-17,,-34,-30,
+2020-03-29,Texas,Donley County,,,,9,,
+2020-03-29,Texas,Duval County,-46,-28,,,-36,
+2020-03-29,Texas,Eastland County,-31,-15,,-27,-28,
+2020-03-29,Texas,Ector County,-32,-5,,-8,-24,10
+2020-03-29,Texas,El Paso County,-50,-25,-65,-40,-37,15
+2020-03-29,Texas,Ellis County,-35,-18,4,-33,-34,13
+2020-03-29,Texas,Erath County,-47,-32,,,-25,10
+2020-03-29,Texas,Falls County,-19,-13,,,-10,
+2020-03-29,Texas,Fannin County,-11,-2,,,-25,11
+2020-03-29,Texas,Fayette County,-35,-25,,-33,-17,
+2020-03-29,Texas,Floyd County,,,,,-28,
+2020-03-29,Texas,Fort Bend County,-49,-26,-2,-26,-41,15
+2020-03-29,Texas,Franklin County,-33,4,,-23,-24,
+2020-03-29,Texas,Freestone County,-52,-4,,-41,-22,
+2020-03-29,Texas,Frio County,-21,-22,,-27,-19,
+2020-03-29,Texas,Gaines County,-28,-8,,,-20,
+2020-03-29,Texas,Galveston County,-42,-15,-29,-57,-35,12
+2020-03-29,Texas,Garza County,-31,-13,,,,
+2020-03-29,Texas,Gillespie County,-46,-25,-38,,-36,
+2020-03-29,Texas,Goliad County,-54,-38,,,-32,
+2020-03-29,Texas,Gonzales County,-30,-13,-19,,-20,
+2020-03-29,Texas,Gray County,-33,-10,,,-26,
+2020-03-29,Texas,Grayson County,-33,-9,47,,-29,9
+2020-03-29,Texas,Gregg County,-43,-21,2,,-31,11
+2020-03-29,Texas,Grimes County,-17,-3,,,-21,0
+2020-03-29,Texas,Guadalupe County,-34,-24,-1,-23,-37,12
+2020-03-29,Texas,Hale County,-29,-13,,,-27,11
+2020-03-29,Texas,Hall County,,,,-13,,
+2020-03-29,Texas,Hamilton County,-41,-32,,,-22,
+2020-03-29,Texas,Hardeman County,,-24,,-16,,
+2020-03-29,Texas,Hardin County,-45,-13,,,-32,16
+2020-03-29,Texas,Harris County,-46,-23,-22,-58,-38,14
+2020-03-29,Texas,Harrison County,-28,-7,-16,,-31,15
+2020-03-29,Texas,Hartley County,,-4,,,,
+2020-03-29,Texas,Haskell County,-16,-22,,,,
+2020-03-29,Texas,Hays County,-46,-22,-23,-19,-36,13
+2020-03-29,Texas,Henderson County,-30,-3,-22,,-28,9
+2020-03-29,Texas,Hidalgo County,-63,-43,-74,-64,-43,18
+2020-03-29,Texas,Hill County,-35,-8,,-41,-25,13
+2020-03-29,Texas,Hockley County,-23,-15,,,-17,-3
+2020-03-29,Texas,Hood County,-34,-7,-36,,-35,16
+2020-03-29,Texas,Hopkins County,-31,4,,-22,-27,11
+2020-03-29,Texas,Houston County,-22,5,,,-21,
+2020-03-29,Texas,Howard County,-35,-19,,-32,-24,14
+2020-03-29,Texas,Hunt County,-33,-15,-5,-23,-33,10
+2020-03-29,Texas,Hutchinson County,-19,-13,,,-11,
+2020-03-29,Texas,Jack County,-9,,,,-26,
+2020-03-29,Texas,Jackson County,-21,-19,,-44,-21,
+2020-03-29,Texas,Jasper County,-36,-24,25,,-30,6
+2020-03-29,Texas,Jefferson County,-49,-22,4,-35,-33,12
+2020-03-29,Texas,Jim Hogg County,,-29,,,,
+2020-03-29,Texas,Jim Wells County,-38,-22,,,-28,14
+2020-03-29,Texas,Johnson County,-33,-18,19,,-31,11
+2020-03-29,Texas,Jones County,-36,-8,,,-18,
+2020-03-29,Texas,Karnes County,-31,-24,,-46,-19,
+2020-03-29,Texas,Kaufman County,-46,-22,-26,-18,-38,12
+2020-03-29,Texas,Kendall County,-38,-25,-61,-31,-38,14
+2020-03-29,Texas,Kerr County,-32,-18,19,,-30,14
+2020-03-29,Texas,Kimble County,-35,,,-24,,
+2020-03-29,Texas,Kleberg County,-42,-36,-71,-56,-28,16
+2020-03-29,Texas,La Salle County,-54,-23,,-40,,
+2020-03-29,Texas,Lamar County,-24,-6,,-20,-13,12
+2020-03-29,Texas,Lamb County,-40,-17,,,-22,
+2020-03-29,Texas,Lampasas County,-30,-27,,,-38,
+2020-03-29,Texas,Lavaca County,133,-11,,,-18,
+2020-03-29,Texas,Lee County,-33,-37,,,-22,
+2020-03-29,Texas,Leon County,-51,-23,,-26,-32,
+2020-03-29,Texas,Liberty County,-38,-2,,-14,-28,11
+2020-03-29,Texas,Limestone County,-26,-15,,,-24,
+2020-03-29,Texas,Live Oak County,-68,-35,,-52,-39,
+2020-03-29,Texas,Llano County,-26,-3,10,,-32,
+2020-03-29,Texas,Loving County,,-58,,,,
+2020-03-29,Texas,Lubbock County,-37,-14,17,-36,-28,10
+2020-03-29,Texas,Lynn County,,,,,-24,
+2020-03-29,Texas,Madison County,-36,-63,,,-29,
+2020-03-29,Texas,Marion County,-30,-12,,,-26,
+2020-03-29,Texas,Martin County,-12,-13,,,-32,
+2020-03-29,Texas,Matagorda County,-34,-16,,,-9,13
+2020-03-29,Texas,Maverick County,-56,-36,-82,-62,-36,19
+2020-03-29,Texas,McCulloch County,-27,-10,,,-14,
+2020-03-29,Texas,McLennan County,-43,-22,-12,-34,-34,10
+2020-03-29,Texas,McMullen County,,,,-50,,
+2020-03-29,Texas,Medina County,-24,-8,-54,-30,-30,19
+2020-03-29,Texas,Midland County,-41,-19,-45,-24,-25,12
+2020-03-29,Texas,Milam County,-35,-20,,,-27,
+2020-03-29,Texas,Mitchell County,-35,-14,-70,,-26,
+2020-03-29,Texas,Montague County,-21,-18,,,-30,
+2020-03-29,Texas,Montgomery County,-47,-24,0,-26,-38,13
+2020-03-29,Texas,Moore County,-27,-12,,-7,-15,-1
+2020-03-29,Texas,Morris County,-15,-9,,,-30,
+2020-03-29,Texas,Nacogdoches County,-36,-3,-17,-43,-24,15
+2020-03-29,Texas,Navarro County,-40,-18,-7,-40,-32,16
+2020-03-29,Texas,Newton County,,0,,,-35,
+2020-03-29,Texas,Nolan County,-36,-10,,-31,-18,
+2020-03-29,Texas,Nueces County,-46,-25,-40,-45,-34,13
+2020-03-29,Texas,Ochiltree County,-44,-14,,,-26,
+2020-03-29,Texas,Oldham County,,,,-5,,
+2020-03-29,Texas,Orange County,-35,-18,-38,-37,-32,11
+2020-03-29,Texas,Palo Pinto County,-19,-1,,-34,-29,8
+2020-03-29,Texas,Panola County,-21,0,,-22,-28,
+2020-03-29,Texas,Parker County,-35,-15,2,-32,-35,10
+2020-03-29,Texas,Parmer County,,-10,,,-23,
+2020-03-29,Texas,Pecos County,-33,-17,,-22,-20,
+2020-03-29,Texas,Polk County,-36,-14,-7,-41,-36,10
+2020-03-29,Texas,Potter County,-41,-13,2,-17,-26,9
+2020-03-29,Texas,Presidio County,-69,-38,,,-35,
+2020-03-29,Texas,Rains County,-22,-8,,,-20,
+2020-03-29,Texas,Randall County,-34,-17,-24,,-30,9
+2020-03-29,Texas,Reagan County,,-2,,-15,,
+2020-03-29,Texas,Red River County,-2,16,,,-23,
+2020-03-29,Texas,Reeves County,-39,-19,,-8,-12,
+2020-03-29,Texas,Refugio County,-67,-43,,-43,-31,
+2020-03-29,Texas,Robertson County,-38,-16,,-32,-16,
+2020-03-29,Texas,Rockwall County,-45,-25,,-21,-40,25
+2020-03-29,Texas,Runnels County,-23,-5,,,-22,
+2020-03-29,Texas,Rusk County,-24,-7,,,-26,13
+2020-03-29,Texas,Sabine County,-17,13,,,-34,
+2020-03-29,Texas,San Augustine County,-62,-9,,,-34,
+2020-03-29,Texas,San Jacinto County,-31,7,-42,,-29,5
+2020-03-29,Texas,San Patricio County,-38,-23,-30,-33,-24,12
+2020-03-29,Texas,San Saba County,-12,,,,,
+2020-03-29,Texas,Scurry County,-32,-21,,,-18,
+2020-03-29,Texas,Shelby County,-29,-3,,,-27,
+2020-03-29,Texas,Sherman County,,,,0,,
+2020-03-29,Texas,Smith County,-52,-28,-21,-36,-34,13
+2020-03-29,Texas,Somervell County,-37,-6,,,-34,
+2020-03-29,Texas,Starr County,-54,-31,-57,,-29,25
+2020-03-29,Texas,Stephens County,-32,,,,-19,
+2020-03-29,Texas,Sutton County,-53,-29,,,,
+2020-03-29,Texas,Swisher County,,-4,,,-29,
+2020-03-29,Texas,Tarrant County,-48,-20,-16,-71,-36,13
+2020-03-29,Texas,Taylor County,-34,-14,,-7,-25,9
+2020-03-29,Texas,Terry County,-18,-19,,,-14,
+2020-03-29,Texas,Titus County,-28,2,,,-21,11
+2020-03-29,Texas,Tom Green County,-46,-18,18,,-26,10
+2020-03-29,Texas,Travis County,-54,-29,-19,-72,-44,15
+2020-03-29,Texas,Trinity County,-42,9,,,-26,
+2020-03-29,Texas,Tyler County,-45,11,,,-32,
+2020-03-29,Texas,Upshur County,-24,2,,,-31,15
+2020-03-29,Texas,Upton County,,-21,,,,
+2020-03-29,Texas,Uvalde County,-43,-31,,,-28,
+2020-03-29,Texas,Val Verde County,-55,-35,-53,,-32,21
+2020-03-29,Texas,Van Zandt County,-33,-16,7,-18,-25,13
+2020-03-29,Texas,Victoria County,-41,-23,-39,-49,-27,10
+2020-03-29,Texas,Walker County,-42,-17,-1,-42,-27,15
+2020-03-29,Texas,Waller County,-30,-22,,-22,-33,20
+2020-03-29,Texas,Ward County,-34,-16,,35,-15,
+2020-03-29,Texas,Washington County,-25,-14,,,-27,-2
+2020-03-29,Texas,Webb County,-55,-38,-78,-43,-35,16
+2020-03-29,Texas,Wharton County,-25,-36,,-36,-20,15
+2020-03-29,Texas,Wheeler County,-41,,,,,
+2020-03-29,Texas,Wichita County,-50,-30,-11,-24,-32,11
+2020-03-29,Texas,Wilbarger County,-20,-12,,-17,-9,
+2020-03-29,Texas,Willacy County,-51,-36,,,-34,
+2020-03-29,Texas,Williamson County,-49,-29,-14,-41,-43,14
+2020-03-29,Texas,Wilson County,-33,-55,-20,,-32,19
+2020-03-29,Texas,Winkler County,-29,-23,,75,-14,
+2020-03-29,Texas,Wise County,-27,-11,8,-16,-31,15
+2020-03-29,Texas,Wood County,-21,7,,,-28,12
+2020-03-29,Texas,Yoakum County,-39,-12,,,-30,
+2020-03-29,Texas,Young County,-18,-4,,,-28,
+2020-03-29,Texas,Zapata County,-42,-19,,,-44,
+2020-03-29,Texas,Zavala County,-49,-25,,,-31,
+2020-03-29,Utah,Total,-41,-14,26,-44,-40,10
+2020-03-29,Utah,Beaver County,-58,,,-26,-23,
+2020-03-29,Utah,Box Elder County,-28,-24,13,-5,-36,15
+2020-03-29,Utah,Cache County,-33,-3,66,-7,-39,10
+2020-03-29,Utah,Carbon County,-22,2,,,-30,
+2020-03-29,Utah,Davis County,-39,-1,48,-15,-41,10
+2020-03-29,Utah,Duchesne County,-25,1,,,-11,
+2020-03-29,Utah,Emery County,-45,6,,,-16,
+2020-03-29,Utah,Garfield County,,,13,,,
+2020-03-29,Utah,Grand County,-48,-1,-18,,-22,
+2020-03-29,Utah,Iron County,-43,-49,,-16,-38,16
+2020-03-29,Utah,Juab County,-32,-15,,-13,-23,
+2020-03-29,Utah,Kane County,-25,-6,21,,-33,
+2020-03-29,Utah,Millard County,-23,72,,,-14,
+2020-03-29,Utah,Morgan County,-31,-13,,,-42,
+2020-03-29,Utah,Salt Lake County,-46,-16,16,-62,-38,11
+2020-03-29,Utah,San Juan County,-21,60,-7,,-33,
+2020-03-29,Utah,Sanpete County,-4,0,,,-36,
+2020-03-29,Utah,Sevier County,-19,2,,-9,-25,
+2020-03-29,Utah,Summit County,-84,-65,-47,-59,-76,6
+2020-03-29,Utah,Tooele County,-22,-11,,-18,-30,11
+2020-03-29,Utah,Uintah County,-18,-4,-20,,-37,5
+2020-03-29,Utah,Utah County,-36,-11,54,13,-50,11
+2020-03-29,Utah,Wasatch County,-48,-30,-6,,-60,4
+2020-03-29,Utah,Washington County,-38,-10,-2,-22,-39,9
+2020-03-29,Utah,Weber County,-32,-17,76,-8,-31,8
+2020-03-29,Vermont,Total,-62,-42,-55,-71,-43,13
+2020-03-29,Vermont,Addison County,-55,-38,,,-35,6
+2020-03-29,Vermont,Bennington County,-62,-29,-23,,-40,8
+2020-03-29,Vermont,Caledonia County,-67,-44,,,-30,2
+2020-03-29,Vermont,Chittenden County,-61,-53,-50,-57,-46,14
+2020-03-29,Vermont,Essex County,,,,,-37,
+2020-03-29,Vermont,Franklin County,-52,-27,,,-28,22
+2020-03-29,Vermont,Grand Isle County,,,,-60,-49,
+2020-03-29,Vermont,Lamoille County,-79,-45,,-40,-58,
+2020-03-29,Vermont,Orange County,-73,-33,,-66,-31,1
+2020-03-29,Vermont,Orleans County,-52,-31,-46,,-32,0
+2020-03-29,Vermont,Rutland County,-59,-33,,-77,-47,21
+2020-03-29,Vermont,Washington County,-65,-45,,,-41,23
+2020-03-29,Vermont,Windham County,-76,-43,-38,,-47,15
+2020-03-29,Vermont,Windsor County,-67,-50,-63,-60,-49,22
+2020-03-29,Virginia,Total,-39,-16,46,-50,-36,11
+2020-03-29,Virginia,Accomack County,-30,-18,,,-26,13
+2020-03-29,Virginia,Albemarle County,-50,-30,36,-55,-47,23
+2020-03-29,Virginia,Alexandria,-54,-22,49,-58,-44,16
+2020-03-29,Virginia,Alleghany County,-32,,,-12,-23,
+2020-03-29,Virginia,Amelia County,-31,-18,,,-35,
+2020-03-29,Virginia,Amherst County,-9,-7,,,-23,8
+2020-03-29,Virginia,Appomattox County,-20,2,,,-30,
+2020-03-29,Virginia,Arlington County,-62,-32,8,-82,-50,16
+2020-03-29,Virginia,Augusta County,-39,-16,-22,52,-22,8
+2020-03-29,Virginia,Bath County,,,-70,,,
+2020-03-29,Virginia,Bedford County,-27,-8,,,-34,14
+2020-03-29,Virginia,Bland County,,,,-19,-32,
+2020-03-29,Virginia,Botetourt County,-59,-11,,-20,-44,14
+2020-03-29,Virginia,Bristol,-20,-12,,,-32,
+2020-03-29,Virginia,Brunswick County,-37,,,-50,-11,
+2020-03-29,Virginia,Buchanan County,-18,6,,,-29,
+2020-03-29,Virginia,Buckingham County,-7,-3,,,-22,
+2020-03-29,Virginia,Buena Vista,-31,-14,,,-38,
+2020-03-29,Virginia,Campbell County,-26,-13,,,-33,13
+2020-03-29,Virginia,Caroline County,-42,-20,-70,-37,-26,17
+2020-03-29,Virginia,Carroll County,-15,12,,-16,-19,4
+2020-03-29,Virginia,Charles City County,,,,,-34,
+2020-03-29,Virginia,Charlotte County,-20,20,,,-28,
+2020-03-29,Virginia,Charlottesville,-68,-30,-39,-58,-49,15
+2020-03-29,Virginia,Chesapeake,-35,-18,35,-18,-36,9
+2020-03-29,Virginia,Chesterfield County,-40,-21,27,-19,-39,10
+2020-03-29,Virginia,Clarke County,-43,-19,,,-36,
+2020-03-29,Virginia,Colonial Heights,-46,-26,,,-34,
+2020-03-29,Virginia,Covington,-27,-9,,,-26,
+2020-03-29,Virginia,Craig County,,,,,-24,
+2020-03-29,Virginia,Culpeper County,-33,-12,,,-28,16
+2020-03-29,Virginia,Cumberland County,-62,-24,,,-28,
+2020-03-29,Virginia,Danville,-35,-9,,-14,-35,11
+2020-03-29,Virginia,Dickenson County,-14,-11,,,-29,
+2020-03-29,Virginia,Dinwiddie County,35,-29,,,-24,14
+2020-03-29,Virginia,Emporia,-41,-6,,-20,-16,
+2020-03-29,Virginia,Essex County,-18,10,,,-28,
+2020-03-29,Virginia,Fairfax,-65,-40,-26,,-51,3
+2020-03-29,Virginia,Fairfax County,-49,-24,15,-46,-46,15
+2020-03-29,Virginia,Falls Church,-70,-39,,,-74,
+2020-03-29,Virginia,Fauquier County,-29,-34,,,-32,20
+2020-03-29,Virginia,Floyd County,-32,9,,,-29,
+2020-03-29,Virginia,Fluvanna County,-79,-31,,,-34,-1
+2020-03-29,Virginia,Franklin,-11,22,,-14,-25,
+2020-03-29,Virginia,Franklin County,-16,-7,,,-28,13
+2020-03-29,Virginia,Frederick County,-37,-26,-7,-33,-29,13
+2020-03-29,Virginia,Fredericksburg,-51,-29,10,-67,-39,0
+2020-03-29,Virginia,Galax,-26,15,,,-32,
+2020-03-29,Virginia,Giles County,-19,0,,,-16,
+2020-03-29,Virginia,Gloucester County,-27,12,,,-26,15
+2020-03-29,Virginia,Goochland County,-43,-22,,,-38,
+2020-03-29,Virginia,Grayson County,,,,,-18,
+2020-03-29,Virginia,Greene County,-18,-15,,,-33,
+2020-03-29,Virginia,Greensville County,,,,-24,-18,
+2020-03-29,Virginia,Halifax County,-24,-11,,,-28,12
+2020-03-29,Virginia,Hampton,-34,-6,117,-8,-32,10
+2020-03-29,Virginia,Hanover County,-37,-23,,-25,-38,20
+2020-03-29,Virginia,Harrisonburg,-51,-20,,-24,-36,16
+2020-03-29,Virginia,Henrico County,-42,-22,28,-71,-36,11
+2020-03-29,Virginia,Henry County,-17,-9,,,-28,11
+2020-03-29,Virginia,Hopewell,-31,-4,,,-29,11
+2020-03-29,Virginia,Isle of Wight County,-26,-11,,,-33,18
+2020-03-29,Virginia,James City County,-59,-2,-2,,-47,19
+2020-03-29,Virginia,King George County,-31,-37,,-28,-31,0
+2020-03-29,Virginia,King William County,-13,-7,,,-20,
+2020-03-29,Virginia,King and Queen County,,,,,-29,
+2020-03-29,Virginia,Lancaster County,-9,-2,,,-25,
+2020-03-29,Virginia,Lee County,-18,10,,,-13,
+2020-03-29,Virginia,Lexington,-61,-14,,,,
+2020-03-29,Virginia,Loudoun County,-50,-24,-11,-80,-44,15
+2020-03-29,Virginia,Louisa County,-22,-13,,,-32,17
+2020-03-29,Virginia,Lunenburg County,,-2,,,-29,
+2020-03-29,Virginia,Lynchburg,-45,-18,,-9,-35,9
+2020-03-29,Virginia,Madison County,-53,-34,,,-36,
+2020-03-29,Virginia,Manassas,-35,-16,,-41,-34,19
+2020-03-29,Virginia,Manassas Park,-49,-6,,,-33,
+2020-03-29,Virginia,Martinsville,-36,1,,,-35,
+2020-03-29,Virginia,Mathews County,-64,-2,,,-33,
+2020-03-29,Virginia,Mecklenburg County,-23,1,2,-26,-16,5
+2020-03-29,Virginia,Middlesex County,-44,12,,,-31,
+2020-03-29,Virginia,Montgomery County,-53,-18,,-26,-35,9
+2020-03-29,Virginia,Nelson County,-42,1,,,-38,
+2020-03-29,Virginia,New Kent County,-22,-5,,-40,-41,
+2020-03-29,Virginia,Newport News,-37,-10,55,-32,-31,9
+2020-03-29,Virginia,Norfolk,-36,-8,37,-56,-31,9
+2020-03-29,Virginia,Northampton County,-32,-22,,,-14,
+2020-03-29,Virginia,Northumberland County,-31,-18,,,-24,
+2020-03-29,Virginia,Norton,-29,,,,,
+2020-03-29,Virginia,Nottoway County,-30,38,,,-11,
+2020-03-29,Virginia,Orange County,-25,-15,,,-23,11
+2020-03-29,Virginia,Page County,-14,3,-17,,-33,
+2020-03-29,Virginia,Patrick County,-18,25,,,-17,
+2020-03-29,Virginia,Petersburg,-23,-9,,-20,-25,13
+2020-03-29,Virginia,Pittsylvania County,-15,-9,,,-31,12
+2020-03-29,Virginia,Poquoson,-16,-9,,,-44,
+2020-03-29,Virginia,Portsmouth,-20,-10,53,3,-34,9
+2020-03-29,Virginia,Powhatan County,-26,-28,,,-37,8
+2020-03-29,Virginia,Prince Edward County,-35,-19,,,-32,
+2020-03-29,Virginia,Prince George County,-29,-31,,-32,-28,17
+2020-03-29,Virginia,Prince William County,-45,-22,30,-27,-40,13
+2020-03-29,Virginia,Pulaski County,-13,1,,,-31,13
+2020-03-29,Virginia,Radford,-59,-11,,,-33,
+2020-03-29,Virginia,Rappahannock County,,,,,-28,
+2020-03-29,Virginia,Richmond,-47,-11,83,-19,-37,10
+2020-03-29,Virginia,Richmond County,-34,-25,,,-19,
+2020-03-29,Virginia,Roanoke,-44,-7,49,-43,-33,8
+2020-03-29,Virginia,Roanoke County,-29,-15,,,-40,10
+2020-03-29,Virginia,Rockbridge County,-28,,,-20,-27,
+2020-03-29,Virginia,Rockingham County,-29,-10,-7,-22,-27,9
+2020-03-29,Virginia,Russell County,-22,-14,,,-15,
+2020-03-29,Virginia,Salem,-33,-5,,,-30,-1
+2020-03-29,Virginia,Scott County,-18,-2,,,-26,
+2020-03-29,Virginia,Shenandoah County,-27,-10,,-22,-32,16
+2020-03-29,Virginia,Smyth County,-21,2,,,-14,4
+2020-03-29,Virginia,Southampton County,-27,4,,,-29,
+2020-03-29,Virginia,Spotsylvania County,-42,-17,,,-40,10
+2020-03-29,Virginia,Stafford County,-32,-29,99,,-40,12
+2020-03-29,Virginia,Staunton,-33,-15,,,-32,0
+2020-03-29,Virginia,Suffolk,-32,-7,-16,-9,-29,9
+2020-03-29,Virginia,Surry County,,,,,-36,
+2020-03-29,Virginia,Sussex County,-38,18,,-48,-17,
+2020-03-29,Virginia,Tazewell County,-22,6,,,-30,10
+2020-03-29,Virginia,Virginia Beach,-37,-13,38,-3,-36,9
+2020-03-29,Virginia,Warren County,-23,-11,,,-32,18
+2020-03-29,Virginia,Washington County,-42,-11,,-26,-24,11
+2020-03-29,Virginia,Waynesboro,-32,-12,,,-21,-1
+2020-03-29,Virginia,Westmoreland County,-32,20,,,-31,
+2020-03-29,Virginia,Williamsburg,-63,-41,,,-48,
+2020-03-29,Virginia,Winchester,-51,-16,-37,,-33,9
+2020-03-29,Virginia,Wise County,-11,4,,,-20,6
+2020-03-29,Virginia,Wythe County,-39,-17,,-4,-26,-2
+2020-03-29,Virginia,York County,-31,-20,31,,-43,23
+2020-03-29,Washington,Total,-48,-26,-11,-56,-41,13
+2020-03-29,Washington,Adams County,-31,4,,-31,-27,
+2020-03-29,Washington,Asotin County,-33,,,,-31,7
+2020-03-29,Washington,Benton County,-47,-23,3,-12,-39,10
+2020-03-29,Washington,Chelan County,-43,-20,-15,-27,-43,18
+2020-03-29,Washington,Clallam County,-42,-27,-20,-29,-35,18
+2020-03-29,Washington,Clark County,-46,-28,-3,-38,-41,13
+2020-03-29,Washington,Cowlitz County,-40,-20,-23,-34,-35,11
+2020-03-29,Washington,Douglas County,-53,-19,,-39,-40,17
+2020-03-29,Washington,Ferry County,,,,,-40,
+2020-03-29,Washington,Franklin County,-35,-15,-16,-59,-33,12
+2020-03-29,Washington,Grant County,-36,-8,10,-46,-29,8
+2020-03-29,Washington,Grays Harbor County,-40,-18,-16,-26,-37,14
+2020-03-29,Washington,Island County,-34,-25,-12,-53,-42,21
+2020-03-29,Washington,Jefferson County,-62,-31,-9,-58,-40,2
+2020-03-29,Washington,King County,-57,-30,0,-66,-47,15
+2020-03-29,Washington,Kitsap County,-45,-27,12,-62,-43,12
+2020-03-29,Washington,Kittitas County,-56,-32,-43,-22,-45,19
+2020-03-29,Washington,Klickitat County,-56,-3,,,-36,
+2020-03-29,Washington,Lewis County,-49,-21,-37,-32,-34,11
+2020-03-29,Washington,Lincoln County,,,,,-37,
+2020-03-29,Washington,Mason County,-28,-25,1,,-38,20
+2020-03-29,Washington,Okanogan County,-29,2,,,-37,9
+2020-03-29,Washington,Pacific County,-56,-24,-27,,-41,
+2020-03-29,Washington,Pend Oreille County,-67,-6,,,-41,
+2020-03-29,Washington,Pierce County,-46,-22,-17,-31,-39,12
+2020-03-29,Washington,San Juan County,-61,-32,,-43,-45,
+2020-03-29,Washington,Skagit County,-47,-25,0,-51,-42,12
+2020-03-29,Washington,Skamania County,-65,,-57,,-40,
+2020-03-29,Washington,Snohomish County,-47,-30,-2,-48,-45,14
+2020-03-29,Washington,Spokane County,-44,-20,9,-45,-38,11
+2020-03-29,Washington,Stevens County,-30,-7,0,,-33,16
+2020-03-29,Washington,Thurston County,-47,-28,-32,-36,-38,12
+2020-03-29,Washington,Walla Walla County,-42,-21,,-47,-40,18
+2020-03-29,Washington,Whatcom County,-57,-34,-11,-69,-44,13
+2020-03-29,Washington,Whitman County,-46,-25,,,-47,23
+2020-03-29,Washington,Yakima County,-36,-13,0,-21,-33,9
+2020-03-29,West Virginia,Total,-38,-16,52,-31,-33,8
+2020-03-29,West Virginia,Barbour County,-47,-9,,,-16,
+2020-03-29,West Virginia,Berkeley County,-35,-20,-9,-55,-32,9
+2020-03-29,West Virginia,Boone County,-40,-13,,,-20,
+2020-03-29,West Virginia,Braxton County,-31,,,-30,-38,
+2020-03-29,West Virginia,Brooke County,-31,-10,,,-24,
+2020-03-29,West Virginia,Cabell County,-47,-20,,-37,-34,9
+2020-03-29,West Virginia,Fayette County,-21,-9,,,-26,7
+2020-03-29,West Virginia,Grant County,-51,9,,,-25,
+2020-03-29,West Virginia,Greenbrier County,-40,-16,,,-41,0
+2020-03-29,West Virginia,Hampshire County,-26,-1,,,-20,
+2020-03-29,West Virginia,Hancock County,-37,-1,,,-32,10
+2020-03-29,West Virginia,Hardy County,-29,-13,,,-23,
+2020-03-29,West Virginia,Harrison County,-43,-18,-24,-47,-31,19
+2020-03-29,West Virginia,Jackson County,-33,-32,,-11,-33,
+2020-03-29,West Virginia,Jefferson County,-39,-39,17,,-43,20
+2020-03-29,West Virginia,Kanawha County,-44,-14,-2,-43,-33,8
+2020-03-29,West Virginia,Lewis County,-33,-7,,,-40,
+2020-03-29,West Virginia,Lincoln County,,,,,-39,
+2020-03-29,West Virginia,Logan County,-32,-16,,,-24,
+2020-03-29,West Virginia,Marion County,-38,-21,,,-34,20
+2020-03-29,West Virginia,Marshall County,-29,-18,,,-27,1
+2020-03-29,West Virginia,Mason County,-36,-8,,,-28,
+2020-03-29,West Virginia,McDowell County,,-13,,,-18,
+2020-03-29,West Virginia,Mercer County,-44,-16,-36,-30,-35,15
+2020-03-29,West Virginia,Mineral County,-28,-4,,,-24,-2
+2020-03-29,West Virginia,Mingo County,-63,,,,-37,
+2020-03-29,West Virginia,Monongalia County,-48,-23,60,-35,-44,25
+2020-03-29,West Virginia,Monroe County,,,,,-32,
+2020-03-29,West Virginia,Morgan County,-38,-19,,,-34,
+2020-03-29,West Virginia,Nicholas County,-28,-12,,,-30,
+2020-03-29,West Virginia,Ohio County,-40,11,-34,-19,-38,16
+2020-03-29,West Virginia,Pleasants County,-50,,,,-40,
+2020-03-29,West Virginia,Pocahontas County,-74,,4,,-55,
+2020-03-29,West Virginia,Preston County,-36,-5,,,-25,
+2020-03-29,West Virginia,Putnam County,-33,-16,,-9,-41,21
+2020-03-29,West Virginia,Raleigh County,-42,-24,,-35,-37,15
+2020-03-29,West Virginia,Randolph County,-27,-9,,,-17,
+2020-03-29,West Virginia,Ritchie County,-49,,,,-45,
+2020-03-29,West Virginia,Roane County,-25,,,,-42,
+2020-03-29,West Virginia,Summers County,4,,,,-39,
+2020-03-29,West Virginia,Taylor County,-13,-32,,,-41,
+2020-03-29,West Virginia,Tucker County,,-14,,,-37,
+2020-03-29,West Virginia,Tyler County,,,,,-29,
+2020-03-29,West Virginia,Upshur County,-28,-24,,,-25,
+2020-03-29,West Virginia,Wayne County,-1,-10,,,-28,0
+2020-03-29,West Virginia,Webster County,,,,,-38,
+2020-03-29,West Virginia,Wetzel County,-39,-15,,,-31,
+2020-03-29,West Virginia,Wood County,-40,-12,-21,,-31,9
+2020-03-29,West Virginia,Wyoming County,-66,,,,-32,
+2020-03-29,Wisconsin,Total,-55,-30,-12,-50,-34,13
+2020-03-29,Wisconsin,Adams County,-62,-16,,,-36,
+2020-03-29,Wisconsin,Ashland County,-54,-44,,,-37,
+2020-03-29,Wisconsin,Barron County,-47,-38,,,-31,17
+2020-03-29,Wisconsin,Bayfield County,-69,-33,,,-37,
+2020-03-29,Wisconsin,Brown County,-56,-31,-26,-77,-31,13
+2020-03-29,Wisconsin,Buffalo County,-74,-12,,,-26,
+2020-03-29,Wisconsin,Burnett County,-62,-24,,,-34,
+2020-03-29,Wisconsin,Calumet County,-71,-29,193,,-33,25
+2020-03-29,Wisconsin,Chippewa County,-52,-34,,,-28,19
+2020-03-29,Wisconsin,Clark County,-79,-29,,,-25,16
+2020-03-29,Wisconsin,Columbia County,-54,-29,,-37,-31,21
+2020-03-29,Wisconsin,Crawford County,-44,-26,,,-19,
+2020-03-29,Wisconsin,Dane County,-68,-38,-25,-67,-43,15
+2020-03-29,Wisconsin,Dodge County,-48,-32,-9,,-21,13
+2020-03-29,Wisconsin,Door County,-54,-28,,,-33,-2
+2020-03-29,Wisconsin,Douglas County,-54,-40,,,-33,20
+2020-03-29,Wisconsin,Dunn County,-49,-35,,-14,-32,19
+2020-03-29,Wisconsin,Eau Claire County,-59,-35,-22,-36,-32,14
+2020-03-29,Wisconsin,Florence County,-73,,,,,
+2020-03-29,Wisconsin,Fond du Lac County,-54,-36,-13,-21,-31,12
+2020-03-29,Wisconsin,Forest County,-84,,,,-40,
+2020-03-29,Wisconsin,Grant County,-47,-24,,,-27,19
+2020-03-29,Wisconsin,Green County,-53,-22,,,-31,22
+2020-03-29,Wisconsin,Green Lake County,-36,-22,,,-25,
+2020-03-29,Wisconsin,Iowa County,-54,-44,,,-35,2
+2020-03-29,Wisconsin,Iron County,-86,,,,-42,
+2020-03-29,Wisconsin,Jackson County,-50,-19,,-12,-38,
+2020-03-29,Wisconsin,Jefferson County,-52,-28,-11,-62,-30,14
+2020-03-29,Wisconsin,Juneau County,-64,-33,,-29,-32,13
+2020-03-29,Wisconsin,Kenosha County,-61,-33,-23,-56,-34,12
+2020-03-29,Wisconsin,Kewaunee County,-57,-17,,,-23,
+2020-03-29,Wisconsin,La Crosse County,-56,-28,-4,-38,-35,13
+2020-03-29,Wisconsin,Lafayette County,-85,-7,,,-22,
+2020-03-29,Wisconsin,Langlade County,-46,-30,,,-24,
+2020-03-29,Wisconsin,Lincoln County,-50,-36,,,-32,13
+2020-03-29,Wisconsin,Manitowoc County,-51,-19,11,,-21,15
+2020-03-29,Wisconsin,Marathon County,-54,-32,-50,,-32,13
+2020-03-29,Wisconsin,Marinette County,-49,-25,-15,,-25,15
+2020-03-29,Wisconsin,Marquette County,-65,-25,,,-27,
+2020-03-29,Wisconsin,Milwaukee County,-55,-28,-9,-57,-38,13
+2020-03-29,Wisconsin,Monroe County,-46,-33,,-17,-26,19
+2020-03-29,Wisconsin,Oconto County,-69,-22,-58,,-25,16
+2020-03-29,Wisconsin,Oneida County,-54,-47,-50,,-32,17
+2020-03-29,Wisconsin,Outagamie County,-61,-35,-41,-62,-33,13
+2020-03-29,Wisconsin,Ozaukee County,-59,-35,11,,-37,27
+2020-03-29,Wisconsin,Pepin County,-64,,,,-29,
+2020-03-29,Wisconsin,Pierce County,-73,-21,,,-35,23
+2020-03-29,Wisconsin,Polk County,-43,-26,-33,,-33,21
+2020-03-29,Wisconsin,Portage County,-52,-34,-18,,-38,22
+2020-03-29,Wisconsin,Price County,-67,-31,,,-33,
+2020-03-29,Wisconsin,Racine County,-52,-28,-11,-37,-32,12
+2020-03-29,Wisconsin,Richland County,-44,,,,-25,
+2020-03-29,Wisconsin,Rock County,-52,-30,-15,-36,-34,11
+2020-03-29,Wisconsin,Rusk County,-49,-39,,,-25,
+2020-03-29,Wisconsin,Sauk County,-66,-29,-30,-50,-48,22
+2020-03-29,Wisconsin,Sawyer County,-45,-37,,,-43,
+2020-03-29,Wisconsin,Shawano County,-48,-35,,,-33,19
+2020-03-29,Wisconsin,Sheboygan County,-47,-28,4,-23,-26,11
+2020-03-29,Wisconsin,St. Croix County,-53,-35,-21,-39,-34,24
+2020-03-29,Wisconsin,Taylor County,-50,-21,,,-2,
+2020-03-29,Wisconsin,Trempealeau County,-59,-28,,,-26,15
+2020-03-29,Wisconsin,Vernon County,-54,-28,,,-35,4
+2020-03-29,Wisconsin,Vilas County,-83,-28,-46,,-51,
+2020-03-29,Wisconsin,Walworth County,-49,-28,-33,,-39,12
+2020-03-29,Wisconsin,Washburn County,-37,-59,,,-39,
+2020-03-29,Wisconsin,Washington County,-49,-29,-22,-31,-36,13
+2020-03-29,Wisconsin,Waukesha County,-58,-35,-23,-44,-40,14
+2020-03-29,Wisconsin,Waupaca County,-50,-26,-25,,-24,19
+2020-03-29,Wisconsin,Waushara County,-56,-1,,,-35,4
+2020-03-29,Wisconsin,Winnebago County,-54,-32,-11,-41,-32,13
+2020-03-29,Wisconsin,Wood County,-43,-31,,,-31,15
+2020-03-29,Wyoming,Total,-37,-13,29,-14,-29,8
+2020-03-29,Wyoming,Albany County,-42,-27,-4,1,-29,16
+2020-03-29,Wyoming,Big Horn County,-35,-7,,,-29,
+2020-03-29,Wyoming,Campbell County,-32,-2,,-7,-22,17
+2020-03-29,Wyoming,Carbon County,-30,-14,,-15,-35,
+2020-03-29,Wyoming,Converse County,-42,-3,,-35,-22,
+2020-03-29,Wyoming,Crook County,,,,,-38,
+2020-03-29,Wyoming,Fremont County,-31,-17,,,-27,15
+2020-03-29,Wyoming,Goshen County,-24,-17,,,-26,
+2020-03-29,Wyoming,Hot Springs County,-67,-22,-56,,,
+2020-03-29,Wyoming,Johnson County,-38,-2,,,-30,
+2020-03-29,Wyoming,Laramie County,-39,-20,26,-16,-28,10
+2020-03-29,Wyoming,Lincoln County,-30,-5,,,-35,
+2020-03-29,Wyoming,Natrona County,-36,-8,64,-29,-29,9
+2020-03-29,Wyoming,Park County,-35,10,,,-31,5
+2020-03-29,Wyoming,Platte County,-35,-5,,-43,-31,
+2020-03-29,Wyoming,Sheridan County,-34,7,,,-26,13
+2020-03-29,Wyoming,Sublette County,-70,-24,,,-36,
+2020-03-29,Wyoming,Sweetwater County,-33,-9,,6,-22,15
+2020-03-29,Wyoming,Teton County,-83,-50,-57,-80,-70,
+2020-03-29,Wyoming,Uinta County,-29,2,,1,-18,
+2020-03-29,Wyoming,Washakie County,-17,-7,,,-32,
+2020-03-29,Wyoming,Weston County,-57,-24,,,-34,
