@@ -8,10 +8,15 @@ var formatDay = d3.timeFormat("%d");
 var formatMonthandYear = d3.timeFormat("%m/%y");
 var formatMonthandDay = d3.timeFormat("%m/%d%")
 
-d3.queue()
-    .defer(d3.json, "data/alex/states-10m.json")
-    .defer(d3.csv, "data/alex/coronavirus-school-closures-state-levelv4.csv")
-    .await(ready)
+d3.json("data/alex/states-10m.json").then(function(d) {
+    d3.csv("data/alex/coronavirus-school-closures-state-levelv4.csv").then(function(e) {
+        ready(d,e);
+    })
+})
+    
+// d3.defer(d3.json, "data/alex/states-10m.json")
+//     .defer(d3.csv, "data/alex/coronavirus-school-closures-state-levelv4.csv")
+//     .await(ready)
 
 var startDate = new Date("03/15/2020"),
     endDate = new Date("03/24/2020"),
@@ -70,7 +75,7 @@ var handle = slider.insert("circle", ".track-overlay")
 var label = slider.append("text")  
     .attr("class", "label")
     .attr("text-anchor", "middle")
-    .text(formatMonthandDay(startDate))
+    .text(formatDate(startDate))
     .attr("transform", "translate(0," + (-25) + ")")
 
 var projection = d3.geoAlbersUsa();
@@ -78,7 +83,7 @@ var projection = d3.geoAlbersUsa();
 var path = d3.geoPath()
     .projection(projection);
 
-function ready(error, data, closures) {
+function ready(data, closures) {
         //console.log(data)
     
         var states_dictionary = {};
@@ -110,7 +115,7 @@ function ready(error, data, closures) {
             }
             else {
                     moving = true;
-                    timer = setInterval(step, 200);
+                    timer = setInterval(step, 1000);
                     button.text("Pause");
             }
         
@@ -118,6 +123,19 @@ function ready(error, data, closures) {
         //console.log(closures)
     });
 }
+
+function step() {
+    update(x.invert(currentValue));
+    currentValue = currentValue + (targetValue/total_days); // step 1 day at a time
+    if (currentValue > targetValue) {
+        moving = false;
+        currentValue = 0;
+        clearInterval(timer);
+        //timer = 0;
+        playButton.text("Play");
+        console.log("Slider moving: " + moving);
+    }
+  }
 
 function update(h) {
     // update position of handle on slider //

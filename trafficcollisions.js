@@ -16,7 +16,7 @@ var margin = {top:50, right:50, bottom:0, left:50},
     width = 960 - margin.left - margin.right,
     height = 600 - margin.top - margin.bottom;
 
-var traffic_svg = d3.select("#state-schooling.section").append("svg")
+var traffic_svg = d3.select("#traffic-collisions-viz").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom); 
 
@@ -91,7 +91,7 @@ var projection = d3.geoAlbersUsa();
 var path = d3.geoPath()
     .projection(projection);
 
-d3.json("data/alex/counties-10m.json", function(data) {
+d3.json("data/alex/counties-10m.json").then(function(data) {
     var counties = topojson.feature(data, data.objects.counties).features,
     LA_county = counties.filter(function (d) {return d.properties.name === "Los Angeles" ;})[0];
 
@@ -118,8 +118,8 @@ d3.json("data/alex/counties-10m.json", function(data) {
 
 var collisions2019nest;
 
-d3.csv("data/alex/LA_Traffic_Collision_Data_from_2010_to_Presentv2.csv", function(collisions) {
-    var collisions2019 = collisions.filter(function (d) {
+d3.csv("data/alex/LA_Traffic_Collision_Data_from_2010_to_Presentv2.csv").then(function(collisions) {
+        var collisions2019 = collisions.filter(function(d) {
         var lat_long = eval(d.Location);
         return (formatYear(date(d["Date Occurred"])) >= 2019 && lat_long[0] != 0 && lat_long[1] != 0)});
     
