@@ -12,6 +12,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	var captionHeight = 100;
 
 	var parseTime = d3.timeParse('%Y-%m-%d');
+	var formatTime = d3.timeFormat('%m/%d/%Y');
 	var bisect = d3.bisector(d => d.date).left;
 
 	const categories = [
@@ -92,6 +93,12 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 				.append('g')
 					.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
+	var cursorDate = svg.append('text')
+		.attr('class', 'cursorDate')
+		.attr('y', 0)
+		.attr('font-size', '14px')
+		.attr('text-anchor', 'middle');
+
 	var cursorLine = svg.append('line')
 		.style('stroke', 'black')
 		.style('stroke-width', 1)
@@ -132,6 +139,9 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	function mousemove() {
 		var date = xScale.invert(d3.mouse(this)[0]);
 		var idx = 0;
+		cursorDate
+			.attr('x', xScale(date))
+			.text(formatTime(date))
 		cursorLine
 			.attr('x1', xScale(date))
 			.attr('x2', xScale(date))
@@ -163,6 +173,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		
 	}
 	function mouseout() {
+		cursorDate.text('')
 		cursorLine.attr('opacity', 0)
 		d3.selectAll('.captionBox').selectAll('text').text('')
 	}

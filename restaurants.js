@@ -195,6 +195,6 @@ function reset() {
 	map.selectAll('.state')
 		.transition().duration(200)
 		.style('fill', d => {
-			return (mapToData(d) ? 'white' : 'gray')
+			return (mapToData(d) ? colorScale(0) : 'gray')
 		})
 }
