@@ -1,6 +1,6 @@
 window.onload = function() {
   // draw flight volume graph
-  fetch('data/FlightVolume/final_flight_data_concatted_sorted.json')
+  fetch('data/flightVolume/final_flight_data_concatted_sorted.json')
     .then((response) => {
       return response.json();
     })
