@@ -3,7 +3,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <title>6.894 Final Project</title>
-    <script type="text/javascript" src="js/moment.min.js"></script>
 
 </head>
 
@@ -32,23 +31,6 @@
       <p> The flight volume graph below shows the number of daily commercial flights (Commercial passenger flights, cargo flights, charter flights, some business jet flights) and all flights (commercial flights + more business jet flights, private flights, gliders, most helicopter flights, most ambulance flights, government flights, some military flights, drones) in the world since more and more countries adopted more stringent travelling restriciton </p>
       <p> As from mid-March, we see a sharp decline in the number of daily flights across the world. </p>
       <div id="flightVolume"/>
-    </div>
-
-    <div id="worldSchoolRestrictionsContainer" style="width:100%;">
-      <h2> School Restrictions data </h2>
-      <p> In an attempt to reduce the rate of spread of COVID-19 and to "flatten the curve", countries across the world have gradually mandated school closures. </p>
-      <p> The visualization below shows how varios countries progressively closed schools starting with China in early January. Other countries, namely Iran and Italy also closed their schools around February 22nd and 23rd 2020, with many other countries following suit thereafter. </p>
-      <p> Although some ountries recommended partial school closures in affected school areas (light blue), these recommendations soon changed into generalized nationwide school closures (dark blue) </p>
-      <p> Disclaimer: the dataset we used unfortunately did not contain data for all countries for all dates, and so some countries appear white thoughout due to lack of data. We are looking into finding a better dataset for this visualization.  </p>
-
-      <div class="slidecontainer"  style="width:600px;">
-        <input type="range" step="1" value="0" min="0" max="10" class="slider" id="schoolRestrictionRange">
-        <button type="button" id="SchoolRestrictionDateStepBack"><</button>
-        <button type="button" id="SchoolRestrictionDateStepForward">></button>
-        <button type="button" id="SchoolRestrictionDateStepPlay">Play</button>
-        <label for="schoolRestrictionRange" id="SchoolRestrictionDateLabel"></label>
-      </div>
-      <div id="worldSchoolRestrictions"  style="width:600px;"/>
     </div>
 
     <div id="stringencyContainer"  style="width:50%;">
