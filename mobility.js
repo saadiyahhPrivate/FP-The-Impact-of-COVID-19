@@ -87,9 +87,6 @@ var drawSchoolRestrictions = function(data) {
   document.getElementById("schoolRestrictionRange").setAttribute("min", 0);
   document.getElementById("schoolRestrictionRange").setAttribute("max", schoolRestrictionKeys.length - 2);
 
-  console.log("restriction lengths " + schoolRestrictionKeys.length);
-  console.log("restriction keys " + schoolRestrictionKeys);
-
   schoolRestrictionsViz = new d3plus.Geomap()
     .topojson("js/countries-50m.json")
     .select("#worldSchoolRestrictions")
@@ -145,7 +142,6 @@ var drawSchoolRestrictions = function(data) {
 
   // TODO: nothing interesting happens until Jan 26th, so data was filtered out for after then
   var stepForward = function() {
-    console.log("******* step forward called");
     var doc_el = document.getElementById("schoolRestrictionRange");
     var curr_val = parseInt(doc_el.value);
     var next_val = (curr_val + 1) % (schoolRestrictionKeys.length);
@@ -190,6 +186,6 @@ var drawSchoolRestrictions = function(data) {
 var stringencyViz;
 var drawStringencyGraph = function(data)
 {
-  console.log("trying to draw stringency graph !!!!!!!!");
+  // console.log("trying to draw stringency graph !!!!!!!!");
 
 };
