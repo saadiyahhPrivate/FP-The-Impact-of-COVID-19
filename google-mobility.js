@@ -1,14 +1,15 @@
 d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 
 	// dimensions
-	var width = 200,
-		height = 200;
+	var width = 400,
+		height = 150;
 	var margin = {
-		top: 15,
-		right: 5,
+		top: 20,
+		right: 180,
 		bottom: 50,
 		left: 50
 	}
+	var captionHeight = 100;
 
 	var parseTime = d3.timeParse('%Y-%m-%d');
 	var bisect = d3.bisector(d => d.date).left;
@@ -80,54 +81,96 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 
 
 	var svg = d3.select('#mobility-viz')
+				// .append('g')
+				// .attr('class', 'chartWrapper')
 				.selectAll('svg')
 				.data(nested)
 				.enter()
 				.append('svg')
 					.attr('width', width + margin.left + margin.right)
-					.attr('height', height + margin.top + margin.bottom)
+					.attr('height', height + captionHeight + margin.top + margin.bottom)
 				.append('g')
 					.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-	var circle = svg.append('circle')
-		.attr('r', 2.2)
+	var cursorLine = svg.append('line')
+		.style('stroke', 'black')
+		.style('stroke-width', 1)
+		// .attr('x1', xScale(new Date(2020, 2, 11)))
+		// .attr('x2', xScale(new Date(2020, 2, 11)))
+		.attr('y1', 0)
+		.attr('y2', height)
 		.attr('opacity', 0)
 		.style('pointer-events', 'none');
-	var caption = svg.append('text')
-		.attr('class', 'caption')
-		.attr('text-anchor', 'middle')
-		.style('pointer-events', 'none')
-		.attr('dy', -8)
-		.attr('font-size', '10px');
+	var cursorCaption = svg.append('g')
+		.attr('class', 'captionBox')
+		.attr('transform', 'translate(0,' + (height + margin.bottom) + ')')
+		.append('rect')
+		// .attr('class', 'captionBox')
+		.attr('width', captionHeight)
+		.attr('height', captionHeight)
+		.attr('opacity', 0)
+		// .attr('text-anchor', 'middle')
+		// .style('pointer-events', 'none')
+		// .attr('border', 'black');
+	categories.forEach((cat,i) => {
+		d3.selectAll('.captionBox').append('text')
+			.attr('class', 'caption_'+cat)
+			// .text(d => {
+			// 	console.log(''.concat(textScale(cat),':',d.values[idx][cat]))
+			// 	return ''.concat(textScale(cat),':',d.values[idx][cat])
+			// })
+			.attr('y', i*15)
+			.attr('font-size', '10px')
+			.attr('fill', colorScale(cat))
+	})
 
 	//TODO
-	var mouseover = function() {
-		circle.attr('opacity', 1)
+	function mouseover() {
+		cursorLine.attr('opacity', 1)
 		return mousemove.call(this)
 	}
-	var mousemove = function() {
+	function mousemove() {
 		var date = xScale.invert(d3.mouse(this)[0]);
 		var idx = 0;
-		circle
-			.attr('cx', xScale(date))
-			.attr('cy', d => {
-				idx = bisect(d.values, date, 0, d.values.length-1)
-				return yScale(d.values[idx]['residential_percent_change_from_baseline'])
-			})
-		caption
-			.attr('x', xScale(date))
-			.attr('y', d => yScale(d.values[idx]['residential_percent_change_from_baseline']))
-			.text(d => d.values[idx]['residential_percent_change_from_baseline'])
+		cursorLine
+			.attr('x1', xScale(date))
+			.attr('x2', xScale(date))
+			// .attr('cy', d => {
+			// 	idx = bisect(d.values, date, 0, d.values.length-1)
+			// 	return yScale(d.values[idx]['residential_percent_change_from_baseline'])
+			// })
+		cursorCaption.attr('x', xScale(date))
+
+		// categories.forEach((cat,i) => {
+		// 	d3.select('.captionBox').append('text')
+		// 		.text(d => {
+		// 			console.log(''.concat(textScale(cat),':',d.values[idx][cat]))
+		// 			return ''.concat(textScale(cat),':',d.values[idx][cat])
+		// 		})
+		// 		.attr('x', xScale(date))
+		// 		.attr('y', i*20)
+		// 		.attr('font-size', '10px')
+
+		// })
+		categories.forEach((cat,i) => {
+			d3.selectAll('.caption_'+cat)
+				.attr('x', xScale(date))
+				.text(d => {
+					idx = bisect(d.values, date, 0, d.values.length-1)
+					return ''.concat(textScale(cat),':',d.values[idx][cat],'%')
+				})
+		})
+		
 	}
-	var mouseout = function() {
-		circle.attr('opacity', 0)
-		caption.text('')
+	function mouseout() {
+		cursorLine.attr('opacity', 0)
+		d3.selectAll('.captionBox').selectAll('text').text('')
 	}
 
 	// add interaction
 	svg.append('rect')
 		.attr('class', 'hoverbox')
-		.attr('width', width + margin.right)
+		.attr('width', width)
 		.attr('height', height)
 		.style('pointer-events', 'all')
 		.style('fill', 'none')
@@ -142,15 +185,30 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	svg.append('g')
 		.call(d3.axisLeft(yScale).ticks(5).tickFormat(x => x>0 ? '+'+x+'%' : x+'%'));
 
-	// additional info lines
-	svg.append('g')
-		.attr('class', 'info-pandemic')
-		.append('line')
-			.style('stroke', 'black')
-			.attr('x1', xScale(new Date(2020, 2, 11)))
-			.attr('x2', xScale(new Date(2020, 2, 11)))
-			.attr('y1', 0)
-			.attr('y2', height)
+	// additional info line
+	// var info = d3.select('.chartWrapper').append('g')
+	// 	.attr('class', 'info-pandemic');
+
+	svg.append('line')
+		.style('stroke', 'black')
+		.style('stroke-width', 1)
+		.style('stroke-dasharray', ('3, 3'))
+		.attr('x1', xScale(new Date(2020, 2, 11)))
+		.attr('x2', xScale(new Date(2020, 2, 11)))
+		.attr('y1', 0)
+		.attr('y2', height)
+		.on('mouseover', function() {
+			console.log('mouseover')
+
+		})
+	// info.append('text')
+	// 		.attr('class', 'info-pandemic-text')
+	// 		.attr('text-anchor', 'middle')
+	// 		.attr('x', xScale(new Date(2020, 2, 11)) + margin.left + 10)
+	// 		.attr('y', margin.top)
+	// 		// .attr('dy', -5)
+	// 		.style('font-size', '12px')
+	// 		.text('WHO declares COVID-19 a pandemic')
 	
 	// draw line graphs
 	categories.forEach(cat => {

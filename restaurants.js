@@ -27,7 +27,7 @@ var colorScale = d3.scaleSequential(d3.interpolateRdBu)
 
 var projection = d3.geoAlbersUsa();
 var path = d3.geoPath()
-    .projection(projection);
+	.projection(projection);
 
 var svg = d3.select('#restaurants-viz').append('svg')
 	.attr('width', width + margin.left + margin.right)
@@ -49,32 +49,40 @@ var title = svg.append('text')
 var defs = svg.append('defs');
 
 var linearGradient = defs.append('linearGradient')
-    .attr('id', 'linear-gradient')
-    .attr("x1", "0%")
-    .attr("y1", "0%")
-    .attr("x2", "100%")
-    .attr("y2", "0%");
+	.attr('id', 'linear-gradient')
+	.attr('x1', '0%')
+	.attr('y1', '0%')
+	.attr('x2', '100%')
+	.attr('y2', '0%');
 
 //Set the color for the start (0%)
 linearGradient.append('stop')
-    .attr('offset', '0%')
-    .attr('stop-color', colorScale(-100));
+	.attr('offset', '0%')
+	.attr('stop-color', colorScale(-100));
 
 linearGradient.append('stop')
-    .attr('offset', '50%')
-    .attr('stop-color', colorScale(0));
+	.attr('offset', '25%')
+	.attr('stop-color', colorScale(-50));
+
+linearGradient.append('stop')
+	.attr('offset', '50%')
+	.attr('stop-color', colorScale(0));
+
+linearGradient.append('stop')
+	.attr('offset', '75%')
+	.attr('stop-color', colorScale(50));
 
 //Set the color for the end (100%)
 linearGradient.append('stop')
-    .attr('offset', '100%')
-    .attr('stop-color', colorScale(100));
+	.attr('offset', '100%')
+	.attr('stop-color', colorScale(100));
 
 var legend = svg.append('rect')
 	.attr('id', 'legend-bar')
-    .attr('width', width/2)
-    .attr('height', legendHeight/2)
-    .attr('transform', 'translate('+ width/4 + ', ' + legendHeight + ')')
-    .style('fill', 'url(#linear-gradient)');
+	.attr('width', width/2)
+	.attr('height', legendHeight/2)
+	.attr('transform', 'translate('+ width/4 + ', ' + legendHeight + ')')
+	.style('fill', 'url(#linear-gradient)');
 
 svg.append('text')
 	.attr('id', 'legend-0')
@@ -159,12 +167,12 @@ function update() {
 	title.text(formatTime(index));
 
 	map.selectAll('.state')
-        .transition().duration(200)
-        .style('fill', function(entry) {
-        	if (!mapToData(entry)) return 'gray';
-            var ent = mapToData(entry).values.filter(d => d.date.getMonth() === index.getMonth() && d.date.getDate() === index.getDate())[0]
-            return colorScale(ent.percent_yoy_change)
-        })
+		.transition().duration(200)
+		.style('fill', function(entry) {
+			if (!mapToData(entry)) return 'gray';
+			var ent = mapToData(entry).values.filter(d => d.date.getMonth() === index.getMonth() && d.date.getDate() === index.getDate())[0]
+			return colorScale(ent.percent_yoy_change)
+		})
 
 	// increment day
 	index.setDate(index.getDate() + 1)
