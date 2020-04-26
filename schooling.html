@@ -1,87 +1,6 @@
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <style>
-    body {
-        font-family:"avenir next", Arial, sans-serif;
-        font-size: 12px;
-        color: #696969;
-      }
-
-      #play-button {
-        position: absolute;
-        top: 200px;
-        left: 50px;
-        background: #f08080;
-        padding-right: 26px;
-        border-radius: 3px;
-        border: none;
-        color: white;
-        margin: 0;
-        padding: 0 12px;
-        width: 60px;
-        cursor: pointer;
-        height: 30px;
-      }
-
-      #play-button:hover {
-        background-color: #696969;
-      }
-
-      .ticks {
-        font-size: 10px;
-      }
-
-      .track,
-      .track-inset,
-      .track-overlay {
-        stroke-linecap: round;
-      }
-
-      .track {
-        stroke: #000;
-        stroke-opacity: 0.3;
-        stroke-width: 10px;
-      }
-
-      .track-inset {
-        stroke: #dcdcdc;
-        stroke-width: 8px;
-      }
-
-      .track-overlay {
-        pointer-events: stroke;
-        stroke-width: 50px;
-        stroke: transparent;
-        cursor: crosshair;
-      }
-
-      .handle {
-        fill: #fff;
-        stroke: #000;
-        stroke-opacity: 0.5;
-        stroke-width: 1.25px;
-      }
-        .state{
-            fill: #e3e3e3;
-            stroke: #333;
-            stroke-width: 0.5;
-        }
-        #slider{
-            width:50%
-        }
-        #tickmarks{
-            stroke:#333
-        }
-        /* .county:hover{
-        fill:orange;
-        } */
-        .county{
-            fill: #e3e3e3;
-            stroke: #333;
-            stroke-width: 0.5
-        }
-    </style>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="js/moment.min.js"></script>
     <title>6.894 Final Project</title>
@@ -97,15 +16,8 @@
     <a href="schooling.html" class="active">Schooling</a>
   </div>
 
-  <div class="mainpage" id="map">
-    <h1>State School Closures</h1>
-
-    <p> some text about the visualization below/ narrative discourse </p>
-    <button id="play-button">Play</button>
-  </div>
-
-  <div id="worldSchoolRestrictionsContainer" style="width:100%;">
-    <h2> School Restrictions data </h2>
+  <div class="mainpage" id="worldSchoolRestrictionsContainer" style="width:100%;">
+    <h2> World School Closures </h2>
     <p> In an attempt to reduce the rate of spread of COVID-19 and to "flatten the curve", countries across the world have gradually mandated school closures. </p>
     <p> The visualization below shows how varios countries progressively closed schools starting with China in early January. Other countries, namely Iran and Italy also closed their schools around February 22nd and 23rd 2020, with many other countries following suit thereafter. </p>
     <p> Although some ountries recommended partial school closures in affected school areas (light blue), these recommendations soon changed into generalized nationwide school closures (dark blue) </p>
@@ -115,10 +27,17 @@
       <input type="range" step="1" value="0" min="0" max="10" class="slider" id="schoolRestrictionRange">
       <button type="button" id="SchoolRestrictionDateStepBack"><</button>
       <button type="button" id="SchoolRestrictionDateStepForward">></button>
-      <button type="button" id="SchoolRestrictionDateStepPlay">Play</button>
+      <button type="button" id="SchoolRestrictionDateStepPlay" class="play-button">Play</button>
       <label for="schoolRestrictionRange" id="SchoolRestrictionDateLabel"></label>
     </div>
     <div id="worldSchoolRestrictions"  style="width:600px;"/>
+  </div>
+
+  <div class="mainpage" id="map">
+    <h1>State School Closures</h1>
+
+    <p> some text about the visualization below/ narrative discourse </p>
+    <button id="play-button" class="play-button">Play</button>
   </div>
 
 <!-- If using js, use schooling.js -->
