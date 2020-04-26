@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <style>
-    body {
-        font-family:"avenir next", Arial, sans-serif;
-        font-size: 12px;
-        color: #696969;
-      }
-  
+    <link rel="stylesheet" href="style.css">
+    <title>6.894 Final Project</title>
+</head>
+<style>
       #play-button {
         position: absolute;
-        top: 200px;
+        top: 960px;
         left: 50px;
         background: #f08080;
         padding-right: 26px;
@@ -82,45 +79,33 @@
             stroke-width: 0.5
         }
     </style>
-    <link rel="stylesheet" href="style.css">
-    <title>6.894 Final Project</title>
-</head>
 
 <body>
     <!-- separate tabs for each category; might change to scroll later -->
   <div class="category" id="tabs">
     <a href="index.html">Home</a>
     <a href="mobility.html">Mobility</a>
-    <a href="restaurants.html">Restaurants</a>
+    <a href="restaurants.html" class="active">Restaurants</a>
     <a href="lifestyle.html">Lifestyle</a>
-    <a href="schooling.html" class="active">Schooling</a>
+    <a href="schooling.html">Schooling</a>
   </div>
 
-  <div class="mainpage" id="map">
-    <h1>State School Closures</h1>
-    <button id="play-button">Play</button>
-    <!--input type="range" min="16" max="24" step="1" id="slider" value="16" list="tickmarks">
-    <datalist id="tickmarks">
-        <option value="15" label="3/15/20"></option>
-        <option value="16" label="3/16/20"></option>
-        <option value="17"></option>
-        <option value="18"></option>
-        <option value="19"></option>
-        <option value="20" label="50%"></option>
-        <option value="21"></option>
-        <option value="22"></option>
-        <option value="23"></option>
-        <option value="24"></option>
-    </datalist-->
+  <div class="mainpage">
+    <h1>Lifestyle</h1>
+    <p> add sections below </p>
+
+    <div class="section" id="restaurants">
+        <h3>Restaurants</h3>
+        <a id="restaurants-viz"></a>
+    </div>
+
   </div>
 
-<!-- If using js, use schooling.js -->
-<!--script src="https://d3js.org/d3.v5.min.js"></script-->
+<!-- If using js, use lifestyle.js -->
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://d3js.org/topojson.v2.min.js"></script>
-<!-- document.write('<scr' + 'ipt src="schooling.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>'); -->
 <script>
-document.write('<scr' + 'ipt src="stateschooling.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
+document.write('<scr' + 'ipt src="restaurants.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
 </script>
 
 </body>

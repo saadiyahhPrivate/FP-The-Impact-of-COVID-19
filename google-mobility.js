@@ -78,8 +78,6 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		.key(d => d.country_region)
 		.entries(data);
 
-	console.log(nested);
-
 
 	var svg = d3.select('#mobility-viz')
 				.selectAll('svg')
@@ -210,95 +208,3 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 // finish hover tooltip
 // info lines for major events 
 // hover over category for explanation, click to "activate" and show on map
-
-
-
-
-
-
-
-
-d3.csv('data/restaurants/restaurant-performance.csv').then(function(data) {
-
-	var width = 100,
-		height = 100;
-	var margin = {
-		top: 15,
-		right: 5,
-		bottom: 50,
-		left: 50
-	}
-	
-	var parseTime = d3.timeParse('%Y-%m-%d');
-
-
-	// define axis range
-	var xScale = d3.scaleTime()
-		.domain([new Date(2020, 1, 18), new Date(2020, 3, 5)])
-		.range([0, width]);
-	var yScale = d3.scaleLinear()
-		.domain([-100, 100])
-		.range([height, 0]);
-	var pathMap = d3.line()
-			.x(d => xScale(d.date))
-			.y(d => yScale(d.percent_yoy_change));
-
-
-	// US state-level data only
-	data = data.filter(d => d.country === 'United States' && d.region_type === 'states');
-
-	// parse string to int values
-	data = data.map(d => {
-		d.date = parseTime(d.date);
-		d.percent_yoy_change = parseInt(d.percent_yoy_change)
-		return d;
-	})
-
-	// nest data by country
-	var nested = d3.nest()
-		.key(d => d.region)
-		.entries(data);
-
-	console.log(nested);
-
-
-	var svg = d3.select('#restaurants-viz')
-				.selectAll('svg')
-				.data(nested)
-				.enter()
-				.append('svg')
-					.attr('width', width + margin.left + margin.right)
-					.attr('height', height + margin.top + margin.bottom)
-				.append('g')
-					.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
-
-	// add axes
-	svg.append('g')
-		.attr('transform', 'translate(0,' + height + ')')
-		.call(d3.axisBottom(xScale).ticks(3));
-	svg.append('g')
-		.call(d3.axisLeft(yScale));
-
-	svg.append('g')
-		.append('path')
-		.attr('fill', 'none')
-		.attr('stroke', 'gray')
-		.attr('stroke-width', 2)
-		.attr('d', d => pathMap(d.values))
-
-	svg.append('text')
-		.attr('class', 'country')
-		.attr('text-anchor', 'middle')
-		.attr('x', width/2)
-		.attr('y', height)
-		.attr('dy', margin.bottom/2 + 10)
-		.style('font-size', '12px')
-		.text(d => d.key)
-
-})
-
-
-
-
-
-
