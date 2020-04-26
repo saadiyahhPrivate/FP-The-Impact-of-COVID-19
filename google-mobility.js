@@ -93,7 +93,8 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 				.append('g')
 					.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-	var cursorDate = svg.append('text')
+	var cursorDate = svg.append('g')
+		.append('text')
 		.attr('class', 'cursorDate')
 		.attr('y', 0)
 		.attr('font-size', '14px')
@@ -115,6 +116,13 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		// .attr('class', 'captionBox')
 		.attr('width', captionHeight)
 		.attr('height', captionHeight)
+		.attr('opacity', 0);
+	var cursorText = svg.append('text')
+		.attr('class', 'cursorText')
+		.attr('x', xScale(new Date(2020, 2, 11)) + 10)
+		.attr('y', 20)
+		.attr('font-size', '12px')
+		.text('WHO declares COVID-19 a pandemic')
 		.attr('opacity', 0)
 		// .attr('text-anchor', 'middle')
 		// .style('pointer-events', 'none')
@@ -170,6 +178,16 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 					return ''.concat(textScale(cat),':',d.values[idx][cat],'%')
 				})
 		})
+
+		cursorText.attr('opacity', () => {
+			return (formatTime(date) === '03/11/2020' ? 1 : 0)
+		})
+
+		// if (formatTime(date) === '03/11/2020') {
+		// 	.attr('opacity', 0)
+		// } else {
+		// 	cursorText.text('')
+		// }
 		
 	}
 	function mouseout() {

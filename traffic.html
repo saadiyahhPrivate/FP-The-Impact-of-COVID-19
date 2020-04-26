@@ -9,29 +9,28 @@
   <div class="category" id="tabs">
     <a href="index.html">Home</a>
     <a href="mobility.html">Mobility</a>
-    <a href="restaurants.html" class="active">Restaurants</a>
-    <a href="traffic.html">Traffic</a>
+    <a href="restaurants.html">Restaurants</a>
+    <a href="traffic.html" class="active">Traffic</a>
     <a href="schooling.html">Schooling</a>
   </div>
 
   <div class="mainpage">
-    <h1>Restaurants</h1>
+    <h1>Traffic</h1>
 
-    <div class="section" id="restaurants">
-        <h3>Restaurant traffic </h3>
-
+    <div class="section" id="traffic-collisions">
+        <h3>Traffic Collisions in LA County</h3>
         <p> some text about the visualization below/ narrative discourse </p>
-
-        <a id="restaurants-viz"></a>
+        <button id="play-button" class="play-button">Play</button>
+        <div id="traffic-collisions-viz"></div>
     </div>
 
   </div>
 
-<!-- If using js, use lifestyle.js -->
+<!-- If using js, use traffic.js -->
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://d3js.org/topojson.v2.min.js"></script>
 <script>
-document.write('<scr' + 'ipt src="restaurants.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
+document.write('<scr' + 'ipt src="trafficcollisions.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>')
 </script>
 
 </body>
