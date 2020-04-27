@@ -175,6 +175,7 @@ var drawSchoolRestrictions = function(data) {
 
   schoolRestrictionsViz = new d3plus.Geomap()
     .topojson("js/countries-50m.json")
+    // .topojsonFill("#ffcccc")
     .select("#worldSchoolRestrictions")
     .colorScale("S1_School closing")
     .colorScaleConfig({
@@ -183,7 +184,7 @@ var drawSchoolRestrictions = function(data) {
         labels: ['0.0', '1.0', '2.0'],
         ticks: ['0.0', '1.0', '2.0'],
         tickFormat: function(d) {
-          if (d == '0.0') { return "not applicable"}
+          if (d == '0.0') { return "Not Applicable"}
           else if (d == '1.0') {return 'Recommended'}
           else {return 'Required';}
         },
