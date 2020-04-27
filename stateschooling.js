@@ -169,6 +169,7 @@ var schoolRestrictionsTimeout;
 var drawSchoolRestrictions = function(data) {
   unfilteredSchoolData = data;
   schoolRestrictionKeys = Object.keys(unfilteredSchoolData);
+  console.log(schoolRestrictionKeys);
   document.getElementById("schoolRestrictionRange").setAttribute("min", 0);
   document.getElementById("schoolRestrictionRange").setAttribute("max", schoolRestrictionKeys.length - 2);
 
@@ -263,6 +264,9 @@ var drawSchoolRestrictions = function(data) {
     var my_date = moment(date_str, 'YYYYMMDD');
     document.getElementById("SchoolRestrictionDateLabel").innerHTML = my_date.format("MMMM Do YYYY, dddd");
     schoolRestrictionsViz.data(unfilteredSchoolData[schoolRestrictionKeys[curr_val]]).render();
+    if (date_str == "20200320") {
+      console.log(unfilteredSchoolData[schoolRestrictionKeys[curr_val]]);
+    }
   };
 
   document.getElementById("schoolRestrictionRange").onchange();  // explicit call
