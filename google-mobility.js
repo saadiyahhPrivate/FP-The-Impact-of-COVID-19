@@ -16,12 +16,12 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	var bisect = d3.bisector(d => d.date).left;
 
 	const categories = [
+			'residential_percent_change_from_baseline',
 			'grocery_and_pharmacy_percent_change_from_baseline',
 			'parks_percent_change_from_baseline',
 			'transit_stations_percent_change_from_baseline',
 			'retail_and_recreation_percent_change_from_baseline',
-			'workplaces_percent_change_from_baseline',
-			'residential_percent_change_from_baseline']
+			'workplaces_percent_change_from_baseline']
 
 	// var zeroIndex = function(country) {
 	// 	var zid = {};
@@ -43,10 +43,10 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		.range([height, 0]);
 	var colorScale = d3.scaleOrdinal()
 		.domain(categories)
-		.range(['brown', 'green', 'orange', 'blue', 'gray', 'red'])
+		.range(['red', 'brown', 'green', 'orange', 'blue', 'gray'])
 	var textScale = d3.scaleOrdinal()
 		.domain(categories)
-		.range(['Groceries & Pharmacies', 'Parks', 'Public Transit', 'Retail & Recreation', 'Workplaces', 'Residential'])
+		.range(['Residential', 'Groceries & Pharmacies', 'Parks', 'Public Transit', 'Retail & Recreation', 'Workplaces'])
 	var pathMap = function(cat) {
 		return d3.line()
 			.x(d => xScale(d.date))
@@ -54,8 +54,8 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	}
 
 	// TEMP limit to top 10 countries
-	const countryToShow = ['United States', 'Spain', 'Italy', 'France', 'Germany', 
-							'United Kingdom', 'Turkey', 'Brazil', 'Belgium', 'Canada']
+	const countryToShow = ['United States', 'Spain', 'Italy', 'France', 'United Kingdom',
+							'Germany', 'Turkey', 'Brazil', 'Canada', 'Belgium']
 	data = data.filter(d => countryToShow.includes(d.country_region));
 	////////
 
@@ -78,7 +78,11 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	// nest data by country
 	var nested = d3.nest()
 		.key(d => d.country_region)
+		.sortKeys((a,b) => {
+			return countryToShow.indexOf(a) - countryToShow.indexOf(b)
+		})
 		.entries(data);
+	console.log(nested)
 
 
 	var svg = d3.select('#mobility-viz')
@@ -123,7 +127,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		.attr('y', 20)
 		.attr('font-size', '12px')
 		.text('WHO declares COVID-19 a pandemic')
-		.attr('opacity', 0)
+		// .attr('opacity', 0)
 		// .attr('text-anchor', 'middle')
 		// .style('pointer-events', 'none')
 		// .attr('border', 'black');
@@ -179,9 +183,9 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 				})
 		})
 
-		cursorText.attr('opacity', () => {
-			return (formatTime(date) === '03/11/2020' ? 1 : 0)
-		})
+		// cursorText.attr('opacity', () => {
+		// 	return (formatTime(date) === '03/11/2020' ? 1 : 0)
+		// })
 
 		// if (formatTime(date) === '03/11/2020') {
 		// 	.attr('opacity', 0)
@@ -260,31 +264,31 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		.text(d => d.key)
 
 	// add legend
-	d3.select('#mobility-viz')
-		.append('svg')
-		.attr('class', 'legend')
-		.attr('transform', 'translate(' + 4*width + ',0)')
-		.selectAll('dot')
-		.data(categories)
-		.enter()
-		.append('circle')
-			.attr('cx', 20)
-			.attr('cy', (d,i) => 20+i*20)
-			.attr('r', 5)
-			.style('fill', d => colorScale(d))
+	// d3.select('#mobility-viz')
+	// 	.append('svg')
+	// 	.attr('class', 'legend')
+	// 	.attr('transform', 'translate(' + 4*width + ',0)')
+	// 	.selectAll('dot')
+	// 	.data(categories)
+	// 	.enter()
+	// 	.append('circle')
+	// 		.attr('cx', 20)
+	// 		.attr('cy', (d,i) => 20+i*20)
+	// 		.attr('r', 5)
+	// 		.style('fill', d => colorScale(d))
 	
-	d3.select('.legend')
-		.selectAll('text')
-		.data(categories)
-		.enter()
-		.append('text')
-			.attr('x', 40)
-			.attr('y', (d,i) => 20+i*20)
-			.attr('text-anchor', 'left')
-			.style('fill', d => colorScale(d))
-			.style('font-size', '12px')
-			.style('alignment-baseline', 'middle')
-			.text(d => textScale(d))
+	// d3.select('.legend')
+	// 	.selectAll('text')
+	// 	.data(categories)
+	// 	.enter()
+	// 	.append('text')
+	// 		.attr('x', 40)
+	// 		.attr('y', (d,i) => 20+i*20)
+	// 		.attr('text-anchor', 'left')
+	// 		.style('fill', d => colorScale(d))
+	// 		.style('font-size', '12px')
+	// 		.style('alignment-baseline', 'middle')
+	// 		.text(d => textScale(d))
 
 })
 

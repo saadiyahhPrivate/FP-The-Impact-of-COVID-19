@@ -22,7 +22,11 @@ var xScale = d3.scaleTime()
 	.domain([new Date(2020, 1, 18), new Date(2020, 3, 5)])
 	.range([0, width]);
 var colorScale = d3.scaleSequential(d3.interpolateRdBu)
-	.domain([-100, 100])
+	.domain([100, -100])
+// var colorScale = d3.scaleSequential(d3.interpolateTurbo)
+// 	.domain([-120, 120])
+// var colorScale = d3.scaleSequential(d3.interpolateViridis)
+// 	.domain([-140, 100])
 
 
 var projection = d3.geoAlbersUsa();
