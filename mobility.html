@@ -12,7 +12,7 @@
     <a href="index.html">Home</a>
     <a href="mobility.html" class="active">Mobility</a>
     <a href="restaurants.html">Restaurants</a>
-    <a href="traffic.html">Traffic</a>
+    <a href="traffic.html">Transportation</a>
     <a href="schooling.html">Schooling</a>
   </div>
 
@@ -27,15 +27,6 @@
         <a id="mobility-viz"></a>
     </div>
 
-    <div id="flightVolumeContainer"  style="width:80%;">
-      <h2> Flight Volume data </h2>
-
-      <p> As more countries have restricted non-essential travel, some of which have even severely restricted international flights, the aviation industry has seen a very severe decline in traffic </p>
-      <p> The flight volume graph below shows the number of daily commercial flights (Commercial passenger flights, cargo flights, charter flights, some business jet flights) and all flights (commercial flights + more business jet flights, private flights, gliders, most helicopter flights, most ambulance flights, government flights, some military flights, drones) in the world since more and more countries adopted more stringent travelling restricitions </p>
-      <p> As from mid-March, we see a sharp decline in the number of daily flights across the world. </p>
-      <div id="flightVolume"/>
-    </div>
-
     <div id="stringencyContainer"  style="width:50%;">
       <h2> Stringency data </h2>
 
@@ -48,12 +39,8 @@
 <!-- If using js, use mobility.js -->
 <script src="https://d3js.org/d3.v5.min.js"></script>
 
-<!-- Load d3plus.js -->
-<script src="https://d3plus.org/js/d3plus.v2.0.0-alpha.17.full.min.js"></script>
-
 <script>
 document.write('<scr' + 'ipt src="google-mobility.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
-document.write('<scr' + 'ipt src="mobility.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
 </script>
 
 </body>
