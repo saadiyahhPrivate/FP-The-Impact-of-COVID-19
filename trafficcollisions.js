@@ -8,7 +8,7 @@ var formatDay = d3.timeFormat("%d");
 var formatMonthandYear = d3.timeFormat("%m/%y")
 
 var startDate = new Date("01/01/2019"),
-    endDate = new Date("04/11/2020"),
+    endDate = new Date("05/02/2020"),
     total_days = (endDate.getTime() - startDate.getTime())/(1000*3600*24),
     day_val = width/total_days;
 
@@ -91,7 +91,7 @@ var projection = d3.geoAlbersUsa();
 var path = d3.geoPath()
     .projection(projection);
 
-d3.json("data/alex/counties-10m.json").then(function(data) {
+d3.json("data/la_collisions/counties-10m.json").then(function(data) {
     var counties = topojson.feature(data, data.objects.counties).features,
     LA_county = counties.filter(function (d) {return d.properties.name === "Los Angeles" ;})[0];
 
@@ -118,7 +118,7 @@ d3.json("data/alex/counties-10m.json").then(function(data) {
 
 var collisions2019nest;
 
-d3.csv("data/alex/LA_Traffic_Collision_Data_from_2010_to_Presentv2.csv").then(function(collisions) {
+d3.csv("data/la_collisions/LA_Traffic_Collision_Data_from_2019_to_Present.csv").then(function(collisions) {
         var collisions2019 = collisions.filter(function(d) {
         var lat_long = eval(d.Location);
         return (formatYear(date(d["Date Occurred"])) >= 2019 && lat_long[0] != 0 && lat_long[1] != 0)});

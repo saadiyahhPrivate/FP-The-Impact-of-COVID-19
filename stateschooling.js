@@ -8,8 +8,8 @@ var formatDay = d3.timeFormat("%d");
 var formatMonthandYear = d3.timeFormat("%m/%y");
 var formatMonthandDay = d3.timeFormat("%m/%d%")
 
-d3.json("data/alex/states-10m.json").then(function(d) {
-    d3.csv("data/alex/coronavirus-school-closures-state-levelv4.csv").then(function(e) {
+d3.json("data/us_schooling/states-10m.json").then(function(d) {
+    d3.csv("data/us_schooling/coronavirus-school-closures-state-level.csv").then(function(e) {
         ready(d,e);
     })
 })
