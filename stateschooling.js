@@ -169,11 +169,13 @@ var schoolRestrictionsTimeout;
 var drawSchoolRestrictions = function(data) {
   unfilteredSchoolData = data;
   schoolRestrictionKeys = Object.keys(unfilteredSchoolData);
+  console.log(schoolRestrictionKeys);
   document.getElementById("schoolRestrictionRange").setAttribute("min", 0);
   document.getElementById("schoolRestrictionRange").setAttribute("max", schoolRestrictionKeys.length - 2);
 
   schoolRestrictionsViz = new d3plus.Geomap()
     .topojson("js/countries-50m.json")
+    // .topojsonFill("#ffcccc")
     .select("#worldSchoolRestrictions")
     .colorScale("S1_School closing")
     .colorScaleConfig({
@@ -182,7 +184,7 @@ var drawSchoolRestrictions = function(data) {
         labels: ['0.0', '1.0', '2.0'],
         ticks: ['0.0', '1.0', '2.0'],
         tickFormat: function(d) {
-          if (d == '0.0') { return "not applicable"}
+          if (d == '0.0') { return "Not Applicable"}
           else if (d == '1.0') {return 'Recommended'}
           else {return 'Required';}
         },
@@ -263,6 +265,9 @@ var drawSchoolRestrictions = function(data) {
     var my_date = moment(date_str, 'YYYYMMDD');
     document.getElementById("SchoolRestrictionDateLabel").innerHTML = my_date.format("MMMM Do YYYY, dddd");
     schoolRestrictionsViz.data(unfilteredSchoolData[schoolRestrictionKeys[curr_val]]).render();
+    if (date_str == "20200320") {
+      console.log(unfilteredSchoolData[schoolRestrictionKeys[curr_val]]);
+    }
   };
 
   document.getElementById("schoolRestrictionRange").onchange();  // explicit call
