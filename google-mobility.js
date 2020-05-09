@@ -200,6 +200,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	function mouseout() {
 		cursorDate.text('')
 		cursorLine.attr('opacity', 0)
+		cursorText.attr('opacity', 0)
 		d3.selectAll('.x-axis')
 		.call(d3.axisBottom(xScale).ticks(2))
 		// d3.selectAll('.captionBox').selectAll('text').text(textScale(cat)+':')
@@ -323,7 +324,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		.attr('font-color', 'blue')
 		.style('font-size', '10px')
 		.style('cursor', 'pointer')
-		.text('Why don\'t I see China on this graph?')
+		.text('Why don\'t I see my country on this graph?')
 		// .on('mouseover', function() {
 		// 	d3.select('#data-source-q').style('font-weight', 'bold')
 		// 	d3.select('#data-source').style('opacity', 1)
@@ -348,7 +349,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		.style('opacity', 0)
 		.attr('width', sourceWidth)
 		.attr('height', sourceHeight)
-		.html('<p id="source-tag">This data was collected by Google using their Location History feature. Countries with insufficient data, including China, Iran, and Russia, do not show up in this dataset.<br/><br/> Read more at: <a href="https://www.google.com/covid19/mobility/data_documentation.html?hl=en">Google LLC "Google COVID-19 Community Mobility Reports".</a></p>')
+		.html('<p id="source-tag">This data was collected by Google using their Location History feature. <br/>Countries with insufficient data, including China, Iran, and Russia, do not show up in this dataset.<br/><br/> Read more at: <a href="https://www.google.com/covid19/mobility/data_documentation.html?hl=en">Google LLC "Google COVID-19 Community Mobility Reports".</a></p>')
 		// .append('rect')
 		// .attr('width', sourceWidth)
 		// .attr('height', sourceHeight)

@@ -130,3 +130,17 @@ fill:orange;
   font-size: 10px;
   color: gray;
 }
+
+#restaurants-viz-container {
+  overflow: auto;
+}
+
+#restaurants-viz {
+  /*width: 900px;*/
+  float: left;
+}
+
+#state-viz {
+  /*width: 360px;*/
+  float: left;
+}
