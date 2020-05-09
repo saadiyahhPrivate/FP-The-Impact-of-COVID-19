@@ -5,10 +5,12 @@ var date = d3.timeParse("%m/%d/%Y");
 var formatYear = d3.timeFormat("%Y");
 var formatMonth = d3.timeFormat("%m");
 var formatDay = d3.timeFormat("%d");
-var formatMonthandYear = d3.timeFormat("%m/%y")
+var formatMonthandYear = d3.timeFormat("%m/%y");
+var parseTime = d3.timeParse("%d-%b-%y");
 
-var startDate = new Date("01/01/2019"),
+var startDate = new Date("11/02/2019"),
     endDate = new Date("05/02/2020"),
+    secondDate = new Date("11/03/2019")
     total_days = (endDate.getTime() - startDate.getTime())/(1000*3600*24),
     day_val = width/total_days;
 
@@ -20,9 +22,27 @@ var traffic_svg = d3.select("#traffic-collisions-viz").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom); 
 
-// var line_svg = d3.select("#map.mainpage").append("svg")
-//     .attr("width", width + margin.left + margin.right)
-//     .attr("height", height + margin.top + margin.bottom); 
+var line_svg = d3.select("#traffic-collisions-viz").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")"); 
+
+line_svg.append("text")             
+        .attr("transform",
+                "translate(" + (width/2) + " ," + 
+                               (height) +")")
+        .style("text-anchor", "middle")
+        .text("Date");
+
+line_svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x",0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("# of Traffic Collisions in LA County");  
 
 ////////// slider //////////
 
@@ -40,7 +60,22 @@ var x = d3.scaleTime()
 var xAxisGenerator = d3.axisBottom(x).tickFormat(function (d,i) {return formatMonthandYear(d)});
 var Axis = traffic_svg.append("g").call(xAxisGenerator).attr("transform", "translate(" + margin.left + "," + height/9.5 + ")");
 
-//xAxisGenerator.tickValues([0, 10, 20, 25]).;
+// line graph work //
+var line_x = d3.scaleTime().range([0, targetValue]).domain([startDate, secondDate]);
+
+var line_y = d3.scaleLinear().range([height - margin.top, 0]).domain([0, 220]);
+
+var y_line_axis = line_svg.append("g")
+    .attr("class", "y_axis")
+    .call(d3.axisLeft(line_y))
+
+
+var x_line_axis = line_svg.append("g")
+    .attr("class", "x_axis")
+    .attr("transform", "translate(0," + (height-50) + ")")
+    .call(d3.axisBottom(line_x))
+
+// end line graph work // 
 
 var slider = traffic_svg.append("g")
     .attr("class", "slider")
@@ -61,18 +96,6 @@ var slider = traffic_svg.append("g")
           update(x.invert(currentValue)); 
         })
     );
-
-// slider.insert("g", ".track-overlay")
-//     .attr("class", "ticks")
-//     .attr("transform", "translate(0," + 18 + ")")
-//   .selectAll("text")
-//     .data(x.ticks(10))
-//     .enter()
-//     .append("text")
-//     .attr("x", x)
-//     .attr("y", 10)
-//     .attr("text-anchor", "middle")
-//     .text(function(d) { return formatMonthandYear(d); });
 
 var handle = slider.insert("circle", ".track-overlay")
     .attr("class", "handle")
@@ -95,7 +118,6 @@ d3.json("data/la_collisions/counties-10m.json").then(function(data) {
     var counties = topojson.feature(data, data.objects.counties).features,
     LA_county = counties.filter(function (d) {return d.properties.name === "Los Angeles" ;})[0];
 
-    //console.log(LA_county);
     projection.scale(1)
         .translate([0, 0]);
  
@@ -118,17 +140,15 @@ d3.json("data/la_collisions/counties-10m.json").then(function(data) {
 
 var collisions2019nest;
 
-d3.csv("data/la_collisions/LA_Traffic_Collision_Data_from_2019_to_Present.csv").then(function(collisions) {
-        var collisions2019 = collisions.filter(function(d) {
-        var lat_long = eval(d.Location);
-        return (formatYear(date(d["Date Occurred"])) >= 2019 && lat_long[0] != 0 && lat_long[1] != 0)});
+d3.csv("data/la_collisions/LA_Traffic_Collision_Data_from_Nov_2019_to_Present.csv").then(function(collisions) {
+    var collisions2019 = collisions.filter(function(d) {
+    var lat_long = eval(d.Location);
+        return (lat_long[0] != 0 && lat_long[1] != 0)});
     
     collisions2019nest = d3.nest().key(function(d) {return formatYear(date(d["Date Occurred"]))})
        .key(function(d) {return formatMonth(date(d["Date Occurred"]))})
        .key(function(d) {return formatDay(date(d["Date Occurred"]))})
        .object(collisions2019);
-
-//update(x.invert(currentValue));
 
     playButton.on("click", function() {
     var button = d3.select(this);
@@ -156,9 +176,11 @@ function step() {
         clearInterval(timer);
         //timer = 0;
         playButton.text("Play");
-        console.log("Slider moving: " + moving);
     }
   }
+
+var collision_nums = [];
+var first_pass = true; 
 
 function update(h) {
     // update position of handle on slider //
@@ -176,7 +198,39 @@ function update(h) {
 
     var locations = traffic_svg.selectAll(".collision")
         .data(collisions2019nest[slider_year][slider_month][slider_day]);
-    
+
+    var del_line = line_svg.selectAll(".line").remove();
+    var del_x = line_svg.selectAll(".x_axis").remove();
+
+    collision_nums.push({"date": h, "num": locations.enter().size()})
+
+    var line_x = d3.scaleTime().range([0, targetValue]);
+
+    if (first_pass) {
+        line_x.domain([startDate, secondDate]);
+        first_pass = false;
+    }
+    else {line_x.domain(d3.extent(collision_nums, function(d) { return d.date; }));}
+
+
+    var valueline = d3.line()
+    .x(function(d) { return line_x(d.date); })
+    .y(function(d) { return line_y(d.num); });
+
+    var x_line_axis = line_svg.append("g")
+        .attr("class", "x_axis")
+        .attr("transform", "translate(0," + (height-50) + ")")
+        .call(d3.axisBottom(line_x))
+
+
+    line_svg.append("path")
+    .data([collision_nums])
+    .attr("class", "line")
+    .attr("fill", "none")
+    .attr("stroke", "orange")
+    .attr("stroke-width", 1)
+    .attr("d", valueline);
+
     locations.enter().append("circle")
             .attr("class", "collision")
             .attr("transform", function(d) {
@@ -184,10 +238,10 @@ function update(h) {
                 return "translate(" + projection([lat_long[1], lat_long[0]]) + ")";})
             .style("fill", "orange")
             .style("opacity", 0.5)
-            .attr("r", 2)
-            .transition()
-                .duration(100)
-                .attr("r", 4)
-            .transition()
-                .attr("r", 2)
+            .attr("r", 3)
+            // .transition()
+            //     .duration(100)
+            //     .attr("r", 4)
+            // .transition()
+            //     .attr("r", 2)
 }
