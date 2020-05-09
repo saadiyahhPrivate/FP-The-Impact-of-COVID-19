@@ -115,7 +115,7 @@ var map = svg.append('g')
 var data = [];
 var states = [];
 
-d3.json("data/alex/states-10m.json").then(function(states) {
+d3.json("data/us_schooling/states-10m.json").then(function(states) {
 	d3.csv('data/restaurants/restaurant-performance.csv').then(function(data) {
 		this.states = topojson.feature(states, states.objects.states).features
 

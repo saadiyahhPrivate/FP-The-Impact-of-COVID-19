@@ -117,3 +117,16 @@ fill:orange;
     stroke: #333;
     stroke-width: 0.5
 }
+
+#mobility-viz {
+  margin: auto;
+  width: 50%;
+  /*height: 100%;*/
+}
+#data-source-q {
+  color: blue;
+}
+#source-tag {
+  font-size: 10px;
+  color: gray;
+}

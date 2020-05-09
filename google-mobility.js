@@ -1,20 +1,5 @@
 d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 
-	// dimensions
-	var width = 400,
-		height = 150;
-	var margin = {
-		top: 20,
-		right: 180,
-		bottom: 50,
-		left: 50
-	}
-	var captionHeight = 100;
-
-	var parseTime = d3.timeParse('%Y-%m-%d');
-	var formatTime = d3.timeFormat('%m/%d/%Y');
-	var bisect = d3.bisector(d => d.date).left;
-
 	const categories = [
 			'residential_percent_change_from_baseline',
 			'grocery_and_pharmacy_percent_change_from_baseline',
@@ -23,24 +8,31 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 			'retail_and_recreation_percent_change_from_baseline',
 			'workplaces_percent_change_from_baseline']
 
-	// var zeroIndex = function(country) {
-	// 	var zid = {};
-	// 	zid.date = new Date(2020, 1, 15);
-	// 	zid.country = country;
-	// 	zid.region = 'Total';
-	// 	categories.forEach(cat => {
-	// 		zid[cat] = 0;
-	// 	})
-	// 	return zid;
-	// }
+	// dimensions
+	var chartWidth = 400,
+		chartHeight = 100;
+	var margin = {
+		top: 20,
+		right: 180,
+		bottom: 20,
+		left: 50
+	}
+	var captionWidth = 100;
+
+	var sourceWidth = chartWidth, 
+		sourceHeight = chartHeight;
+
+	var parseTime = d3.timeParse('%Y-%m-%d');
+	var formatTime = d3.timeFormat('%m/%d/%Y');
+	var bisect = d3.bisector(d => d.date).left;
 
 	// define axis range
 	var xScale = d3.scaleTime()
 		.domain([new Date(2020, 1, 15), new Date(2020, 3, 11)])
-		.range([0, width]);
+		.range([0, chartWidth]);
 	var yScale = d3.scaleLinear()
 		.domain([-100, 100])
-		.range([height, 0]);
+		.range([chartHeight, 0]);
 	var colorScale = d3.scaleOrdinal()
 		.domain(categories)
 		.range(['red', 'brown', 'green', 'orange', 'blue', 'gray'])
@@ -52,16 +44,6 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 			.x(d => xScale(d.date))
 			.y(d => yScale(d[cat]));
 	}
-
-	// TEMP limit to top 10 countries
-	const countryToShow = ['United States', 'Spain', 'Italy', 'France', 'United Kingdom',
-							'Germany', 'Turkey', 'Brazil', 'Canada', 'Belgium']
-	data = data.filter(d => countryToShow.includes(d.country_region));
-	////////
-
-	// aggregate entries only
-	data = data.filter(d => d.sub_region_1 === '');
-
 	// parse string to int values
 	data = data.map(d => {
 		d.date = parseTime(d.date);
@@ -70,6 +52,13 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		})
 		return d;
 	})
+
+	// limit to top 5 countries
+	var countryToShow = ['United States', 'Spain', 'Italy', 'France', 'United Kingdom']
+	data = data.filter(d => countryToShow.includes(d.country_region));
+
+	// aggregate entries only
+	data = data.filter(d => d.sub_region_1 === '');
 
 	// countryToShow.forEach(country => {
 	// 	data.push(zeroIndex(country))
@@ -92,17 +81,18 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 				.data(nested)
 				.enter()
 				.append('svg')
-					.attr('width', width + margin.left + margin.right)
-					.attr('height', height + captionHeight + margin.top + margin.bottom)
+					.attr('width', chartWidth + margin.left + margin.right + captionWidth)
+					// .attr('height', height + captionWidth + margin.top + margin.bottom)
+					.attr('height', chartHeight + margin.top + margin.bottom)
 				.append('g')
 					.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 	var cursorDate = svg.append('g')
 		.append('text')
 		.attr('class', 'cursorDate')
-		.attr('y', 0)
-		.attr('font-size', '14px')
-		.attr('text-anchor', 'middle');
+		.attr('y', chartHeight + 12)
+		.attr('font-size', '10px')
+		.attr('text-anchor', 'left');
 
 	var cursorLine = svg.append('line')
 		.style('stroke', 'black')
@@ -110,24 +100,26 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		// .attr('x1', xScale(new Date(2020, 2, 11)))
 		// .attr('x2', xScale(new Date(2020, 2, 11)))
 		.attr('y1', 0)
-		.attr('y2', height)
+		.attr('y2', chartHeight)
 		.attr('opacity', 0)
 		.style('pointer-events', 'none');
 	var cursorCaption = svg.append('g')
 		.attr('class', 'captionBox')
-		.attr('transform', 'translate(0,' + (height + margin.bottom) + ')')
+		// .attr('transform', 'translate(0,' + (height + margin.bottom) + ')')
+		.attr('transform', 'translate(' + (chartWidth + 20) + ',' + margin.top + ')')
 		.append('rect')
 		// .attr('class', 'captionBox')
-		.attr('width', captionHeight)
-		.attr('height', captionHeight)
+		.attr('width', captionWidth)
+		.attr('height', chartHeight)
 		.attr('opacity', 0);
 	var cursorText = svg.append('text')
 		.attr('class', 'cursorText')
-		.attr('x', xScale(new Date(2020, 2, 11)) + 10)
-		.attr('y', 20)
+		.attr('x', xScale(new Date(2020, 2, 11)) + 5)
+		// .attr('x', width + margin.left)
+		.attr('y', 15)
 		.attr('font-size', '12px')
 		.text('WHO declares COVID-19 a pandemic')
-		// .attr('opacity', 0)
+		.attr('opacity', 0)
 		// .attr('text-anchor', 'middle')
 		// .style('pointer-events', 'none')
 		// .attr('border', 'black');
@@ -138,19 +130,30 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 			// 	console.log(''.concat(textScale(cat),':',d.values[idx][cat]))
 			// 	return ''.concat(textScale(cat),':',d.values[idx][cat])
 			// })
+			.attr('x', 0)
 			.attr('y', i*15)
-			.attr('font-size', '10px')
+			.attr('font-size', '12px')
 			.attr('fill', colorScale(cat))
+			.text(textScale(cat)+':')
 	})
 
 	//TODO
 	function mouseover() {
 		cursorLine.attr('opacity', 1)
+		
+		d3.selectAll('.x-axis')
+		.call(d3.axisBottom(xScale).ticks(0))
+
 		return mousemove.call(this)
 	}
 	function mousemove() {
 		var date = xScale.invert(d3.mouse(this)[0]);
 		var idx = 0;
+		if (formatTime(date) === '03/11/2020') {
+			cursorText.attr('opacity', 1)
+		} else {
+			cursorText.attr('opacity', 0)
+		}
 		cursorDate
 			.attr('x', xScale(date))
 			.text(formatTime(date))
@@ -161,7 +164,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 			// 	idx = bisect(d.values, date, 0, d.values.length-1)
 			// 	return yScale(d.values[idx]['residential_percent_change_from_baseline'])
 			// })
-		cursorCaption.attr('x', xScale(date))
+		// cursorCaption.attr('x', xScale(date))
 
 		// categories.forEach((cat,i) => {
 		// 	d3.select('.captionBox').append('text')
@@ -176,10 +179,10 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		// })
 		categories.forEach((cat,i) => {
 			d3.selectAll('.caption_'+cat)
-				.attr('x', xScale(date))
+				// .attr('x', xScale(date))
 				.text(d => {
 					idx = bisect(d.values, date, 0, d.values.length-1)
-					return ''.concat(textScale(cat),':',d.values[idx][cat],'%')
+					return ''.concat(textScale(cat),': ',d.values[idx][cat],'%')
 				})
 		})
 
@@ -197,23 +200,27 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	function mouseout() {
 		cursorDate.text('')
 		cursorLine.attr('opacity', 0)
-		d3.selectAll('.captionBox').selectAll('text').text('')
+		d3.selectAll('.x-axis')
+		.call(d3.axisBottom(xScale).ticks(2))
+		// d3.selectAll('.captionBox').selectAll('text').text(textScale(cat)+':')
 	}
 
 	// add interaction
 	svg.append('rect')
 		.attr('class', 'hoverbox')
-		.attr('width', width)
-		.attr('height', height)
+		.attr('width', chartWidth)
+		.attr('height', chartHeight)
 		.style('pointer-events', 'all')
-		.style('fill', 'none')
+		.style('fill', 'gray')
+		.style('opacity', 0.1)
 		.on('mouseover', mouseover)
 		.on('mousemove', mousemove)
 		.on('mouseout', mouseout);
 
 	// add axes
 	svg.append('g')
-		.attr('transform', 'translate(0,' + height + ')')
+		.attr('class','x-axis')
+		.attr('transform', 'translate(0,' + chartHeight + ')')
 		.call(d3.axisBottom(xScale).ticks(2));
 	svg.append('g')
 		.call(d3.axisLeft(yScale).ticks(5).tickFormat(x => x>0 ? '+'+x+'%' : x+'%'));
@@ -229,11 +236,13 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		.attr('x1', xScale(new Date(2020, 2, 11)))
 		.attr('x2', xScale(new Date(2020, 2, 11)))
 		.attr('y1', 0)
-		.attr('y2', height)
-		.on('mouseover', function() {
-			console.log('mouseover')
-
-		})
+		.attr('y2', chartHeight)
+		// .on('mouseover', function() {
+		// 	cursorText.attr('opacity', 1)
+		// })
+		// .on('mouseout', function() {
+		// 	cursorText.attr('opacity', 0)
+		// })
 	// info.append('text')
 	// 		.attr('class', 'info-pandemic-text')
 	// 		.attr('text-anchor', 'middle')
@@ -257,9 +266,9 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	svg.append('text')
 		.attr('class', 'country')
 		.attr('text-anchor', 'middle')
-		.attr('x', width/2)
-		.attr('y', height)
-		.attr('dy', margin.bottom/2 + 10)
+		.attr('x', chartWidth/2)
+		.attr('y', 0)
+		.attr('dy', -margin.top/2)
 		.style('font-size', '12px')
 		.text(d => d.key)
 
@@ -290,6 +299,65 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	// 		.style('alignment-baseline', 'middle')
 	// 		.text(d => textScale(d))
 
+	// data source
+	var dataSource = d3.select('#mobility-viz').append('div')
+		.attr('class', 'gm-data-source')
+		// .attr('width', sourceWidth)
+		// .attr('height', sourceHeight)
+		.append('g')
+		.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+	
+	dataSource.append('text')
+		.attr('id', 'data-source-q')
+		.attr('font-color', 'blue')
+		.style('font-size', '10px')
+		.style('cursor', 'pointer')
+		.text('Why don\'t I see China on this graph?')
+		// .on('mouseover', function() {
+		// 	d3.select('#data-source-q').style('font-weight', 'bold')
+		// 	d3.select('#data-source').style('opacity', 1)
+		// })
+		// .on('mouseout', function() {
+		// 	d3.select('#data-source-q').style('font-weight', 'normal')
+		// 	d3.select('#data-source').style('opacity', 0)
+		// })
+		.on('click', function() {
+			var d = d3.select(this)
+			d.classed('source-on', !d.classed('source-on'))
+			d.style('font-weight', function () {
+				return (d.classed('source-on') ? 'bold' : 'normal')
+			})
+			d3.select('#data-source').style('opacity', function() {
+				return (d.classed('source-on') ? 1 : 0)
+			})
+		})
+
+	dataSource.append('div')
+		.attr('id', 'data-source')
+		.style('opacity', 0)
+		.attr('width', sourceWidth)
+		.attr('height', sourceHeight)
+		.html('<p id="source-tag">This data was collected by Google using their Location History feature. Countries with insufficient data, including China, Iran, and Russia, do not show up in this dataset.<br/><br/> Read more at: <a href="https://www.google.com/covid19/mobility/data_documentation.html?hl=en">Google LLC "Google COVID-19 Community Mobility Reports".</a></p>')
+		// .append('rect')
+		// .attr('width', sourceWidth)
+		// .attr('height', sourceHeight)
+		// .style('display', 'none')
+		// .append('text')
+		// .attr('x', 0)
+		// .attr('y', 30)
+		// .attr('fill', 'gray')
+		// .style('font-size', '10px')
+		// .text('This data was collected by Google using their Location History feature. Countries with insufficient data, including China, Iran, and Russia, do not show up in this dataset.')
+
+	// d3.select('#source-tag')
+	// 	.attr('font-size', '10px')
+
+	// dataSource.append('text')
+	// 	.attr('id', 'data-source')
+	// 	.attr('fill', 'black')
+	// 	.style('font-size', '10px')
+	// 	.text('hellooooooo')
+	// 	.style('opacity', 0)
 })
 
 
