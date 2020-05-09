@@ -205,17 +205,17 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		// d3.selectAll('.captionBox').selectAll('text').text(textScale(cat)+':')
 	}
 
-	// add interaction
-	svg.append('rect')
-		.attr('class', 'hoverbox')
-		.attr('width', chartWidth)
-		.attr('height', chartHeight)
-		.style('pointer-events', 'all')
-		.style('fill', 'gray')
-		.style('opacity', 0.1)
-		.on('mouseover', mouseover)
-		.on('mousemove', mousemove)
-		.on('mouseout', mouseout);
+	// // add interaction
+	// svg.append('rect')
+	// 	.attr('class', 'hoverbox')
+	// 	.attr('width', chartWidth)
+	// 	.attr('height', chartHeight)
+	// 	.style('pointer-events', 'all')
+	// 	.style('fill', 'gray')
+	// 	.style('opacity', 0.1)
+	// 	.on('mouseover', mouseover)
+	// 	.on('mousemove', mousemove)
+	// 	.on('mouseout', mouseout);
 
 	// add axes
 	svg.append('g')
@@ -272,6 +272,17 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		.style('font-size', '12px')
 		.text(d => d.key)
 
+	// add interaction
+	svg.append('rect')
+		.attr('class', 'hoverbox')
+		.attr('width', chartWidth)
+		.attr('height', chartHeight)
+		.style('pointer-events', 'all')
+		.style('fill', 'gray')
+		.style('opacity', 0.1)
+		.on('mouseover', mouseover)
+		.on('mousemove', mousemove)
+		.on('mouseout', mouseout);
 	// add legend
 	// d3.select('#mobility-viz')
 	// 	.append('svg')
