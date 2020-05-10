@@ -122,7 +122,7 @@ d3.json("data/la_collisions/counties-10m.json").then(function(data) {
         .translate([0, 0]);
  
     var b = path.bounds(LA_county);
-    var s = .95 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / (height-50));
+    var s = .75 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / (height-50));
     var t = [(width - s * (b[1][0] + b[0][0])) / 2, (height+100 - s * (b[1][1] + b[0][1])) / 2];
  
     projection.scale(s)
@@ -237,8 +237,8 @@ function update(h) {
                 var lat_long = eval(d.Location);
                 return "translate(" + projection([lat_long[1], lat_long[0]]) + ")";})
             .style("fill", "orange")
-            .style("opacity", 0.5)
-            .attr("r", 3)
+            .style("opacity", 0.4)
+            .attr("r", 5.5)
             // .transition()
             //     .duration(100)
             //     .attr("r", 4)
