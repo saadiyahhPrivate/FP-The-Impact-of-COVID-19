@@ -61,7 +61,7 @@ var xAxisGenerator = d3.axisBottom(x).tickFormat(function (d,i) {return formatMo
 var Axis = traffic_svg.append("g").call(xAxisGenerator).attr("transform", "translate(" + margin.left + "," + height/9.5 + ")");
 
 // line graph work //
-var line_x = d3.scaleTime().range([0, targetValue]).domain([startDate, secondDate]);
+var line_x = d3.scaleTime().range([0, targetValue]).domain([startDate, endDate])
 
 var line_y = d3.scaleLinear().range([height - margin.top, 0]).domain([0, 220]);
 
@@ -199,28 +199,28 @@ function update(h) {
     var locations = traffic_svg.selectAll(".collision")
         .data(collisions2019nest[slider_year][slider_month][slider_day]);
 
-    var del_line = line_svg.selectAll(".line").remove();
-    var del_x = line_svg.selectAll(".x_axis").remove();
+    // var del_line = line_svg.selectAll(".line").remove();
+    // var del_x = line_svg.selectAll(".x_axis").remove();
 
     collision_nums.push({"date": h, "num": locations.enter().size()})
 
-    var line_x = d3.scaleTime().range([0, targetValue]);
+    // var line_x = d3.scaleTime().range([0, targetValue]);
 
-    if (first_pass) {
-        line_x.domain([startDate, secondDate]);
-        first_pass = false;
-    }
-    else {line_x.domain(d3.extent(collision_nums, function(d) { return d.date; }));}
+    // if (first_pass) {
+    //     line_x.domain([startDate, secondDate]);
+    //     first_pass = false;
+    // }
+    // else {line_x.domain(d3.extent(collision_nums, function(d) { return d.date; }));}
 
 
     var valueline = d3.line()
     .x(function(d) { return line_x(d.date); })
     .y(function(d) { return line_y(d.num); });
 
-    var x_line_axis = line_svg.append("g")
-        .attr("class", "x_axis")
-        .attr("transform", "translate(0," + (height-50) + ")")
-        .call(d3.axisBottom(line_x))
+    // var x_line_axis = line_svg.append("g")
+    //     .attr("class", "x_axis")
+    //     .attr("transform", "translate(0," + (height-50) + ")")
+    //     .call(d3.axisBottom(line_x))
 
 
     line_svg.append("path")
