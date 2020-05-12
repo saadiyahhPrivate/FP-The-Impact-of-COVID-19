@@ -1,89 +1,80 @@
-var formatDateIntoYear = d3.timeFormat("%Y");
-var formatDate = d3.timeFormat("%b %e, %Y");
-var parseDate = d3.timeParse("%m/%d/%Y");
-var date = d3.timeParse("%m/%d/%Y");
-var formatYear = d3.timeFormat("%Y");
-var formatMonth = d3.timeFormat("%m");
-var formatDay = d3.timeFormat("%d");
-var formatMonthandYear = d3.timeFormat("%m/%y");
-var formatMonthandDay = d3.timeFormat("%m/%d%")
-
 d3.json("data/us_schooling/states-10m.json").then(function(d) {
     d3.csv("data/us_schooling/coronavirus-school-closures-state-level.csv").then(function(e) {
         ready(d,e);
     })
 })
 
-// d3.defer(d3.json, "data/alex/states-10m.json")
-//     .defer(d3.csv, "data/alex/coronavirus-school-closures-state-levelv4.csv")
-//     .await(ready)
-
-var startDate = new Date("03/15/2020"),
-    endDate = new Date("03/24/2020"),
-    total_days = (endDate.getTime() - startDate.getTime())/(1000*3600*24),
-    day_val = width/total_days;
-
-var margin = {top:50, right:50, bottom:0, left:50},
-    width = 960 - margin.left - margin.right,
-    height = 600 - margin.top - margin.bottom;
-
-var state_svg = d3.select("#map.mainpage").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom);
-
-var moving = false;
-var currentValue = 0;
-var targetValue = width;
-
-var playButton = d3.select("#play-button");
-
-var x = d3.scaleTime()
-    .domain([startDate, endDate])
-    .range([0, targetValue])
-    .clamp(true);
-
-var xAxisGenerator = d3.axisBottom(x).tickFormat(function (d,i) {return formatMonthandDay(d)});
-var Axis = state_svg.append("g").call(xAxisGenerator).attr("transform", "translate(" + margin.left + "," + height/9.5 + ")");
-
-var slider = state_svg.append("g")
-    .attr("class", "slider")
-    .attr("transform", "translate(" + margin.left + "," + height/10 + ")");
-
-    slider.append("line")
-    .attr("class", "track")
-    .attr("x1", x.range()[0])
-    .attr("x2", x.range()[1])
-        .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-    .attr("class", "track-inset")
-        .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-    .attr("class", "track-overlay")
-    .call(d3.drag()
-        .on("start.interrupt", function() { slider.interrupt(); })
-        .on("start drag", function() {
-            currentValue = d3.event.x;
-            update(x.invert(currentValue));
-        })
-    );
-
-slider.on("input", function input() {
-    update();
-});
-var handle = slider.insert("circle", ".track-overlay")
-    .attr("class", "handle")
-    .attr("r", 9);
-
-var label = slider.append("text")
-    .attr("class", "label")
-    .attr("text-anchor", "middle")
-    .text(formatDate(startDate))
-    .attr("transform", "translate(0," + (-25) + ")")
-
-var projection = d3.geoAlbersUsa();
-
-var path = d3.geoPath()
-    .projection(projection);
-
 function ready(data, closures) {
+    var formatDate = d3.timeFormat("%b %e, %Y");
+    var formatYear = d3.timeFormat("%Y");
+    var formatMonth = d3.timeFormat("%m");
+    var formatDay = d3.timeFormat("%d");
+    var formatMonthandDay = d3.timeFormat("%m/%d%")
+
+    var startDate = new Date("03/15/2020"),
+        endDate = new Date("03/24/2020"),
+        total_days = (endDate.getTime() - startDate.getTime())/(1000*3600*24),
+        day_val = width/total_days;
+
+    var margin = {top:50, right:50, bottom:0, left:50},
+        width = 960 - margin.left - margin.right,
+        height = 600 - margin.top - margin.bottom;
+
+    var state_svg = d3.select("#us-schools-viz").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom);
+
+    var moving = false;
+    var currentValue = 0;
+    var targetValue = width;
+
+    var playButton = d3.select("#play-button-us-schools");
+
+    var x = d3.scaleTime()
+        .domain([startDate, endDate])
+        .range([0, targetValue])
+        .clamp(true);
+
+    var xAxisGenerator = d3.axisBottom(x).tickFormat(function (d,i) {return formatMonthandDay(d)});
+    var Axis = state_svg.append("g").call(xAxisGenerator).attr("transform", "translate(" + margin.left + "," + height/9.5 + ")");
+
+    var slider = state_svg.append("g")
+        .attr("class", "slider")
+        .attr("transform", "translate(" + margin.left + "," + height/10 + ")");
+
+        slider.append("line")
+        .attr("class", "track")
+        .attr("x1", x.range()[0])
+        .attr("x2", x.range()[1])
+            .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+        .attr("class", "track-inset")
+            .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+        .attr("class", "track-overlay")
+        .call(d3.drag()
+            .on("start.interrupt", function() { slider.interrupt(); })
+            .on("start drag", function() {
+                currentValue = d3.event.x;
+                update(x.invert(currentValue));
+            })
+        );
+
+  slider.on("input", function input() {
+      update();
+  });
+  var handle = slider.insert("circle", ".track-overlay")
+      .attr("class", "handle")
+      .attr("r", 9);
+
+  var label = slider.append("text")
+      .attr("class", "label")
+      .attr("text-anchor", "middle")
+      .text(formatDate(startDate))
+      .attr("transform", "translate(0," + (-25) + ")")
+
+  var projection = d3.geoAlbersUsa();
+
+  var path = d3.geoPath()
+      .projection(projection);
         //console.log(data)
 
         var states_dictionary = {};
@@ -122,8 +113,6 @@ function ready(data, closures) {
             console.log("Slider moving: " + moving);
         //console.log(closures)
     });
-}
-
 function step() {
     update(x.invert(currentValue));
     currentValue = currentValue + (targetValue/total_days); // step 1 day at a time
@@ -162,11 +151,15 @@ function update(h) {
             }
         })
 }
+}
+
+
 
 // deliberately kept separate
 var schoolRestrictionsViz, schoolRestrictionKeys, unfilteredSchoolData;
 var schoolRestrictionsTimeout;
 var drawSchoolRestrictions = function(data) {
+  
   unfilteredSchoolData = data;
   schoolRestrictionKeys = Object.keys(unfilteredSchoolData);
   console.log(schoolRestrictionKeys);
@@ -273,15 +266,19 @@ var drawSchoolRestrictions = function(data) {
   document.getElementById("schoolRestrictionRange").onchange();  // explicit call
 };
 
-window.onload = function() {
-  // draw per country/time school restrictions map
-  fetch('data/RestrictionsPerCountry/final_school_restrictions.json')
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      drawSchoolRestrictions(data);
-    }).catch((error) => {
-      console.error('Error:', error);
-  });
-};
+// window.onload = function() {
+//   // draw per country/time school restrictions map
+//   fetch('data/RestrictionsPerCountry/final_school_restrictions.json')
+//     .then((response) => {
+//       return response.json();
+//     })
+//     .then((data) => {
+//       drawSchoolRestrictions(data);
+//     }).catch((error) => {
+//       console.error('Error:', error);
+//   });
+// };
+d3.json('data/RestrictionsPerCountry/final_school_restrictions.json').then(function(data) {
+  drawSchoolRestrictions(data);
+    
+})

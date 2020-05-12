@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>The Impact of COVID-19</title>
+</head>
+
+<body>
+  <div class="mainpage">
+
+    <h1>Mobility</h1>
+
+    <div class="section" id="google-mobility">
+        <p> The explosive global spread of COVID-19 around mid-March has left almost every country scrambling to stop the virus in its tracks. As a result of the "social distancing" guidelines, foot traffic for public venues and events has effectively ceased. </p>
+
+        <p>Mobility trends for the five countries with the most number of cases (as of 05/08/2020) are shown below. Residential areas have seen a general increase in traffic, while activity for other categories that are more public in nature has dropped dramatically. </p>
+
+        <div id="mobility-viz"></div>
+    </div>
+
+
+    <h1>Restaurants</h1>
+
+    <div class="section" id="restaurants">
+        <h2>Restaurant traffic </h2>
+
+        <p>A state of national emergency was declared in the United States on March 13th. Subsequently, countless restaurants have suffered losses in sales and have had to temporarily suspend their business or find alternate measures to continue serving.</p>
+
+        <p>* to be added: play/pause button, hover over state to see state-level line graph, more information about specific key dates</p>
+
+        <div id="restaurants-viz-container"></div>
+    </div>
+
+
+    <h1>Transportation</h1>
+
+    <div id="flightVolumeContainer"  style="width:80%;">
+      <h2> Flight Volume data </h2>
+
+      <p> As more countries have restricted non-essential travel, some of which have even severely restricted international flights, the aviation industry has seen a very severe decline in traffic </p>
+      <p> The flight volume graph below shows the number of daily commercial flights (Commercial passenger flights, cargo flights, charter flights, some business jet flights) and all flights (commercial flights + more business jet flights, private flights, gliders, most helicopter flights, most ambulance flights, government flights, some military flights, drones) in the world since more and more countries adopted more stringent travelling restricitions </p>
+      <p> As from mid-March, we see a sharp decline in the number of daily flights across the world. </p>
+      <div id="flightVolume"/>
+    </div>
+
+    <div class="section" id="traffic-collisions">
+        <h2>Traffic Collisions in LA County</h2>
+        <p>One upside of the decrease in mobility for non-essential activities is the decrease in traffic collisions across the nation. For instance, the daily number of reported traffic collisions in Los Angeles County is typically around 140 collisions. After the Stay-At-Home Order that took into effect on March 19, 2020, the daily number of reported traffic collisions decreased drastically to around 60 collisions. With less accidents happening on the road, more resources can be allocated towards fighting COVID-19! </p>
+        <p>data source: [https://data.lacity.org/A-Safe-City/Traffic-Collision-Data-from-2010-to-Present/d5tf-ez2w]</p>
+        <p>to-dos: 1) Add self-updating line chart on the side that compares # of traffic collisions vs. date (to clearly see decrease in traffic collisions)
+        2) Add landmarks/image overlay to the county to provide more local context
+        3) Improve the transitions between dates
+        4) Fix Play button positioning (make it dynamic)</p>
+        <button id="play-button" class="play-button">Play</button>
+        <div id="traffic-collisions-viz"></div>
+    </div>
+
+
+    <div class="mainpage" id="worldSchoolRestrictionsContainer" style="width:100%;">
+    <h2> World School Closures </h2>
+    <p> In an attempt to reduce the rate of spread of COVID-19 and to "flatten the curve", countries across the world have gradually mandated school closures. </p>
+    <p> The visualization below shows how various countries progressively closed schools starting with China in early January, nothing very interesting happens until around February 22nd 2020 so you might want to jump forward a bit. Other countries, namely Iran and Italy also closed their schools around February 22nd and 23rd 2020, with many other countries following suit thereafter. </p>
+    <p> Although some countries recommended partial school closures in affected school areas (light blue), in many cases these recommendations soon changed into generalized nationwide school closures (dark blue). Other countries directly closed schools nationwide. </p>
+    <p> Disclaimer: the white colored countries on March 30th that do not have a tooltip attached are countries that the dataset does not track.</p>
+
+    <div class="slidecontainer"  style="width:600px;">
+      <input type="range" step="1" value="0" min="0" max="10" class="slider" id="schoolRestrictionRange">
+      <button type="button" id="SchoolRestrictionDateStepBack"><</button>
+      <button type="button" id="SchoolRestrictionDateStepForward">></button>
+      <button type="button" id="SchoolRestrictionDateStepPlay" class="play-button">Play</button>
+      <label for="schoolRestrictionRange" id="SchoolRestrictionDateLabel"></label>
+    </div>
+    <div id="worldSchoolRestrictions"  style="width:600px;"/>
+  </div>
+
+  <div class="mainpage" id="map">
+    <h2>State School Closures</h2>
+
+    <p> As it became clear that packed classrooms were unsafe for students, US states began shutting down their schools, many of them ahead of any official Stay-At-Home Order.  </p>
+    <p>Data source: [https://www.edweek.org/ew/section/multimedia/map-coronavirus-and-school-closures.html]</p>
+    <p>To-Dos:
+        1) Add state name on hover
+        2) Fix Play button positioning (make it dynamic)
+        3) Add more information on the type of closure (recommended/enforced/etc.)</p>
+    <button id="play-button" class="play-button">Play</button>
+  </div>
+  </div>
+
+
+
+<!-- scripts -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3plus.org/js/d3plus.v2.0.0-alpha.17.full.min.js"></script>
+<script>
+document.write('<scr' + 'ipt src="google-mobility.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
+document.write('<scr' + 'ipt src="restaurants.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
+document.write('<scr' + 'ipt src="mobility.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
+// document.write('<scr' + 'ipt src="trafficcollisions.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>')
+// document.write('<scr' + 'ipt src="stateschooling.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
+</script>
+
+</body>
