@@ -1,38 +1,39 @@
-d3.json("data/us_schooling/states-10m.json").then(function(states) {
-	d3.csv('data/restaurants/restaurant-performance.csv').then(function(data) {
-		states = topojson.feature(states, states.objects.states).features
+// d3.json("data/us_schooling/states-10m.json").then(function(states) {
+// 	d3.csv('data/restaurants/restaurant-performance.csv').then(function(data) {
+// 		buildMap(data, states);
+// 	})	
+// })
 
-		// US state-level data only
-		data = data.filter(d => d.country === 'United States' && d.region_type === 'states');
+function buildVis4(data, states) {
+	// data cleaning
+	states = topojson.feature(states, states.objects.states).features
 
-		// parse string to int values
-		data = data.map(d => {
-			d.date = d3.timeParse('%Y-%m-%d')(d.date);
-			d.percent_yoy_change = parseInt(d.percent_yoy_change)
-			return d;
-		})
+	// US state-level data only
+	data = data.filter(d => d.country === 'United States' && d.region_type === 'states');
 
-		// nest data by country
-		data = d3.nest()
-			.key(d => d.region)
-			.entries(data);
-
-		buildMap(data, states);
+	// parse string to int values
+	data = data.map(d => {
+		d.date = d3.timeParse('%Y-%m-%d')(d.date);
+		d.percent_yoy_change = parseInt(d.percent_yoy_change)
+		return d;
 	})
-	
-})
 
-function buildMap(data, states) {
+	// nest data by country
+	data = d3.nest()
+		.key(d => d.region)
+		.entries(data);
+
 	// dimensions
-	var width = 850,
-		height = 600;
 	var margin = {
-		top: 15,
-		right: 20,
-		bottom: 50,
-		left: 40
-	}
-	var titleHeight = 50,
+		top: 50,
+		right: 50,
+		bottom: 0,
+		left: 60
+	};
+	var width = 960 - margin.left - margin.right,
+		height = 600 - margin.top - margin.bottom;
+	var scrollHeight = 60,
+		scrollWidth = width * 0.7,
 		legendHeight = 50,
 		legendWidth = width / 2;
 
@@ -43,12 +44,25 @@ function buildMap(data, states) {
 	var index = new Date(2020, 1, 18);
 	var parseTime = d3.timeParse('%Y-%m-%d');
 	var formatTime = d3.timeFormat('%m/%d/%Y');
+	var formatMonthandDay = d3.timeFormat("%m/%d%")
+	var timer;
 
+	var svg = d3.select('#restaurants-vis-container').append('div')
+		.attr('id', 'restaurants-vis')
+		.append('svg')
+		.attr('width', width + margin.left + margin.right)
+		.attr('height', height + margin.top + margin.bottom)
 
+	var playButton = d3.select("#play-button-restaurants");
+	var resetButton = d3.select("#reset-button-restaurants");
 	// define axis range
 	var xScale = d3.scaleTime()
 		.domain([new Date(2020, 1, 18), new Date(2020, 3, 5)])
 		.range([0, stateGraphWidth]);
+	var scrollScale = d3.scaleTime()
+		.domain([new Date(2020, 1, 18), new Date(2020, 3, 5)])
+		.range([0, scrollWidth])
+		.clamp(true);
 	var colorScale = d3.scaleSequential(d3.interpolateRdBu)
 		.domain([100, -100])
 	// var colorScale = d3.scaleSequential(d3.interpolateTurbo)
@@ -63,28 +77,90 @@ function buildMap(data, states) {
 			.y(d => stateYScale(d.percent_yoy_change));
 
 
+	var xAxisGenerator = d3.axisBottom(scrollScale).tickFormat(function (d,i) {return formatMonthandDay(d)});
+	// var Axis = svg.append("g").call(xAxisGenerator).attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	// slider
+	var slider = svg.append("g")
+		.attr("class", "slider")
+		.attr("transform", "translate(" + (margin.left + (width-scrollWidth)/2) + "," + margin.top + ")");
+	
+	slider.append('rect')
+		.attr('width', scrollWidth)
+		.attr('height', scrollHeight)
+		.style('fill', 'none')
+	
+	slider.append("g").call(xAxisGenerator)
+
+	slider.append("line")
+	.attr("class", "track")
+	.attr("x1", scrollScale.range()[0])
+	.attr("x2", scrollScale.range()[1])
+		.select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+	.attr("class", "track-inset")
+		.select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+	.attr("class", "track-overlay")
+	.call(d3.drag()
+		.on("start.interrupt", function() { slider.interrupt(); })
+		.on("start drag", function() {
+			index = scrollScale.invert(d3.event.x);
+			update();
+		})
+	);
+
+	slider.on("input", function input() {
+		update();
+	});
+
+	playButton.on("click", function() {
+		var button = d3.select(this);
+		if (button.text() == "Pause") {
+			clearInterval(timer);
+			button.text("Play");
+		} else {
+			timer = setInterval(update, 1000);
+			button.text("Pause");
+		}
+	})
+
+	resetButton.on('click', function() {
+		reset();
+		if (playButton.text() == 'Pause') {
+			timer = setInterval(update, 1000);
+		}
+	})
+
+	var handle = slider.insert("circle", ".track-overlay")
+		.attr("class", "handle")
+		.attr("r", 9);
+
+	var label = slider.append("text")
+		.attr("class", "label")
+		.attr("text-anchor", "middle")
+		.text(formatTime(index))
+		.attr("transform", "translate(0," + (-25) + ")")
+
+
+	
+
 	var projection = d3.geoAlbersUsa();
 	var path = d3.geoPath()
 		.projection(projection);
 
-	var svg = d3.select('#restaurants-viz-container').append('div')
-		.attr('id', 'restaurants-viz')
-		.append('svg')
-		.attr('width', width + margin.left + margin.right)
-		.attr('height', height + margin.top + margin.bottom)
+	
 
-	var titleBox = svg.append('rect')
-		.attr('width', width)
-		.attr('height', titleHeight)
-		.style('fill', 'none')
+	// var titleBox = svg.append('rect')
+	// 	.attr('width', width)
+	// 	.attr('height', scrollHeight)
+	// 	.style('fill', 'none')
 
-	var title = svg.append('text')
-		.attr('text-anchor', 'middle')
-		.attr('alignment-baseline', 'middle')
-		.attr('x', width/2)
-		.attr('y', titleHeight/2)
-		.style('font-size', '20px')
-		.text(formatTime(index));
+	// var title = svg.append('text')
+	// 	.attr('text-anchor', 'middle')
+	// 	.attr('alignment-baseline', 'middle')
+	// 	.attr('x', width/2)
+	// 	.attr('y', scrollHeight/2)
+	// 	.style('font-size', '20px')
+	// 	.text(formatTime(index));
 
 	var defs = svg.append('defs');
 
@@ -117,39 +193,58 @@ function buildMap(data, states) {
 		.attr('offset', '100%')
 		.attr('stop-color', colorScale(100));
 
-	var legend = svg.append('rect')
+	var legend = svg.append('g')
+		.attr('transform', 'translate(' + margin.left + ','+ margin.top +')')
+	
+	legend.append('rect')
 		.attr('id', 'legend-bar')
 		.attr('width', width/2)
 		.attr('height', legendHeight/2)
-		.attr('transform', 'translate('+ width/4 + ', ' + legendHeight + ')')
+		.attr('transform', 'translate('+ width/4 + ', ' + scrollHeight + ')')
 		.style('fill', 'url(#linear-gradient)');
 
-	svg.append('text')
+	legend.append('text')
 		.attr('id', 'legend-0')
 		.attr('text-anchor', 'middle')
 		.attr('x', width/4)
-		.attr('y', titleHeight + legendHeight)
+		.attr('y', legendHeight)
 		.attr('dy', -10)
 		.attr('fill', colorScale(-100))
 		.style('font-size', '12px')
 		.text('-100% traffic compared to last year today')
 
-	svg.append('text')
+	legend.append('text')
 		.attr('id', 'legend-100')
 		.attr('text-anchor', 'middle')
 		.attr('x', width*3/4)
-		.attr('y', titleHeight + legendHeight)
+		.attr('y', legendHeight)
 		.attr('dy', -10)
 		.attr('fill', colorScale(100))
 		.style('font-size', '12px')
 		.text('+100% traffic compared to last year today')
 
 	var map = svg.append('g')
-			.attr('transform', 'translate(0,' + (titleHeight + legendHeight) + ')')
+		.attr('transform', 'translate(0,' + (scrollHeight + legendHeight) + ')')
+
+	// add US map
+	map.selectAll('.state')
+		.data(states)
+		.enter()
+		.append('path')
+		.attr('class', 'state')
+		.attr('d', path)
+		.attr('id', function(d) {return d.properties.name})
+		.style('fill', d => {
+			return (mapToData(d) ? 'white' : 'lightgray')
+		})
+		// .classed('active', d => mapToData(d))
+		.classed('active', false)
+		.on('mouseover', d => mouseover(d))
+		.on('mouseout', d => mouseout(d))
 
 	// add tooltip for state-level graph
-	var tooltip = d3.select('#restaurants-viz-container').append('div')
-		.attr('id', 'state-viz')
+	var tooltip = d3.select('#restaurants-vis-container').append('div')
+		.attr('id', 'state-vis')
 		.style('opacity', 0);
 
 
@@ -175,7 +270,7 @@ function buildMap(data, states) {
 				.attr('width', stateGraphWidth + margin.left + margin.right)
 				.attr('height', height + margin.top + margin.bottom)
 				.append('g')
-				.attr('transform', 'translate(' + margin.left + ',' + (titleHeight + legendHeight) + ')');
+				.attr('transform', 'translate(' + margin.left + ',' + (scrollHeight + legendHeight) + ')');
 
 		// var state = mapToData(d);
 
@@ -228,12 +323,16 @@ function buildMap(data, states) {
 		return false
 	}
 
-	function update() {
-		if (xScale(index) > stateGraphWidth) {
+	var update = function() {
+		// console.log('rest index', index)
+		if (scrollScale(index) >= scrollWidth) {
 			reset();
-			setTimeout(() => {timer = setInterval(update, interval)}, 1000);
+			setTimeout(() => {timer = setInterval(update, interval)}, 0);
 		} else {
-			title.text(formatTime(index));
+			handle.attr('cx', scrollScale(index))
+			label.attr('x', scrollScale(index))
+				.text(formatTime(index))
+			// title.text(formatTime(index));
 
 			// update us map
 			map.selectAll('.state')
@@ -251,6 +350,7 @@ function buildMap(data, states) {
 			// increment day
 			index.setDate(index.getDate() + 1)
 		}
+		
 
 	}
 
@@ -276,36 +376,22 @@ function buildMap(data, states) {
 	}
 
 	function reset() {
-		console.log('reset')
+		// console.log('reset')
 		clearInterval(timer);
 		index = new Date(2020, 1, 18);
-		title.text(formatTime(index));
+		// title.text(formatTime(index));
+		label.text(formatTime(index));
 		map.selectAll('.state')
 			.transition().duration(200)
 			.style('fill', d => {
 				return (mapToData(d) ? colorScale(0) : 'lightgray')
 			})
+		handle.attr('cx', scrollScale(index))
+		label.attr('x', scrollScale(index))
+			.text(formatTime(index))
 	}
 
-	// add US map
-	map.selectAll('.state')
-		.data(states)
-		.enter()
-		.append('path')
-		.attr('class', 'state')
-		.attr('d', path)
-		.attr('id', function(d) {return d.properties.name})
-		.style('fill', d => {
-			return (mapToData(d) ? 'white' : 'lightgray')
-		})
-		// .classed('active', d => mapToData(d))
-		.classed('active', false)
-		.on('mouseover', d => mouseover(d))
-		.on('mouseout', d => mouseout(d))
-
-
-
-	// play map viz
+	// play map vis
 	timer = setInterval(update, interval);
 
 }

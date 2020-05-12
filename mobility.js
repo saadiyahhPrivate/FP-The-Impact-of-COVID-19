@@ -1,30 +1,6 @@
-window.onload = function() {
-  // draw flight volume graph
-  fetch('data/flightVolume/final_flight_data_concatted_sorted.json')
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      drawFlightsGraph(data);
-    }).catch((error) => {
-      console.error('Error:', error);
-  });
-
-  // draw stringency maps
-  fetch('data/RestrictionsPerCountry/final_restrictions_data.json')
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      drawStringencyGraph(data);
-    }).catch((error) => {
-      console.error('Error:', error);
-  });
-};
-
-var flightViz;
-var drawFlightsGraph = function(jsondata) {
-  flightViz = new d3plus.LinePlot()
+// flights
+var buildVis5 = function(jsondata) {
+  var flightVis = new d3plus.LinePlot()
   .select("#flightVolume")
   .data(jsondata)
   .x("DateTime")
@@ -64,11 +40,4 @@ var drawFlightsGraph = function(jsondata) {
   .height(400)
   // .width(600)
   .render();
-};
-
-var stringencyViz;
-var drawStringencyGraph = function(data)
-{
-  // console.log("trying to draw stringency graph !!!!!!!!");
-
 };

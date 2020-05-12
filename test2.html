@@ -6,7 +6,9 @@
 </head>
 
 <body>
-  <div class="mainpage">
+  <span id="load-status">Loading...</span>
+
+  <div class="mainpage" style="display:none">
     <!-- Mobility -->
     <div class="section" id="mobility">
       <div class="description">
@@ -14,7 +16,7 @@
         <p> The explosive global spread of COVID-19 around mid-March has left almost every country scrambling to stop the virus in its tracks. As a result of the "social distancing" guidelines, foot traffic for public venues and events has effectively ceased. </p>
         <p>Mobility trends for the five countries with the most number of cases (as of 05/08/2020) are shown below. Residential areas have seen a general increase in traffic, while activity for other categories that are more public in nature has dropped dramatically. </p>
       </div>
-      <div class="viz" id="mobility-viz"></div>
+      <div class="vis" id="mobility-vis"></div>
     </div>
 
     <!-- World Schools -->
@@ -26,7 +28,7 @@
         <p> Although some countries recommended partial school closures in affected school areas (light blue), in many cases these recommendations soon changed into generalized nationwide school closures (dark blue). Other countries directly closed schools nationwide. </p>
         <p> Disclaimer: the white colored countries on March 30th that do not have a tooltip attached are countries that the dataset does not track.</p>
       </div>
-      <div class="viz" id="world-schools-viz">
+      <div class="vis" id="world-schools-vis">
         <div class="slidecontainer">
           <input type="range" step="1" value="0" min="0" max="10" class="slider" id="schoolRestrictionRange">
           <button type="button" id="SchoolRestrictionDateStepBack"><</button>
@@ -49,8 +51,9 @@
             2) Fix Play button positioning (make it dynamic)
             3) Add more information on the type of closure (recommended/enforced/etc.)</p>
       </div>
-      <div class="viz" id="us-schools-viz">
-        <button id="play-button-us-schools" class="play-button">Play</button>
+      <div class="vis" id="us-schools-vis">
+        <button id="play-button-us-schools" class="play-button">Pause</button>
+        <button id="reset-button-us-schools" class="play-button">Reset</button>
       </div>
     </div>
 
@@ -61,7 +64,10 @@
         <p>A state of national emergency was declared in the United States on March 13th. Subsequently, countless restaurants have suffered losses in sales and have had to temporarily suspend their business or find alternate measures to continue serving.</p>
         <p>* to be added: play/pause button, hover over state to see state-level line graph, more information about specific key dates</p>
       </div>
-      <div class="viz" id="restaurants-viz-container"></div>
+      <div class="vis" id="restaurants-vis-container">
+        <button id="play-button-restaurants" class="play-button">Pause</button>
+        <button id="reset-button-restaurants" class="play-button">Reset</button>
+      </div>
     </div>
 
     <!-- Flights -->
@@ -72,7 +78,7 @@
         <p> The flight volume graph below shows the number of daily commercial flights (Commercial passenger flights, cargo flights, charter flights, some business jet flights) and all flights (commercial flights + more business jet flights, private flights, gliders, most helicopter flights, most ambulance flights, government flights, some military flights, drones) in the world since more and more countries adopted more stringent travelling restricitions </p>
         <p> As from mid-March, we see a sharp decline in the number of daily flights across the world. </p>
       </div>
-      <div class="viz" id="flightVolume"></div>
+      <div class="vis" id="flightVolume"></div>
     </div>
 
     <!-- Traffic Collisions -->
@@ -86,7 +92,7 @@
         3) Improve the transitions between dates
         4) Fix Play button positioning (make it dynamic)</p>
       </div>
-      <div class="viz" id="traffic-collisions-viz">
+      <div class="vis" id="traffic-collisions-vis">
         <button id="play-button" class="play-button">Play</button>
       </div>
     </div>
@@ -104,10 +110,12 @@
   <script type="text/javascript" src="js/moment.min.js"></script>
   <script>
   document.write('<scr' + 'ipt src="google-mobility.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
-  document.write('<scr' + 'ipt src="stateschooling.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
+  document.write('<scr' + 'ipt src="schooling.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
   document.write('<scr' + 'ipt src="restaurants.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
   document.write('<scr' + 'ipt src="mobility.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>');
   document.write('<scr' + 'ipt src="trafficcollisions.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>')
   </script>
-
+  <script>
+  document.write('<scr' + 'ipt src="test.js?cb=' + new Date().getTime() + '"></scr' + 'ipt>')
+  </script>
 </body>

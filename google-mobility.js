@@ -1,4 +1,5 @@
-d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
+function buildVis1(data) {
+
 
 	const categories = [
 			'residential_percent_change_from_baseline',
@@ -74,7 +75,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	console.log(nested)
 
 
-	var svg = d3.select('#mobility-viz')
+	var svg = d3.select('#mobility-vis')
 				// .append('g')
 				// .attr('class', 'chartWrapper')
 				.selectAll('svg')
@@ -285,7 +286,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 		.on('mousemove', mousemove)
 		.on('mouseout', mouseout);
 	// add legend
-	// d3.select('#mobility-viz')
+	// d3.select('#mobility-vis')
 	// 	.append('svg')
 	// 	.attr('class', 'legend')
 	// 	.attr('transform', 'translate(' + 4*width + ',0)')
@@ -312,7 +313,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	// 		.text(d => textScale(d))
 
 	// data source
-	var dataSource = d3.select('#mobility-viz').append('div')
+	var dataSource = d3.select('#mobility-vis').append('div')
 		.attr('class', 'gm-data-source')
 		// .attr('width', sourceWidth)
 		// .attr('height', sourceHeight)
@@ -370,7 +371,7 @@ d3.csv('data/google_mobility/Global_Mobility_Report.csv').then(function(data) {
 	// 	.style('font-size', '10px')
 	// 	.text('hellooooooo')
 	// 	.style('opacity', 0)
-})
+}
 
 
 // todo possible additions

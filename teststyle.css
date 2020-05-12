@@ -118,7 +118,7 @@ fill:orange;
     stroke-width: 0.5
 }
 
-#mobility-viz {
+#mobility-vis {
   margin: auto;
   width: 50%;
   /*height: 100%;*/
@@ -131,16 +131,16 @@ fill:orange;
   color: gray;
 }
 
-#restaurants-viz-container {
+#restaurants-vis-container {
   overflow: auto;
 }
 
-#restaurants-viz {
+#restaurants-vis {
   /*width: 900px;*/
   float: left;
 }
 
-#state-viz {
+#state-vis {
   /*width: 360px;*/
   float: left;
 }

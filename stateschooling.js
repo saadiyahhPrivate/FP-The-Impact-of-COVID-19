@@ -1,10 +1,5 @@
-d3.json("data/us_schooling/states-10m.json").then(function(d) {
-    d3.csv("data/us_schooling/coronavirus-school-closures-state-level.csv").then(function(e) {
-        ready(d,e);
-    })
-})
-
-function ready(data, closures) {
+// us schools
+function buildVis2(data, closures) {
     var formatDate = d3.timeFormat("%b %e, %Y");
     var formatYear = d3.timeFormat("%Y");
     var formatMonth = d3.timeFormat("%m");
@@ -20,7 +15,7 @@ function ready(data, closures) {
         width = 960 - margin.left - margin.right,
         height = 600 - margin.top - margin.bottom;
 
-    var state_svg = d3.select("#us-schools-viz").append("svg")
+    var state_svg = d3.select("#us-schools-vis").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom);
 
@@ -155,10 +150,11 @@ function update(h) {
 
 
 
+// world schools
 // deliberately kept separate
-var schoolRestrictionsViz, schoolRestrictionKeys, unfilteredSchoolData;
+var schoolRestrictionsVis, schoolRestrictionKeys, unfilteredSchoolData;
 var schoolRestrictionsTimeout;
-var drawSchoolRestrictions = function(data) {
+var buildVis3 = function(data) {
   
   unfilteredSchoolData = data;
   schoolRestrictionKeys = Object.keys(unfilteredSchoolData);
@@ -166,7 +162,7 @@ var drawSchoolRestrictions = function(data) {
   document.getElementById("schoolRestrictionRange").setAttribute("min", 0);
   document.getElementById("schoolRestrictionRange").setAttribute("max", schoolRestrictionKeys.length - 2);
 
-  schoolRestrictionsViz = new d3plus.Geomap()
+  schoolRestrictionsVis = new d3plus.Geomap()
     .topojson("js/countries-50m.json")
     // .topojsonFill("#ffcccc")
     .select("#worldSchoolRestrictions")
@@ -257,7 +253,7 @@ var drawSchoolRestrictions = function(data) {
     var date_str = schoolRestrictionKeys[curr_val].toString();
     var my_date = moment(date_str, 'YYYYMMDD');
     document.getElementById("SchoolRestrictionDateLabel").innerHTML = my_date.format("MMMM Do YYYY, dddd");
-    schoolRestrictionsViz.data(unfilteredSchoolData[schoolRestrictionKeys[curr_val]]).render();
+    schoolRestrictionsVis.data(unfilteredSchoolData[schoolRestrictionKeys[curr_val]]).render();
     if (date_str == "20200320") {
       console.log(unfilteredSchoolData[schoolRestrictionKeys[curr_val]]);
     }
@@ -278,7 +274,7 @@ var drawSchoolRestrictions = function(data) {
 //       console.error('Error:', error);
 //   });
 // };
-d3.json('data/RestrictionsPerCountry/final_school_restrictions.json').then(function(data) {
-  drawSchoolRestrictions(data);
+// d3.json('data/RestrictionsPerCountry/final_school_restrictions.json').then(function(data) {
+//   drawSchoolRestrictions(data);
     
-})
+// })
