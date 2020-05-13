@@ -188,6 +188,9 @@ fill:orange;
 }
 
 /*manually defining each div height*/
+#introduction {
+  height: 600px;
+}
 #mobility {
   height: 850px;
 }
