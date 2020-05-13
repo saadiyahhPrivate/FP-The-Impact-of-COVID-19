@@ -27,11 +27,11 @@ function buildVis4(data, states) {
 	var margin = {
 		top: 50,
 		right: 50,
-		bottom: 0,
+		bottom: 50,
 		left: 60
 	};
 	var width = 960 - margin.left - margin.right,
-		height = 600 - margin.top - margin.bottom;
+		height = 700 - margin.top - margin.bottom;
 	var scrollHeight = 60,
 		scrollWidth = width * 0.7,
 		legendHeight = 50,
@@ -268,9 +268,9 @@ function buildVis4(data, states) {
 		var stateGraph = tooltip.append('svg')
 				.attr('class', 'state-graph')
 				.attr('width', stateGraphWidth + margin.left + margin.right)
-				.attr('height', height + margin.top + margin.bottom)
+				.attr('height', stateGraphHeight + margin.top + margin.bottom)
 				.append('g')
-				.attr('transform', 'translate(' + margin.left + ',' + (scrollHeight + legendHeight) + ')');
+				.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 		// var state = mapToData(d);
 

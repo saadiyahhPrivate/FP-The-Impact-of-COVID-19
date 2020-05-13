@@ -37,7 +37,7 @@ var buildVis5 = function(jsondata) {
       },
       shape: "Rect"
     })
-  .height(400)
-  .width(600)
+  .height(600)
+  .width(800)
   .render();
 };
