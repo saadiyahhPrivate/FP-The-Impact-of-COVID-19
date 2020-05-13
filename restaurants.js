@@ -392,6 +392,6 @@ function buildVis4(data, states) {
 	}
 
 	// play map vis
-	timer = setInterval(update, interval);
+	// timer = setInterval(update, interval);
 
 }

@@ -230,7 +230,7 @@ function buildVis2(data, closures) {
 			.text(formatDate(index))
 	}
 
-	timer = setInterval(update, 1000);
+	// timer = setInterval(update, 1000);
 
 }
 
