@@ -5,7 +5,7 @@ body {
 }
 
 .section {
-  margin: 0;
+  margin: 30px;
   padding-top: 10px;
   padding-bottom: 40px;
 }
@@ -53,6 +53,7 @@ body {
 .mainpage {
   display: flex;
   flex-direction: column;
+  space-between: ;
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 32px;
@@ -159,4 +160,24 @@ fill:orange;
 #state-vis {
   /*width: 360px;*/
   float: left;
+}
+
+/*manually defining each div height*/
+#mobility {
+  height: 850px;
+}
+#world-schools {
+  height: 700px;
+}
+#us-schools {
+  height: 700px;
+}
+#restaurants {
+  height: 800px;
+}
+#flightVolumeContainer {
+  height: 700px;
+}
+#traffic-collisions {
+  height: 600px;
 }

@@ -14,7 +14,7 @@ function buildVis1(data) {
 		chartHeight = 100;
 	var margin = {
 		top: 20,
-		right: 180,
+		right: 150,
 		bottom: 20,
 		left: 50
 	}
