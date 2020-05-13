@@ -14,8 +14,8 @@ function buildVis6(data, collisions) {
 		day_val = width/total_days;
 
 	var margin = {top:50, right:50, bottom:0, left:50},
-		width = 960 - margin.left - margin.right,
-		height = 600 - margin.top - margin.bottom;
+		width = 450 - margin.left - margin.right,
+		height = 500 - margin.top - margin.bottom;
 
 	var traffic_svg = d3.select("#traffic-collisions-vis").append("svg")
 		.attr("width", width + margin.left + margin.right)

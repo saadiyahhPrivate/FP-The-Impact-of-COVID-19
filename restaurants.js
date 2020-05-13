@@ -1,7 +1,7 @@
 // d3.json("data/us_schooling/states-10m.json").then(function(states) {
 // 	d3.csv('data/restaurants/restaurant-performance.csv').then(function(data) {
 // 		buildMap(data, states);
-// 	})	
+// 	})
 // })
 
 function buildVis4(data, states) {
@@ -27,11 +27,11 @@ function buildVis4(data, states) {
 	var margin = {
 		top: 50,
 		right: 50,
-		bottom: 0,
+		bottom: 50,
 		left: 60
 	};
 	var width = 960 - margin.left - margin.right,
-		height = 600 - margin.top - margin.bottom;
+		height = 700 - margin.top - margin.bottom;
 	var scrollHeight = 60,
 		scrollWidth = width * 0.7,
 		legendHeight = 50,
@@ -84,12 +84,12 @@ function buildVis4(data, states) {
 	var slider = svg.append("g")
 		.attr("class", "slider")
 		.attr("transform", "translate(" + (margin.left + (width-scrollWidth)/2) + "," + margin.top + ")");
-	
+
 	slider.append('rect')
 		.attr('width', scrollWidth)
 		.attr('height', scrollHeight)
 		.style('fill', 'none')
-	
+
 	slider.append("g").call(xAxisGenerator)
 
 	slider.append("line")
@@ -141,13 +141,13 @@ function buildVis4(data, states) {
 		.attr("transform", "translate(0," + (-25) + ")")
 
 
-	
+
 
 	var projection = d3.geoAlbersUsa();
 	var path = d3.geoPath()
 		.projection(projection);
 
-	
+
 
 	// var titleBox = svg.append('rect')
 	// 	.attr('width', width)
@@ -195,7 +195,7 @@ function buildVis4(data, states) {
 
 	var legend = svg.append('g')
 		.attr('transform', 'translate(' + margin.left + ','+ margin.top +')')
-	
+
 	legend.append('rect')
 		.attr('id', 'legend-bar')
 		.attr('width', width/2)
@@ -243,12 +243,12 @@ function buildVis4(data, states) {
 		.on('mouseout', d => mouseout(d))
 
 	// add tooltip for state-level graph
-	var tooltip = d3.select('#restaurants-vis-container').append('div')
+	var tooltip = d3.select('#restaurants-vis-small').append('div')
 		.attr('id', 'state-vis')
 		.style('opacity', 0);
 
 
-	
+
 
 
 	// stateGraph.selectAll('path')
@@ -268,9 +268,9 @@ function buildVis4(data, states) {
 		var stateGraph = tooltip.append('svg')
 				.attr('class', 'state-graph')
 				.attr('width', stateGraphWidth + margin.left + margin.right)
-				.attr('height', height + margin.top + margin.bottom)
+				.attr('height', stateGraphHeight + margin.top + margin.bottom)
 				.append('g')
-				.attr('transform', 'translate(' + margin.left + ',' + (scrollHeight + legendHeight) + ')');
+				.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 		// var state = mapToData(d);
 
@@ -350,15 +350,15 @@ function buildVis4(data, states) {
 			// increment day
 			index.setDate(index.getDate() + 1)
 		}
-		
+
 
 	}
 
 	function mouseover(d) {
 
 		// map.selectAll('.state').classed('active', false)
-		
-		
+
+
 
 		tooltip.style('opacity', 1)
 			// .style('left', (d3.event.pageX) + 'px')
@@ -395,4 +395,3 @@ function buildVis4(data, states) {
 	timer = setInterval(update, interval);
 
 }
-

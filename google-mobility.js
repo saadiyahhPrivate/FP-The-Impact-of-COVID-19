@@ -55,7 +55,7 @@ function buildVis1(data) {
 	})
 
 	// limit to top 5 countries
-	var countryToShow = ['United States', 'Spain', 'Italy', 'France', 'United Kingdom']
+	var countryToShow = ['United States', 'United Kingdom', 'Spain', 'Italy', 'Brazil']
 	data = data.filter(d => countryToShow.includes(d.country_region));
 
 	// aggregate entries only

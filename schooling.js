@@ -95,7 +95,7 @@ function buildVis2(data, closures) {
 		.text(formatDate(startDate))
 		.attr("transform", "translate(0," + (-25) + ")")
 
-	  
+
 	var projection = d3.geoAlbersUsa();
 	var path = d3.geoPath()
 		.projection(projection);
@@ -112,7 +112,7 @@ function buildVis2(data, closures) {
 		.attr('width', width)
 		.attr('height', 200)
 		.style('fill', 'none');
-	
+
 	// var label = state_svg.append("text")
 	// 	.attr("class", "label")
 	// 	.attr("text-anchor", "middle")
@@ -121,11 +121,11 @@ function buildVis2(data, closures) {
 	// 	  .attr('y', 100)
 	// 	.attr("transform", "translate(0," + (-25) + ")")
 
-	
+
 	//todo color legend
 
-	
-	
+
+
 
 
 	///////
@@ -144,7 +144,7 @@ function buildVis2(data, closures) {
 		.style('fill',colorScale(0))
 		.attr("transform", "translate(0," + (100) + ")");
 
-		
+
 
 	function step() {
 		// update(x.invert(currentValue));
@@ -206,7 +206,7 @@ function buildVis2(data, closures) {
 					var state_day = document.getElementById(d.properties.name).getAttribute("day");
 					return ((state_day <= slider_day) ? colorScale(100) : colorScale(0));
 				})
-			
+
 			index.setDate(index.getDate() + 1)
 			currentValue = currentValue + (targetValue/total_days)
 		}
@@ -241,7 +241,7 @@ function buildVis2(data, closures) {
 var schoolRestrictionsVis, schoolRestrictionKeys, unfilteredSchoolData;
 var schoolRestrictionsTimeout;
 var buildVis3 = function(data) {
-  
+
   unfilteredSchoolData = data;
   schoolRestrictionKeys = Object.keys(unfilteredSchoolData);
   console.log(schoolRestrictionKeys);
@@ -264,7 +264,7 @@ var buildVis3 = function(data) {
 		  else {return 'Required';}
 		},
 	  }})
-	// .width(600)
+	.width(600)
 	.height(600)
 	.groupBy("id")  // the column in the data
 	// .loadingMessage("") // clear the annoying laoding message,
