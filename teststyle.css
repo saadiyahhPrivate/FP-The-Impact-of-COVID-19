@@ -4,6 +4,23 @@ body {
   background: #f2f2f2;
 }
 
+.section {
+  margin:0;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.vis {
+  float:left;
+  width:70%;
+  overflow:hidden;
+}
+
+.description {
+  float:left;
+  width:30%;
+  overflow:hidden;
+}
 
 /* tabs */
 .category {
@@ -41,7 +58,6 @@ body {
   padding-bottom: 32px;
   min-height: calc(100vh - 45px);
 }
-
 
 .play-button {
   /* position: absolute; */

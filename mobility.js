@@ -38,6 +38,6 @@ var buildVis5 = function(jsondata) {
       shape: "Rect"
     })
   .height(400)
-  // .width(600)
+  .width(600)
   .render();
 };
