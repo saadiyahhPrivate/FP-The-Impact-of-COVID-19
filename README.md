@@ -1,6 +1,6 @@
 # FP-The-Impact-of-COVID-19
 
-This project was developed as the Final Project for the Sping 2020 offering of Interactive Data Visualization (6.894).
+This project was developed as the Final Project for the Sping 2020 offering of Interactive Data Visualization (6.894). Deloyed (here)[https://github.mit.edu/pages/6894-sp20/FP-The-Impact-of-COVID-19/project.html]
 
 ## The Development Process ##
 At first, we each gathered potential datasets that we would like to explore. After discussing our different datasets and how we envisioned them tying together, we each picked some visualizations that we would like to work on. After doing assignment A4, we thought it would be best for each of us to work on the visualizations separately, and then combine them after they were done. This includes the data wrangling process. Specifically, Alex worked on the “Traffic Collisions in LA County” and “State School Closures” visualizations, Dain worked on the “World Mobility” and “Restaurant traffic” visualizations, and Saadiyah worked on the “World School Closures” and “Flight Volume Data” visualizations.
